@@ -4,6 +4,154 @@
   "series" : "groove",
   "gameOrder" : 510,
   "objects" : [ {
+    "type" : "pattern",
+    "id" : "*_macaron",
+    "name" : "macaron",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/macaronhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/macaronhit",
+      "beat" : 2.0
+    }, {
+      "id" : "*/macaronhitplayer",
+      "beat" : 4.0
+    }, {
+      "id" : "*/macaronhole",
+      "beat" : 6.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteen",
+    "name" : "mangosteen",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.5
+    }, {
+      "id" : "*/mangosteenhitplayer",
+      "beat" : 3.0
+    }, {
+      "id" : "*/mangosteenhole",
+      "beat" : 4.5
+    }, {
+      "id" : "*/mmm",
+      "beat" : 5.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_favabeans",
+    "name" : "fava bean",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/favabeanhit1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/favabeanhit2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/favabeanhit1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/favabeanhit2",
+      "beat" : 3.5
+    }, {
+      "id" : "*/favabeanhit1player",
+      "beat" : 5.0
+    }, {
+      "id" : "*/favabeanhit2player",
+      "beat" : 6.0
+    }, {
+      "id" : "*/favabeanhole",
+      "beat" : 7.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteenNoVoice",
+    "name" : "mangosteen (no voice)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.5
+    }, {
+      "id" : "*/mangosteenhitplayer",
+      "beat" : 3.0
+    }, {
+      "id" : "*/mangosteenhole",
+      "beat" : 4.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_favabeansRemix16",
+    "name" : "fava bean (remix 16)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/favabeanhit1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/favabeanhit2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/favabeanhit1",
+      "beat" : 1.25
+    }, {
+      "id" : "*/favabeanhit2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/favabeanhit1player",
+      "beat" : 2.5
+    }, {
+      "id" : "*/favabeanhit2player",
+      "beat" : 3.0
+    }, {
+      "id" : "*/favabeanhole",
+      "beat" : 3.75
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteenPractice",
+    "name" : "mangosteen (practice)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_mangosteenSeagullGuide",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*_mangosteenNoVoice",
+      "beat" : 8.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteenSeagullGuide",
+    "name" : "mangosteen - seagull guide",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/seagullguide1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/seagullguide1",
+      "beat" : 1.5
+    }, {
+      "id" : "*/seagullguide1",
+      "beat" : 3.0
+    }, {
+      "id" : "*/seagullguide2",
+      "beat" : 4.5
+    } ],
+    "subtext" : ""
+  }, {
     "type" : "cue",
     "id" : "*/macaronhit",
     "name" : "macaron - hit",
@@ -24,25 +172,6 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
-  }, {
-    "type" : "pattern",
-    "id" : "*_macaron",
-    "name" : "macaron",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/macaronhit",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/macaronhit",
-      "beat" : 2.0
-    }, {
-      "id" : "*/macaronhitplayer",
-      "beat" : 4.0
-    }, {
-      "id" : "*/macaronhole",
-      "beat" : 6.0
-    } ],
-    "subtext" : ""
   }, {
     "type" : "cue",
     "id" : "*/seagullguide1",
@@ -86,79 +215,6 @@
     "subtext" : "",
     "duration" : 0.5
   }, {
-    "type" : "pattern",
-    "id" : "*_mangosteen",
-    "name" : "mangosteen",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mangosteenhit",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/mangosteenhit",
-      "beat" : 1.5
-    }, {
-      "id" : "*/mangosteenhitplayer",
-      "beat" : 3.0
-    }, {
-      "id" : "*/mangosteenhole",
-      "beat" : 4.5
-    }, {
-      "id" : "*/mmm",
-      "beat" : 5.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_mangosteenNoVoice",
-    "name" : "mangosteen (no voice)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mangosteenhit",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/mangosteenhit",
-      "beat" : 1.5
-    }, {
-      "id" : "*/mangosteenhitplayer",
-      "beat" : 3.0
-    }, {
-      "id" : "*/mangosteenhole",
-      "beat" : 4.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_mangosteenPractice",
-    "name" : "mangosteen - practice",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*_mangosteenSeagullGuide",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*_mangosteenNoVoice",
-      "beat" : 8.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_mangosteenSeagullGuide",
-    "name" : "mangosteen - seagull guide (practice)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/seagullguide1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/seagullguide1",
-      "beat" : 1.5
-    }, {
-      "id" : "*/seagullguide1",
-      "beat" : 3.0
-    }, {
-      "id" : "*/seagullguide2",
-      "beat" : 4.5
-    } ],
-    "subtext" : ""
-  }, {
     "type" : "cue",
     "id" : "*/favabeanhit1",
     "name" : "fava bean - hit - 1",
@@ -193,33 +249,5 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
-  }, {
-    "type" : "pattern",
-    "id" : "*_favabeans",
-    "name" : "fava bean",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/favabeanhit1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/favabeanhit2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/favabeanhit1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/favabeanhit2",
-      "beat" : 3.5
-    }, {
-      "id" : "*/favabeanhit1player",
-      "beat" : 5.0
-    }, {
-      "id" : "*/favabeanhit2player",
-      "beat" : 6.0
-    }, {
-      "id" : "*/favabeanhole",
-      "beat" : 7.5
-    } ],
-    "subtext" : ""
   } ]
 }
