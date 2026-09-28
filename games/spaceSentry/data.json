@@ -123,11 +123,11 @@
     }, {
       "id" : "*/normal3",
       "beat" : 2.0,
-      "volume" : 90
+      "volume" : 100
     }, {
       "id" : "*/normal4",
       "beat" : 3.0,
-      "volume" : 90
+      "volume" : 100
     } ],
     "subtext" : ""
   }, {
@@ -147,11 +147,11 @@
     }, {
       "id" : "*/near4",
       "beat" : 2.5,
-      "volume" : 90
+      "volume" : 100
     }, {
       "id" : "*/near5",
       "beat" : 3.0,
-      "volume" : 90
+      "volume" : 100
     } ],
     "subtext" : ""
   }, {
@@ -174,11 +174,11 @@
     }, {
       "id" : "*/far5",
       "beat" : 1.5,
-      "volume" : 90
+      "volume" : 100
     }, {
       "id" : "*/far6",
       "beat" : 3.0,
-      "volume" : 90
+      "volume" : 100
     } ],
     "subtext" : ""
   } ]
