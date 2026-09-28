@@ -2,9 +2,9 @@
   "id" : "theDazzlesMegamixJa",
   "name" : "The Dazzles (3DS)",
   "series" : "megamix",
-  "gameOrder" : 439,
   "language" : "ja",
   "group" : "The Dazzles (3DS)",
+  "gameOrder" : 439,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/hold3",
@@ -12,14 +12,15 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.0415
+    "earliness" : 0.104166664
   }, {
     "type" : "cue",
     "id" : "*/hold2",
     "name" : "hold - two",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.083333336
   }, {
     "type" : "cue",
     "id" : "*/hold1",
