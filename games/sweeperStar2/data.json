@@ -29,21 +29,21 @@
     "type" : "cue",
     "id" : "*/brush1",
     "name" : "sweeping - sweep - 1",
-    "deprecatedIDs" : [ "sweeperStar/brush" ],
+    "deprecatedIDs" : [ "sweeperStar2/brush" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/brush2",
     "name" : "sweeping - sweep - 2",
-    "deprecatedIDs" : [ "sweeperStar/brush" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/brush3",
     "name" : "sweeping - sweep - 3",
-    "deprecatedIDs" : [ "sweeperStar/brush" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
@@ -60,7 +60,7 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.09
+    "earliness" : 0.08
   }, {
     "type" : "cue",
     "id" : "*/spin1",
@@ -81,6 +81,14 @@
     "type" : "cue",
     "id" : "*/spinning",
     "name" : "spin, spin! - spinning",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "endingSound" : "*/pose"
+  }, {
+    "type" : "cue",
+    "id" : "*/spinningTimestretched",
+    "name" : "spin, spin! - spinning (timestretched)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -162,6 +170,22 @@
       "beat" : 1.0
     }, {
       "id" : "*/spinning",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_spinTimestretched",
+    "name" : "spin, spin! (timestretched)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/spin1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/spin2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/spinningTimestretched",
       "beat" : 2.0
     } ],
     "subtext" : ""
