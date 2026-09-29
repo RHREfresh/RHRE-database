@@ -10,7 +10,7 @@
     {
       "type": "cue",
       "id": "*/three1",
-      "name": "three - 1",
+      "name": "three jumps - 1",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -18,7 +18,7 @@
     {
       "type": "cue",
       "id": "*/three2",
-      "name": "three - 2",
+      "name": "three jumps - 2",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -26,7 +26,7 @@
     {
       "type": "cue",
       "id": "*/three3",
-      "name": "three - 3",
+      "name": "three jumps - 3",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -34,7 +34,7 @@
     {
       "type": "cue",
       "id": "*/five1",
-      "name": "five - 1",
+      "name": "five jumps - 1",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -42,7 +42,7 @@
     {
       "type": "cue",
       "id": "*/five2",
-      "name": "five - 2",
+      "name": "five jumps - 2",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -50,7 +50,7 @@
     {
       "type": "cue",
       "id": "*/five3",
-      "name": "five - 3",
+      "name": "five jumps - 3",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -58,7 +58,7 @@
     {
       "type": "cue",
       "id": "*/five4",
-      "name": "five - 4",
+      "name": "five jumps - 4",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -66,7 +66,7 @@
     {
       "type": "cue",
       "id": "*/five5",
-      "name": "five - 5",
+      "name": "five jumps - 5",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -74,7 +74,7 @@
     {
       "type": "cue",
       "id": "*/siesta1",
-      "name": "siesta - 1",
+      "name": "lie down - 1",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -82,7 +82,7 @@
     {
       "type": "cue",
       "id": "*/siesta2",
-      "name": "siesta - 2",
+      "name": "lie down - 2",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -90,7 +90,7 @@
     {
       "type": "cue",
       "id": "*/siesta3",
-      "name": "siesta - 3",
+      "name": "lie down - 3",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -98,7 +98,7 @@
     {
       "type": "cue",
       "id": "*/siesta4",
-      "name": "siesta - 4",
+      "name": "lie down - 4",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -106,7 +106,7 @@
     {
       "type": "cue",
       "id": "*/siesta5",
-      "name": "siesta - 5",
+      "name": "lie down - 5",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -114,7 +114,7 @@
     {
       "type": "cue",
       "id": "*/siesta6",
-      "name": "siesta - 6",
+      "name": "lie down - 6",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -122,7 +122,7 @@
     {
       "type": "cue",
       "id": "*/throw1",
-      "name": "throw - 1",
+      "name": "throw pillow - 1",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -130,7 +130,7 @@
     {
       "type": "cue",
       "id": "*/throw2",
-      "name": "throw - 2",
+      "name": "throw pillow - 2",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -138,7 +138,7 @@
     {
       "type": "cue",
       "id": "*/throw3",
-      "name": "throw - 3",
+      "name": "throw pillow - 3",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -146,7 +146,7 @@
     {
       "type": "cue",
       "id": "*/throw4",
-      "name": "throw - 4",
+      "name": "throw pillow - 4",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -154,7 +154,7 @@
     {
       "type": "cue",
       "id": "*/charge",
-      "name": "throw - charge",
+      "name": "throw pillow - charge",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 3.0,
@@ -163,7 +163,7 @@
     {
       "type": "cue",
       "id": "*/throw5",
-      "name": "throw - 5",
+      "name": "throw pillow - 5",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -171,7 +171,7 @@
     {
       "type": "cue",
       "id": "*/throw6",
-      "name": "throw - 6",
+      "name": "throw pillow - 6",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -179,7 +179,7 @@
     {
       "type": "cue",
       "id": "*/throw6b",
-      "name": "throw - 6 - (alternative)",
+      "name": "throw pillow - 6 - (alternative)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -187,7 +187,7 @@
     {
       "type": "pattern",
       "id": "*_three",
-      "name": "three",
+      "name": "three jumps",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -208,7 +208,7 @@
     {
       "type": "pattern",
       "id": "*_five",
-      "name": "five",
+      "name": "five jumps",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -237,7 +237,7 @@
     {
       "type": "pattern",
       "id": "*_siesta",
-      "name": "siesta",
+      "name": "lie down",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -311,7 +311,7 @@
     {
       "type": "randomCue",
       "id": "*_randomCatch",
-      "name": "random catch",
+      "name": "throw pillow - random catch",
       "deprecatedIDs": [],
       "cues": [
         {
