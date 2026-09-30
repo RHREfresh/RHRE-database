@@ -2,6 +2,7 @@
   "id": "powerCalligraphyGba",
   "name": "Power Calligraphy (GBA)",
   "series": "tengoku",
+  "gameOrder" : 117,
   "objects": [
     {
       "type": "cue",

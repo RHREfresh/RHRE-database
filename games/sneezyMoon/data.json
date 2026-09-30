@@ -2,6 +2,7 @@
   "id" : "sneezyMoon",
   "name" : "Sneezy Moon",
   "series" : "groove",
+  "gameOrder" : 509,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_greenSneeze",
@@ -84,7 +85,7 @@
       "id" : "*/redSneezePrepare2",
       "beat" : 1.0
     } ],
-    "subtext" : "[#BFBFBF](unused)[]"
+    "subtext" : "[#BFBFBF](not in-game)[]"
   }, {
     "type" : "pattern",
     "id" : "*_redSneezeStandalone",
@@ -180,7 +181,7 @@
       "id" : "*/redSneezeFastPrepare2",
       "beat" : 1.0
     } ],
-    "subtext" : "[#BFBFBF](unused)[]"
+    "subtext" : "[#BFBFBF](not in-game)[]"
   }, {
     "type" : "pattern",
     "id" : "*_redSneezeFastStandalone",

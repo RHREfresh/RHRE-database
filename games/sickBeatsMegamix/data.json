@@ -1,7 +1,8 @@
 {
   "id": "sickBeatsMegamix",
-  "name": "Sick Beats (Megamix)",
-  "series": "megamix",
+  "name": "Sick Beats (3DS)",
+  "series": "side",
+  "gameOrder" : 466,
   "objects": [
     {
       "type": "cue",

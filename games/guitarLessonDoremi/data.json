@@ -2,6 +2,7 @@
   "id": "guitarLessonDoremi",
   "name": "Guitar Lessons - Built to Scale",
   "series": "side",
+  "gameOrder" : 238,
   "group": "Guitar Lessons",
   "objects": [
     {

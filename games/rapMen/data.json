@@ -2,6 +2,9 @@
   "series": "tengoku",
   "id": "rapMen",
   "name": "Rap Men",
+  "group": "Rap Men",
+  "groupDefault" : true,
+  "gameOrder" : 119,
   "objects": [
     {
       "type": "cue",

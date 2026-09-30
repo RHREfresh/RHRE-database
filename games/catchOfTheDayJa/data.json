@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "Catch of the Day",
+  "gameOrder" : 316,
   "objects": [
     {
       "type": "cue",

@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Screwbot Factory",
   "groupDefault": true,
+  "gameOrder" : 301,
   "objects": [
     {
       "type": "cue",

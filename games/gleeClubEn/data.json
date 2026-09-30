@@ -2,6 +2,7 @@
   "id": "gleeClubEn",
   "name": "Glee Club (DS)",
   "series": "ds",
+  "gameOrder" : 201,
   "language": "en",
   "group": "Glee Club (DS)",
   "groupDefault": true,

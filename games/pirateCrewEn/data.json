@@ -2,6 +2,7 @@
   "id": "pirateCrewEn",
   "name": "Pirate Crew",
   "series": "side",
+  "gameOrder" : 345,
   "language": "en",
   "group": "Pirate Crew",
   "groupDefault": true,

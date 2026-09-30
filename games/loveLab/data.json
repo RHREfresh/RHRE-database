@@ -2,6 +2,7 @@
   "id": "loveLab",
   "name": "Love Lab",
   "series": "ds",
+  "gameOrder" : 215,
   "objects": [
     {
       "type": "cue",

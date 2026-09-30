@@ -2,6 +2,8 @@
   "id": "rapWomen",
   "name": "Rap Women",
   "series": "tengoku",
+  "group": "Rap Men",
+  "gameOrder" : 119,
   "objects": [
     {
       "type": "cue",

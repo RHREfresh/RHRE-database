@@ -2,6 +2,7 @@
   "id": "guitarLessonVoiceJa",
   "name": "Guitar Lessons - Voice",
   "series": "side",
+  "gameOrder" : 238,
   "language": "ja",
   "group": "Guitar Lessons",
   "priority": -1,

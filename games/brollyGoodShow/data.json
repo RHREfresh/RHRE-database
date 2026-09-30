@@ -2,6 +2,7 @@
   "id" : "brollyGoodShow",
   "name" : "Brolly Good Show",
   "series" : "groove",
+  "gameOrder" : 501,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/cheers1",

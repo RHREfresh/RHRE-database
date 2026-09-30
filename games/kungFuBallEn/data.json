@@ -2,6 +2,7 @@
   "id": "kungFuBallEn",
   "name": "Kung Fu Ball",
   "series": "side",
+  "gameOrder" : 344,
   "language": "en",
   "group": "Kung Fu Ball",
   "groupDefault": true,

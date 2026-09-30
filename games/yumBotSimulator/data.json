@@ -2,6 +2,7 @@
   "id" : "yumBotSimulator",
   "name" : "Yum-Bot Simulator",
   "series" : "groove",
+  "gameOrder" : 518,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_pudding",

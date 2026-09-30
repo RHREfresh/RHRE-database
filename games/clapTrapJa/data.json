@@ -2,6 +2,7 @@
   "id": "clapTrapJa",
   "name": "Clap Trap",
   "series": "side",
+  "gameOrder" : 342,
   "language": "ja",
   "objects": [
     {

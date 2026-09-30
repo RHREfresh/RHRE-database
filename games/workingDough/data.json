@@ -2,6 +2,7 @@
   "id": "workingDough",
   "name": "Working Dough",
   "series": "fever",
+  "gameOrder" : 308,
   "objects": [
     {
       "type": "cue",

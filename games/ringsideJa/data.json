@@ -4,6 +4,7 @@
   "series" : "fever",
   "language" : "ja",
   "group" : "Ringside",
+  "gameOrder" : 312,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/poseAnd",

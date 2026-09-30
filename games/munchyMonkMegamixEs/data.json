@@ -1,9 +1,10 @@
 {
   "id": "munchyMonkMegamixEs",
-  "name": "Munchy Monk (Megamix)",
+  "name": "Munchy Monk (3DS)",
   "series": "megamix",
+  "gameOrder" : 437,
   "language": "es",
-  "group": "Munchy Monk (Megamix)",
+  "group": "Munchy Monk (3DS)",
   "objects": [
     {
       "type": "cue",

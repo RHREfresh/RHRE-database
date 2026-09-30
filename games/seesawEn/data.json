@@ -5,6 +5,7 @@
   "language": "en",
   "group": "See-Saw",
   "groupDefault": true,
+  "gameOrder" : 302,
   "objects": [
     {
       "type": "cue",

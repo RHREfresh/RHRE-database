@@ -2,6 +2,7 @@
   "id" : "bouncyPufferfish",
   "name" : "Bouncy Pufferfish",
   "series" : "side",
+  "gameOrder" : 544,
   "objects" : [ {
     "type" : "keepTheBeat",
     "id" : "*_pufferfishBouncingDeflated",

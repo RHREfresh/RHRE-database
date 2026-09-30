@@ -1,9 +1,10 @@
 {
   "id" : "theDazzlesMegamixKo",
-  "name" : "The Dazzles (Megamix)",
+  "name" : "The Dazzles (3DS)",
   "series" : "megamix",
+  "gameOrder" : 439,
   "language" : "ko",
-  "group" : "The Dazzles (Megamix)",
+  "group" : "The Dazzles (3DS)",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/hold3",

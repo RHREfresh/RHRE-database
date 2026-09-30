@@ -2,6 +2,7 @@
   "id" : "owls",
   "name" : "Owls",
   "series" : "side",
+  "gameOrder" : 546,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/ready",

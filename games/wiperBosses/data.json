@@ -2,31 +2,32 @@
   "id" : "wiperBosses",
   "name" : "Wiper Bosses",
   "series" : "groove",
+  "gameOrder" : 519,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/beepPink",
-    "name" : "ms. pink - beep",
+    "name" : "[#E89CC1]ms. pink[] - beep",
     "deprecatedIDs" : [ "wiperBosses/pinksign" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/jumpPink",
-    "name" : "ms. pink - jump",
+    "name" : "[#E89CC1]ms. pink[] - jump",
     "deprecatedIDs" : [ "wiperBosses/pinkjump" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/beepBlue",
-    "name" : "mr. blue - beep",
+    "name" : "[#89CED7]mr. blue[] - beep",
     "deprecatedIDs" : [ "wiperBosses/bluesign" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/jumpBlue",
-    "name" : "mr. blue - jump",
+    "name" : "[#89CED7]mr. blue[] - jump",
     "deprecatedIDs" : [ "wiperBosses/bluejump" ],
     "subtext" : "",
     "duration" : 0.5
@@ -61,7 +62,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_pinkSlow",
-    "name" : "ms. pink - slow jumps",
+    "name" : "[#E89CC1]ms. pink[] - slow jumps",
     "deprecatedIDs" : [ "wiperBosses_pinkslow" ],
     "cues" : [ {
       "id" : "*/beepPink",
@@ -80,7 +81,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_pinkFast",
-    "name" : "ms. pink - fast jumps",
+    "name" : "[#E89CC1]ms. pink[] - fast jumps",
     "deprecatedIDs" : [ "wiperBosses_pinkfast" ],
     "cues" : [ {
       "id" : "*/beepPink",
@@ -99,7 +100,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_blueSlow",
-    "name" : "mr. blue - slow jumps",
+    "name" : "[#89CED7]mr. blue[] - slow jumps",
     "deprecatedIDs" : [ "wiperBosses_blueslow" ],
     "cues" : [ {
       "id" : "*/beepBlue",
@@ -118,7 +119,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_blueFast",
-    "name" : "mr. blue - fast jumps",
+    "name" : "[#89CED7]mr. blue[] - fast jumps",
     "deprecatedIDs" : [ "wiperBosses_bluefast" ],
     "cues" : [ {
       "id" : "*/beepBlue",

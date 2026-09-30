@@ -2,6 +2,7 @@
   "id": "loveLizards",
   "name": "Love Lizards",
   "series": "ds",
+  "gameOrder" : 208,
   "objects": [
     {
       "type": "cue",

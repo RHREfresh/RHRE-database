@@ -2,6 +2,7 @@
   "id": "sumoBrothers",
   "name": "Sumo Brothers",
   "series": "megamix",
+  "gameOrder" : 406,
   "priority": 1,
   "objects": [
     {

@@ -2,6 +2,7 @@
   "id" : "senseiSparring",
   "name" : "Sensei Sparring",
   "series" : "side",
+  "gameOrder" : 548,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/1voice",

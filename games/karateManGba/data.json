@@ -2,6 +2,7 @@
   "id": "karateManGba",
   "name": "Karate Man (GBA)",
   "series": "tengoku",
+  "gameOrder" : 100,
   "objects": [
     {
       "type": "cue",

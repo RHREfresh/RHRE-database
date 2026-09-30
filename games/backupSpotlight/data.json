@@ -2,6 +2,7 @@
   "id" : "backupSpotlight",
   "name" : "Backup Spotlight",
   "series" : "groove",
+  "gameOrder" : 515,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_countElbow",

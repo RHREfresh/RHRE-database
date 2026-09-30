@@ -1,8 +1,9 @@
 {
   "id": "clappyTrio",
-  "name": "Clappy Trio (Fever)",
+  "name": "The Clappy Trio (Wii/3DS)",
   "series": "fever",
   "priority": -1,
+  "gameOrder" : 329,
   "objects": [
     {
       "type": "cue",

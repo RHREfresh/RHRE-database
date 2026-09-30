@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "Board Meeting",
+  "gameOrder" : 306,
   "objects": [
     {
       "type": "cue",

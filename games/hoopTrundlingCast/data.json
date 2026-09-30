@@ -3,6 +3,7 @@
   "name" : "Cast of Characters",
   "series" : "groove",
   "group" : "Hoop Trundling",
+  "gameOrder" : 500,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/pa",

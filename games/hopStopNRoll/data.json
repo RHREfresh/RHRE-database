@@ -2,6 +2,7 @@
   "id" : "hopStopNRoll",
   "name" : "Hop, Stop N Roll",
   "series" : "groove",
+  "gameOrder" : 511,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_startHopping",

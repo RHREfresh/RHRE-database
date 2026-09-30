@@ -2,6 +2,7 @@
   "id": "blueBear",
   "name": "Blue Bear",
   "series": "megamix",
+  "gameOrder" : 410,
   "priority": 1,
   "objects": [
     {

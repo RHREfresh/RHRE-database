@@ -1,8 +1,9 @@
 {
   "id" : "exhibitionMatchJa",
-  "name" : "Exhibition Match (Fever)",
+  "name" : "Exhibition Match (Wii)",
   "series" : "fever",
   "language" : "ja",
+  "gameOrder" : 318,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/curtain",

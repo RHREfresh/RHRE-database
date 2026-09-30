@@ -2,6 +2,7 @@
   "id": "sneakySpirits",
   "name": "Sneaky Spirits (GBA)",
   "series": "tengoku",
+  "gameOrder" : 105,
   "objects": [
     {
       "type": "cue",

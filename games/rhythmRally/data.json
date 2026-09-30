@@ -2,6 +2,7 @@
   "id": "rhythmRally",
   "name": "Rhythm Rally (DS)",
   "series": "ds",
+  "gameOrder" : 204,
   "objects": [
     {
       "type": "cue",

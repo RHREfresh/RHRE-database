@@ -1,7 +1,8 @@
 {
   "id": "lockstepMegamix",
-  "name": "Lockstep (Megamix)",
+  "name": "Lockstep (3DS)",
   "series": "megamix",
+  "gameOrder" : 438,
   "objects": [
     {
       "type": "cue",

@@ -1,9 +1,10 @@
 {
   "id": "blueBirdsMegamixEn",
-  "name": "Blue Birds (Megamix)",
+  "name": "Blue Birds (3DS)",
   "series": "megamix",
+  "gameOrder" : 432,
   "language": "en",
-  "group": "Blue Birds (Megamix)",
+  "group": "Blue Birds (3DS)",
   "groupDefault": true,
   "objects": [
     {

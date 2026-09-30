@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Figure Fighter",
   "groupDefault": true,
+  "gameOrder" : 311,
   "objects": [
     {
       "type": "cue",

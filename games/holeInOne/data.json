@@ -2,6 +2,7 @@
   "id": "holeInOne",
   "name": "Hole in One",
   "series": "fever",
+  "gameOrder" : 300,
   "objects": [
     {
       "type": "cue",

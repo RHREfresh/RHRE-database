@@ -1,7 +1,8 @@
 {
   "id": "mrUpbeatFever",
-  "name": "Mr. Upbeat (Fever)",
+  "name": "Mr. Upbeat (Wii)",
   "series": "side",
+  "gameOrder" : 334,
   "group": "Mr. Upbeat",
   "groupDefault": true,
   "objects": [

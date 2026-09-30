@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "Cheer Readers",
+  "gameOrder" : 326,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id": "quizShowGba",
   "name": "Quiz Show (GBA)",
   "series": "tengoku",
+  "gameOrder" : 115,
   "objects": [
     {
       "type": "cue",

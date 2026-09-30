@@ -2,6 +2,7 @@
   "id": "showtime",
   "name": "Showtime",
   "series": "tengoku",
+  "gameOrder" : 111,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id": "catchyTune",
   "name": "Catchy Tune",
   "series": "megamix",
+  "gameOrder" : 400,
   "priority": 1,
   "objects": [
     {

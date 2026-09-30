@@ -2,6 +2,7 @@
   "id": "citrusContact",
   "name": "Second Contact (Citrus Remix)",
   "series": "megamix",
+  "gameOrder" : 402,
   "group": "First Contact",
   "priority": 1,
   "objects": [

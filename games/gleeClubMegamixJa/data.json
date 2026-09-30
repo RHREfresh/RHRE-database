@@ -1,9 +1,10 @@
 {
   "id": "gleeClubMegamixJa",
-  "name": "Glee Club (Megamix)",
+  "name": "Glee Club (3DS)",
   "series": "megamix",
+  "gameOrder" : 428,
   "language": "ja",
-  "group": "Glee Club (Megamix)",
+  "group": "Glee Club (3DS)",
   "objects": [
     {
       "type": "pattern",

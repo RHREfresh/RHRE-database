@@ -2,6 +2,7 @@
   "id" : "fruitFlex",
   "name" : "Fruit Flex",
   "series" : "groove",
+  "gameOrder" : 512,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/cheerSeagull",

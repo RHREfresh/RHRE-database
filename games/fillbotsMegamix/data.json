@@ -1,7 +1,8 @@
 {
   "id": "fillbotsMegamix",
-  "name": "Fillbots (Megamix)",
+  "name": "Fillbots (3DS)",
   "series": "megamix",
+  "gameOrder" : 427,
   "objects": [
     {
       "type": "cue",

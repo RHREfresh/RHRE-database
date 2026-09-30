@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Tap Troupe",
   "groupDefault": true,
+  "gameOrder" : 324,
   "objects": [
     {
       "type": "keepTheBeat",

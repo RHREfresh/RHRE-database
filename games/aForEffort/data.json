@@ -2,6 +2,7 @@
   "id" : "aForEffort",
   "name" : "A for Effort",
   "series" : "groove",
+  "gameOrder" : 522,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/a",

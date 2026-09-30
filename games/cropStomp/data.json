@@ -2,6 +2,7 @@
   "id": "cropStomp",
   "name": "Crop Stomp",
   "series": "ds",
+  "gameOrder" : 209,
   "objects": [
     {
       "type": "keepTheBeat",

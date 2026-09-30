@@ -2,6 +2,7 @@
   "series": "tengoku",
   "id": "spaceball",
   "name": "Spaceball (GBA)",
+  "gameOrder" : 103,
   "objects": [
     {
       "type": "cue",

@@ -4,6 +4,7 @@
   "series": "tengoku",
   "group": "Marching Orders (GBA)",
   "groupDefault": true,
+  "gameOrder" : 102,
   "objects": [
     {
       "type": "cue",

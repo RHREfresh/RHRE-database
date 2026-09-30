@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "en",
   "group": "Catch of the Day",
+  "gameOrder" : 316,
   "groupDefault": true,
   "objects": [
     {

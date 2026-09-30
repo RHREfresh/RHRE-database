@@ -2,6 +2,7 @@
   "series": "side",
   "id": "coinTossDS",
   "name": "Coin Toss (DS)",
+  "gameOrder" : 226,
   "group": "Coin Toss",
   "objects": [
     {

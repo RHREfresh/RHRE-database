@@ -2,6 +2,7 @@
   "id": "frogHopJa",
   "name": "Frog Hop (DS)",
   "series": "ds",
+  "gameOrder" : 219,
   "language": "ja",
   "group": "Frog Hop (DS)",
   "objects": [

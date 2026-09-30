@@ -2,6 +2,7 @@
   "id": "basketballGirlsKo",
   "name": "Basketball Girls",
   "series": "side",
+  "gameOrder" : 339,
   "language": "ko",
   "group": "Basketball Girls",
   "objects": [

@@ -1,7 +1,8 @@
 {
   "id": "rhythmRallyMegamix",
-  "name": "Rhythm Rally (Megamix)",
+  "name": "Rhythm Rally (3DS)",
   "series": "megamix",
+  "gameOrder" : 431,
   "objects": [
     {
       "type": "cue",

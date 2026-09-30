@@ -4,6 +4,7 @@
   "series" : "groove",
   "group" : "Flutter Speed",
   "groupDefault" : true,
+  "gameOrder" : 516,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_butterfly",

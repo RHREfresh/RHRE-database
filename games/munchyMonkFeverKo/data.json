@@ -1,9 +1,10 @@
 {
   "id": "munchyMonkFeverKo",
-  "name": "Munchy Monk (Fever)",
+  "name": "Munchy Monk (Wii)",
   "series": "side",
+  "gameOrder" : 336,
   "language": "ko",
-  "group": "Munchy Monk (Fever)",
+  "group": "Munchy Monk (Wii)",
   "objects": [
     {
       "type": "cue",

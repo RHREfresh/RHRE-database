@@ -2,6 +2,7 @@
   "id" : "popDontDrop",
   "name" : "Pop, Don't Drop",
   "series" : "groove",
+  "gameOrder" : 507,
   "objects" : [ {
     "type" : "randomCue",
     "id" : "*_softGrow",

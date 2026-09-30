@@ -1,7 +1,8 @@
 {
   "id": "dogNinjaMegamixIt",
-  "name": "Dog Ninja (Megamix)",
+  "name": "Dog Ninja (3DS)",
   "series": "megamix",
+  "gameOrder" : 433,
   "language": "it",
   "objects": [
     {

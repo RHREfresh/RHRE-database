@@ -2,6 +2,7 @@
   "id": "bunnyHopGba",
   "name": "Bunny Hop (GBA)",
   "series": "tengoku",
+  "gameOrder" : 112,
   "objects": [
     {
       "type": "cue",

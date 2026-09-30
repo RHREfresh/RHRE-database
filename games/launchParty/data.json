@@ -2,6 +2,7 @@
   "id": "launchParty",
   "name": "Launch Party",
   "series": "fever",
+  "gameOrder" : 320,
   "objects": [
     {
       "type": "pattern",

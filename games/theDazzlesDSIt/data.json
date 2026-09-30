@@ -2,6 +2,7 @@
   "id" : "theDazzlesDSIt",
   "name" : "The Dazzles (DS)",
   "series" : "ds",
+  "gameOrder" : 211,
   "language" : "it",
   "group" : "The Dazzles (DS)",
   "objects" : [ {

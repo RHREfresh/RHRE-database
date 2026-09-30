@@ -1,9 +1,10 @@
 {
   "id": "airboarderMegamixEn",
-  "name": "Airboarder (Megamix)",
+  "name": "Airboarder (3DS)",
   "series": "megamix",
+  "gameOrder" : 430,
   "language": "en",
-  "group": "Airboarder (Megamix)",
+  "group": "Airboarder (3DS)",
   "groupDefault": true,
   "objects": [
     {

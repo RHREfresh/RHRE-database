@@ -6,6 +6,7 @@
     "wizard's waltz",
     "mahou tsukai"
   ],
+  "gameOrder" : 110,
   "objects": [
     {
       "type": "cue",

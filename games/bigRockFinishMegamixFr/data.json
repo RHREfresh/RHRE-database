@@ -1,9 +1,10 @@
 {
   "id": "bigRockFinishMegamixFr",
-  "name": "Big Rock Finish (Megamix)",
+  "name": "Big Rock Finish (3DS)",
   "series": "megamix",
+  "gameOrder" : 440,
   "language": "fr",
-  "group": "Big Rock Finish (Megamix)",
+  "group": "Big Rock Finish (3DS)",
   "objects": [
     {
       "type": "cue",

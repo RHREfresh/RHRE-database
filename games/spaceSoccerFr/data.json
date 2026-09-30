@@ -2,6 +2,7 @@
   "id": "spaceSoccerFr",
   "name": "Space Soccer",
   "series": "ds",
+  "gameOrder" : 220,
   "language": "fr",
   "group": "Space Soccer",
   "objects": [

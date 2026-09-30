@@ -2,6 +2,7 @@
   "series": "side",
   "id": "ladyCupid",
   "name": "Lady Cupid",
+  "gameOrder" : 337,
   "objects": [
     {
       "type": "cue",

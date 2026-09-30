@@ -2,6 +2,7 @@
   "id": "spaceDanceGba",
   "name": "Space Dance (GBA)",
   "series": "tengoku",
+  "gameOrder" : 114,
   "objects": [
     {
       "type": "cue",

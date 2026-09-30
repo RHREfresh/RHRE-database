@@ -2,6 +2,7 @@
   "id": "pajamaPartyEn",
   "name": "Pajama Party",
   "series": "megamix",
+  "gameOrder" : 409,
   "language": "en",
   "group": "Pajama Party",
   "groupDefault": true,
@@ -10,7 +11,7 @@
     {
       "type": "cue",
       "id": "*/three1",
-      "name": "three - 1",
+      "name": "three jumps - 1",
       "deprecatedIDs": [
         "pajamaParty/three1"
       ],
@@ -20,7 +21,7 @@
     {
       "type": "cue",
       "id": "*/three2",
-      "name": "three - 2",
+      "name": "three jumps - 2",
       "deprecatedIDs": [
         "pajamaParty/three2"
       ],
@@ -30,7 +31,7 @@
     {
       "type": "cue",
       "id": "*/three3",
-      "name": "three - 3",
+      "name": "three jumps - 3",
       "deprecatedIDs": [
         "pajamaParty/three3"
       ],
@@ -40,7 +41,7 @@
     {
       "type": "cue",
       "id": "*/five1",
-      "name": "five - 1",
+      "name": "five jumps - 1",
       "deprecatedIDs": [
         "pajamaParty/five1"
       ],
@@ -50,7 +51,7 @@
     {
       "type": "cue",
       "id": "*/five2",
-      "name": "five - 2",
+      "name": "five jumps - 2",
       "deprecatedIDs": [
         "pajamaParty/five2"
       ],
@@ -60,7 +61,7 @@
     {
       "type": "cue",
       "id": "*/five3",
-      "name": "five - 3",
+      "name": "five jumps - 3",
       "deprecatedIDs": [
         "pajamaParty/five3"
       ],
@@ -70,7 +71,7 @@
     {
       "type": "cue",
       "id": "*/five4",
-      "name": "five - 4",
+      "name": "five jumps - 4",
       "deprecatedIDs": [
         "pajamaParty/five4"
       ],
@@ -80,7 +81,7 @@
     {
       "type": "cue",
       "id": "*/five5",
-      "name": "five - 5",
+      "name": "five jumps - 5",
       "deprecatedIDs": [
         "pajamaParty/five5"
       ],
@@ -90,7 +91,7 @@
     {
       "type": "cue",
       "id": "*/siesta1",
-      "name": "siesta - 1",
+      "name": "lie down - 1",
       "deprecatedIDs": [
         "pajamaParty/siesta1"
       ],
@@ -100,7 +101,7 @@
     {
       "type": "cue",
       "id": "*/siesta2",
-      "name": "siesta - 2",
+      "name": "lie down - 2",
       "deprecatedIDs": [
         "pajamaParty/siesta2"
       ],
@@ -110,7 +111,7 @@
     {
       "type": "cue",
       "id": "*/siesta3",
-      "name": "siesta - 3",
+      "name": "lie down - 3",
       "deprecatedIDs": [
         "pajamaParty/siesta3"
       ],
@@ -120,7 +121,7 @@
     {
       "type": "cue",
       "id": "*/siesta4",
-      "name": "siesta - 4",
+      "name": "lie down - 4",
       "deprecatedIDs": [
         "pajamaParty/siesta4"
       ],
@@ -130,7 +131,7 @@
     {
       "type": "cue",
       "id": "*/siesta5",
-      "name": "siesta - 5",
+      "name": "lie down - 5",
       "deprecatedIDs": [
         "pajamaParty/siesta5"
       ],
@@ -140,7 +141,7 @@
     {
       "type": "cue",
       "id": "*/siesta6",
-      "name": "siesta - 6",
+      "name": "lie down - 6",
       "deprecatedIDs": [
         "pajamaParty/siesta6"
       ],
@@ -150,7 +151,7 @@
     {
       "type": "cue",
       "id": "*/throw1",
-      "name": "throw - 1",
+      "name": "throw pillow - 1",
       "deprecatedIDs": [
         "pajamaParty/throw1"
       ],
@@ -160,7 +161,7 @@
     {
       "type": "cue",
       "id": "*/throw2",
-      "name": "throw - 2",
+      "name": "throw pillow - 2",
       "deprecatedIDs": [
         "pajamaParty/throw2"
       ],
@@ -170,7 +171,7 @@
     {
       "type": "cue",
       "id": "*/throw3",
-      "name": "throw - 3",
+      "name": "throw pillow - 3",
       "deprecatedIDs": [
         "pajamaParty/throw3"
       ],
@@ -180,7 +181,7 @@
     {
       "type": "cue",
       "id": "*/throw4",
-      "name": "throw - 4",
+      "name": "throw pillow - 4",
       "deprecatedIDs": [
         "pajamaParty/throw4"
       ],
@@ -190,7 +191,7 @@
     {
       "type": "cue",
       "id": "*/throw5",
-      "name": "throw - 5",
+      "name": "throw pillow - 5",
       "deprecatedIDs": [
         "pajamaParty/throw5"
       ],
@@ -200,7 +201,7 @@
     {
       "type": "cue",
       "id": "*/charge",
-      "name": "throw - charge",
+      "name": "throw pillow - charge",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 3.0,
@@ -209,7 +210,7 @@
     {
       "type": "cue",
       "id": "*/throw6",
-      "name": "throw - 6",
+      "name": "throw pillow - 6",
       "deprecatedIDs": [
         "pajamaParty/throw6"
       ],
@@ -219,7 +220,7 @@
     {
       "type": "cue",
       "id": "*/throw7",
-      "name": "throw - 7",
+      "name": "throw pillow - 7",
       "deprecatedIDs": [
         "pajamaParty/throw7"
       ],
@@ -229,7 +230,7 @@
     {
       "type": "cue",
       "id": "*/throw7b",
-      "name": "throw - 7 - (alternative)",
+      "name": "throw pillow - 7 - (alternative)",
       "deprecatedIDs": [
         "pajamaParty/throw7b"
       ],
@@ -239,7 +240,7 @@
     {
       "type": "pattern",
       "id": "*_three",
-      "name": "three",
+      "name": "three jumps",
       "deprecatedIDs": [
         "pajamaParty_three"
       ],
@@ -262,7 +263,7 @@
     {
       "type": "pattern",
       "id": "*_five",
-      "name": "five",
+      "name": "five jumps",
       "deprecatedIDs": [
         "pajamaParty_five"
       ],
@@ -293,7 +294,7 @@
     {
       "type": "pattern",
       "id": "*_siesta",
-      "name": "siesta",
+      "name": "lie down",
       "deprecatedIDs": [
         "pajamaParty_siesta"
       ],
@@ -375,7 +376,7 @@
     {
       "type": "randomCue",
       "id": "*_randomCatch",
-      "name": "random catch",
+      "name": "throw pillow - random catch",
       "deprecatedIDs": [],
       "cues": [
         {

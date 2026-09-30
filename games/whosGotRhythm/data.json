@@ -2,6 +2,7 @@
   "id" : "whosGotRhythm",
   "name" : "Who's Got Rhythm?",
   "series" : "side",
+  "gameOrder" : 542,
   "objects" : [ {
     "type" : "randomCue",
     "id" : "*_randomCorrectAnswer",

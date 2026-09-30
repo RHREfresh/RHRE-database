@@ -2,6 +2,7 @@
   "id": "moaiDooWop",
   "name": "Moai Doo-Wop",
   "series": "ds",
+  "gameOrder" : 207,
   "objects": [
     {
       "type": "cue",

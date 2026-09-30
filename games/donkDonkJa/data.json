@@ -3,6 +3,7 @@
   "name": "Donk-Donk",
   "series": "fever",
   "language": "ja",
+  "gameOrder" : 321,
   "objects": [
     {
       "type": "cue",

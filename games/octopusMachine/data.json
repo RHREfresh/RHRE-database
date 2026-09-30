@@ -1,28 +1,82 @@
 {
-  "series": "side",
-  "id": "octopusMachine",
-  "name": "Octopus Machine",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/squeeze",
-      "deprecatedIDs": [],
-      "name": "squeeze",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/release",
-      "deprecatedIDs": [],
-      "name": "release",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pop",
-      "deprecatedIDs": [],
-      "name": "pop",
-      "duration": 0.5
-    }
-  ]
+  "id" : "octopusMachine",
+  "name" : "Octopus Machine",
+  "series" : "side",
+  "gameOrder" : 234,
+  "objects" : [ {
+    "type" : "equidistant",
+    "id" : "*_squeeze",
+    "name" : "squeeze",
+    "deprecatedIDs" : [ ],
+    "distance" : 1.0,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/squeeze",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/squeeze",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/squeeze",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "equidistant",
+    "id" : "*_release",
+    "name" : "release",
+    "deprecatedIDs" : [ ],
+    "distance" : 1.0,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/release",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/release",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/release",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "equidistant",
+    "id" : "*_pop",
+    "name" : "pop",
+    "deprecatedIDs" : [ ],
+    "distance" : 1.0,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/pop",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pop",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pop",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/squeeze",
+    "name" : "squeeze",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/release",
+    "name" : "release",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pop",
+    "name" : "pop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
 }

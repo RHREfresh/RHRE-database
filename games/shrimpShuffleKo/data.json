@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ko",
   "group": "Shrimp Shuffle",
+  "gameOrder" : 325,
   "objects": [
     {
       "type": "cue",

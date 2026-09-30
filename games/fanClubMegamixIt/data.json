@@ -1,9 +1,10 @@
 {
   "id": "fanClubMegamixIt",
-  "name": "Fan Club (Megamix)",
+  "name": "Fan Club (3DS)",
   "series": "megamix",
+  "gameOrder" : 434,
   "language": "it",
-  "group": "Fan Club (Megamix)",
+  "group": "Fan Club (3DS)",
   "objects": [
     {
       "type": "cue",

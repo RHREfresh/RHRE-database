@@ -1,7 +1,8 @@
 {
   "id": "nightWalkFever",
-  "name": "Night Walk (Fever)",
+  "name": "Night Walk (Wii)",
   "series": "fever",
+  "gameOrder" : 328,
   "objects": [
     {
       "type": "keepTheBeat",

@@ -1,8 +1,9 @@
 {
   "id": "sneakySpiritsFever",
-  "name": "Sneaky Spirits (Fever)",
+  "name": "Sneaky Spirits (Wii)",
   "series": "fever",
   "priority": -1,
+  "gameOrder" : 330,
   "objects": [
     {
       "type": "cue",

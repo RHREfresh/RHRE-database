@@ -2,6 +2,7 @@
   "id": "microRow",
   "name": "Micro-Row",
   "series": "fever",
+  "gameOrder" : 314,
   "objects": [
     {
       "type": "cue",

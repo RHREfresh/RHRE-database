@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "en",
   "groupDefault": true,
+  "gameOrder" : 321,
   "objects": [
     {
       "type": "cue",

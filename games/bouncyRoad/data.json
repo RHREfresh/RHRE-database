@@ -2,6 +2,7 @@
   "id": "bouncyRoad",
   "name": "Bouncy Road (GBA)",
   "series": "tengoku",
+  "gameOrder" : 120,
   "objects": [
     {
       "type": "cue",

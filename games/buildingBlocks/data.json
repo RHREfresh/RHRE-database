@@ -2,10 +2,32 @@
   "id" : "buildingBlocks",
   "name" : "Building Blocks",
   "series" : "side",
+  "gameOrder" : 553,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/tadcopterAppear",
-    "name" : "tadcopter - appear",
+    "name" : "appear",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterVisorOn",
+    "name" : "visor on",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterPrepare",
+    "name" : "prepare",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterDrop",
+    "name" : "drop block",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
@@ -27,29 +49,8 @@
     "responseIDs" : [ "*/tadcopterDrop" ]
   }, {
     "type" : "cue",
-    "id" : "*/tadcopterPrepare",
-    "name" : "tadcopter - prepare",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/tadcopterDrop",
-    "name" : "tadcopter - drop",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
     "id" : "*/tadcopterFly",
-    "name" : "tadcopter - fly",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/tadcopterVisorOn",
-    "name" : "tadcopter - visor on",
+    "name" : "fly",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
@@ -63,14 +64,24 @@
   }, {
     "type" : "cue",
     "id" : "*/tadcopterDisappear",
-    "name" : "tadcopter - disappear",
+    "name" : "disappear",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "pattern",
-    "id" : "*_whistle2WithFlyingSfx",
-    "name" : "whistle - 2 (w/ flying sfx)",
+    "id" : "*_whistle1",
+    "name" : "whistle - 1",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whistle1",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_whistle2",
+    "name" : "whistle - 2",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/whistle2",

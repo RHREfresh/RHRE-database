@@ -2,6 +2,7 @@
   "id" : "skateboarding",
   "name" : "Skateboarding",
   "series" : "side",
+  "gameOrder" : 549,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/beep1",

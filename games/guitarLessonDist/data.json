@@ -2,6 +2,7 @@
   "id": "guitarLessonDist",
   "name": "Guitar Lessons - Assorted",
   "series": "side",
+  "gameOrder" : 238,
   "group": "Guitar Lessons",
   "groupDefault": true,
   "objects": [

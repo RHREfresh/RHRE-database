@@ -2,6 +2,7 @@
   "series": "side",
   "id": "chargingChicken",
   "name": "Charging Chicken",
+  "gameOrder" : 467,
   "objects": [
     {
       "type": "cue",

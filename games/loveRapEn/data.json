@@ -5,6 +5,7 @@
   "language" : "en",
   "group" : "Love Rap",
   "groupDefault" : true,
+  "gameOrder" : 323,
   "objects" : [
     {
       "type": "cue",

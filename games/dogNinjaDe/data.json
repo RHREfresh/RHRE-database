@@ -2,6 +2,7 @@
   "id": "dogNinjaDe",
   "name": "Dog Ninja (DS)",
   "series": "ds",
+  "gameOrder" : 218,
   "language": "de",
   "group": "Dog Ninja (DS)",
   "objects": [

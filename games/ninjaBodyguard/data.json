@@ -2,6 +2,7 @@
   "id" : "ninjaBodyguard",
   "name" : "Ninja Bodyguard (GBA)",
   "series" : "tengoku",
+  "gameOrder" : 121,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/shoot",

@@ -1,7 +1,8 @@
 {
   "id": "ratRace",
-  "name": "Rat Race (Megamix)",
+  "name": "Rat Race (3DS)",
   "series": "megamix",
+  "gameOrder" : 419,
   "objects": [
     {
       "type": "cue",

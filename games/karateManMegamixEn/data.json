@@ -1,9 +1,10 @@
 {
   "id": "karateManMegamixEn",
-  "name": "Karate Man (Megamix)",
+  "name": "Karate Man (3DS)",
   "series": "megamix",
+  "gameOrder" : 412,
   "language": "en",
-  "group": "Karate Man (Megamix)",
+  "group": "Karate Man (3DS)",
   "groupDefault": true,
   "priority": 1,
   "objects": [
@@ -35,7 +36,7 @@
         "karateManMegamixEn/pothit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -45,7 +46,7 @@
         "karateManMegamixEn/rock"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -53,7 +54,7 @@
       "name": "soccer ball - hit",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -63,7 +64,7 @@
         "karateMan/KarateRoaster"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -73,7 +74,7 @@
         "karateManMegamixEn/alienhit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -93,7 +94,7 @@
         "karateManMegamixEn/bulbhit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -287,7 +288,7 @@
         "karateManMegamixEn/bulbbreak"
       ],
       "subtext": "(not in-game)",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -307,7 +308,7 @@
         "karateManMegamixEn/bombbreak"
       ],
       "subtext": "(not in-game)",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "pattern",

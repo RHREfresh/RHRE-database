@@ -1,7 +1,8 @@
 {
   "id": "samuraiSliceFever",
-  "name": "Samurai Slice (Fever)",
+  "name": "Samurai Slice (Wii/3DS)",
   "series": "fever",
+  "gameOrder" : 315,
   "objects": [
     {
       "type": "cue",

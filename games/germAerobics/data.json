@@ -2,6 +2,7 @@
   "id" : "germAerobics",
   "name" : "Germ Aerobics",
   "series" : "groove",
+  "gameOrder" : 528,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/stretchUp",

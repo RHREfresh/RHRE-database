@@ -1,537 +1,585 @@
 {
-  "id": "karateManFeverJa",
-  "name": "Karate Man (Fever)",
-  "series": "fever",
-  "language": "ja",
-  "group": "Karate Man (Fever)",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/objectOut",
-      "name": "pot - out",
-      "deprecatedIDs": [
-        "karateManFeverJa/potOut"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/offbeatObjectOut",
-      "name": "pot - offbeat out",
-      "deprecatedIDs": [
-        "karateManFeverJa/offbeatPotOut"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/potHit",
-      "name": "pot - hit",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/soccerHit",
-      "name": "soccer ball - hit",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/hit",
-      "name": "hit",
-      "deprecatedIDs": [
-        "karateManFeverJa/hit3cue1"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/three",
-      "name": "3!",
-      "deprecatedIDs": [
-        "karateManFeverJa/hit3cue2"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/four",
-      "name": "4!",
-      "deprecatedIDs": [
-        "karateManFeverJa/hit4"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/rockHit",
-      "name": "rock - hit",
-      "deprecatedIDs": [
-        "karateManFeverJa/rock"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/lightbulbOut",
-      "name": "lightbulb - out",
-      "deprecatedIDs": [
-        "karateManFeverJa/bulbOut"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/lightbulbHit",
-      "name": "lightbulb - hit",
-      "deprecatedIDs": [
-        "karateManFeverJa/bulbHit"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/barrelOut",
-      "name": "barrel - out",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/punchy1",
-      "name": "combo voice - 1",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/punchy2",
-      "name": "combo voice - 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/punchy3",
-      "name": "combo voice - 3",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/punchy4",
-      "name": "combo voice - 4",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/ko",
-      "name": "combo voice - 5",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pow",
-      "name": "combo voice - 6",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/comboHit1",
-      "name": "combo hit - 1",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/comboHit2",
-      "name": "combo hit - 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/comboHit3",
-      "name": "combo hit - 3",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/comboHit4",
-      "name": "combo hit - 4",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.5
-    },
-    {
-      "type": "pattern",
-      "id": "*_pot",
-      "name": "pot",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/objectOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/potHit",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_offbeatPot",
-      "name": "offbeat pot",
-      "deprecatedIDs": [
-        "karateManFeverJa_offbeatpot"
-      ],
-      "cues": [
-        {
-          "id": "*/offbeatObjectOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/potHit",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_rock",
-      "name": "rock",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/objectOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/rockHit",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_offbeatRock",
-      "name": "offbeat rock",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/offbeatObjectOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/rockHit",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_soccerBall",
-      "name": "soccer ball",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/objectOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/soccerHit",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_hit3",
-      "name": "hit 3!",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/three",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hit",
-          "beat": 0.5
-        },
-        {
-          "id": "*_pot",
-          "beat": 1.5
-        },
-        {
-          "id": "*_pot",
-          "beat": 2.5,
-          "track": 1
-        },
-        {
-          "id": "*_rock",
-          "beat": 3.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_soccerHit3",
-      "name": "hit 3! (soccer ball)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/three",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hit",
-          "beat": 0.5
-        },
-        {
-          "id": "*_pot",
-          "beat": 1.5
-        },
-        {
-          "id": "*_pot",
-          "beat": 2.5,
-          "track": 1
-        },
-        {
-          "id": "*_soccerBall",
-          "beat": 3.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_offbeatHit3",
-      "name": "hit 3! (offbeat)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/three",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hit",
-          "beat": 0.5
-        },
-        {
-          "id": "*_offbeatPot",
-          "beat": 1.5
-        },
-        {
-          "id": "*_offbeatPot",
-          "beat": 2.5,
-          "track": 1
-        },
-        {
-          "id": "*_offbeatRock",
-          "beat": 3.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_fastHit3",
-      "name": "hit 3! (Remix 9)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/three",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hit",
-          "beat": 0.5
-        },
-        {
-          "id": "*_pot",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*_pot",
-          "beat": 1.5
-        },
-        {
-          "id": "*_rock",
-          "beat": 2.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_hit4",
-      "name": "hit 4!",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/four",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hit",
-          "beat": 0.5
-        },
-        {
-          "id": "*_pot",
-          "beat": 1.5
-        },
-        {
-          "id": "*_pot",
-          "beat": 2.5,
-          "track": 1
-        },
-        {
-          "id": "*_pot",
-          "beat": 3.5
-        },
-        {
-          "id": "*_rock",
-          "beat": 4.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_combo",
-      "name": "combo",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*_lightbulb",
-          "beat": 0.0
-        },
-        {
-          "id": "*_comboSolo",
-          "beat": 2.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_lightbulb",
-      "name": "lightbulb (standalone)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/lightbulbOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/lightbulbHit",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_comboSolo",
-      "name": "combo (standalone)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/barrelOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/comboHit1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/punchy1",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/comboHit1",
-          "beat": 1.25
-        },
-        {
-          "id": "*/punchy2",
-          "beat": 1.25,
-          "track": 1
-        },
-        {
-          "id": "*/comboHit1",
-          "beat": 1.5
-        },
-        {
-          "id": "*/punchy3",
-          "beat": 1.5,
-          "track": 1
-        },
-        {
-          "id": "*/comboHit2",
-          "beat": 1.75
-        },
-        {
-          "id": "*/punchy4",
-          "beat": 1.75,
-          "track": 1
-        },
-        {
-          "id": "*/comboHit3",
-          "beat": 2.0
-        },
-        {
-          "id": "*/ko",
-          "beat": 2.0,
-          "track": 1
-        },
-        {
-          "id": "*/comboHit4",
-          "beat": 2.5
-        },
-        {
-          "id": "*/pow",
-          "beat": 2.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    }
-  ]
+  "id" : "karateManFeverJa",
+  "name" : "Karate Man (Wii)",
+  "series" : "fever",
+  "language" : "ja",
+  "group" : "Karate Man (Wii)",
+  "gameOrder" : 327,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/objects/objectOut",
+    "name" : "object - out (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333
+  }, {
+    "type" : "cue",
+    "id" : "*/objects/objectOutEcho",
+    "name" : "object - out - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.666
+  }, {
+    "type" : "cue",
+    "id" : "*/objects/offbeatObjectOut",
+    "name" : "object - out - offbeat (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333
+  }, {
+    "type" : "cue",
+    "id" : "*/objects/offbeatObjectOutEcho",
+    "name" : "object - out - offbeat - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.167
+  }, {
+    "type" : "cue",
+    "id" : "*/objects/potPunch",
+    "name" : "pot - punch (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333
+  }, {
+    "type" : "cue",
+    "id" : "*/objects/potPunchEcho",
+    "name" : "pot - punch - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.167
+  }, {
+    "type" : "cue",
+    "id" : "*/objects/soccerPunch",
+    "name" : "soccer ball - punch",
+    "deprecatedIDs" : [ "karateManFeverJa/soccerHit" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/objects/rockPunch",
+    "name" : "rock - punch",
+    "deprecatedIDs" : [ "karateManFeverJa/rock", "karateManFeverJa/rockHit" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/voice/three",
+    "name" : "voice - mit- (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333,
+    "earliness" : 0.0625
+  }, {
+    "type" : "cue",
+    "id" : "*/voice/threeEcho",
+    "name" : "voice - mit- - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.167,
+    "earliness" : 0.0625
+  }, {
+    "type" : "cue",
+    "id" : "*/voice/four",
+    "name" : "voice - yot- (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333,
+    "earliness" : 0.0625
+  }, {
+    "type" : "cue",
+    "id" : "*/voice/fourEcho",
+    "name" : "voice - yot- - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.167,
+    "earliness" : 0.0625
+  }, {
+    "type" : "cue",
+    "id" : "*/voice/hit",
+    "name" : "voice - -tsu! (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333,
+    "earliness" : 0.03125
+  }, {
+    "type" : "cue",
+    "id" : "*/voice/hitEcho",
+    "name" : "voice - -tsu! - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.167,
+    "earliness" : 0.03125
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/lightbulbOut",
+    "name" : "lightbulb - out",
+    "deprecatedIDs" : [ "karateManFeverJa/bulbOut", "karateManFeverJa/lightbulbOut" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/lightbulbPunch",
+    "name" : "lightbulb - punch",
+    "deprecatedIDs" : [ "karateManFeverJa/bulbHit", "karateManFeverJa/lightbulbHit" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/barrelOut",
+    "name" : "barrel - out",
+    "deprecatedIDs" : [ "karateManFeverJa/barrelOut" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/punchy1",
+    "name" : "voice - te-",
+    "deprecatedIDs" : [ "karateManFeverJa/punchy1" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/punchy2",
+    "name" : "voice - -ki - 1",
+    "deprecatedIDs" : [ "karateManFeverJa/punchy2" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/punchy3",
+    "name" : "voice - pa-",
+    "deprecatedIDs" : [ "karateManFeverJa/punchy3" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/punchy4",
+    "name" : "voice - -ki - 2",
+    "deprecatedIDs" : [ "karateManFeverJa/punchy4" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/ka",
+    "name" : "voice - dok- (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/kaEcho",
+    "name" : "voice - dok- - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.167
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/pow",
+    "name" : "voice - -kan! (no echo)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.333
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/powEcho",
+    "name" : "voice - -kan! - echo",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.167
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/comboPunch1",
+    "name" : "combo - punch - 1",
+    "deprecatedIDs" : [ "karateManFeverJa/comboHit1" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/comboPunch2",
+    "name" : "combo - punch - 2",
+    "deprecatedIDs" : [ "karateManFeverJa/comboHit2" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/comboPunch3",
+    "name" : "combo - punch - 3",
+    "deprecatedIDs" : [ "karateManFeverJa/comboHit3" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/combo/comboPunch4",
+    "name" : "combo - punch - 4",
+    "deprecatedIDs" : [ "karateManFeverJa/comboHit4" ],
+    "subtext" : "",
+    "duration" : 1.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_pot",
+    "name" : "pot",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_objectOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*_potPunch",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_offbeatPot",
+    "name" : "offbeat pot",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_offbeatObjectOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*_potPunch",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rock",
+    "name" : "rock",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_objectOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/objects/rockPunch",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_offbeatRock",
+    "name" : "offbeat rock",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_offbeatObjectOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/objects/rockPunch",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_soccerBall",
+    "name" : "soccer ball",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_objectOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/objects/soccerPunch",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_hit3",
+    "name" : "hit 3!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_voiceThree",
+      "beat" : 0.0
+    }, {
+      "id" : "*_voiceHit",
+      "beat" : 0.5
+    }, {
+      "id" : "*_pot",
+      "beat" : 1.5
+    }, {
+      "id" : "*_pot",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*_rock",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_soccerHit3",
+    "name" : "hit 3! (soccer ball)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_voiceThree",
+      "beat" : 0.0
+    }, {
+      "id" : "*_voiceHit",
+      "beat" : 0.5
+    }, {
+      "id" : "*_pot",
+      "beat" : 1.5
+    }, {
+      "id" : "*_pot",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*_soccerBall",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_offbeatHit3",
+    "name" : "hit 3! (offbeat)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_voiceThree",
+      "beat" : 0.0
+    }, {
+      "id" : "*_voiceHit",
+      "beat" : 0.5
+    }, {
+      "id" : "*_offbeatPot",
+      "beat" : 1.5
+    }, {
+      "id" : "*_offbeatPot",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*_offbeatRock",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fastHit3",
+    "name" : "hit 3! (Remix 9)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_voiceThree",
+      "beat" : 0.0
+    }, {
+      "id" : "*_voiceHit",
+      "beat" : 0.5
+    }, {
+      "id" : "*_pot",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*_pot",
+      "beat" : 1.5
+    }, {
+      "id" : "*_rock",
+      "beat" : 2.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_hit4",
+    "name" : "hit 4!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_voiceFour",
+      "beat" : 0.0
+    }, {
+      "id" : "*_voiceHit",
+      "beat" : 0.5
+    }, {
+      "id" : "*_pot",
+      "beat" : 1.5
+    }, {
+      "id" : "*_pot",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*_pot",
+      "beat" : 3.5
+    }, {
+      "id" : "*_rock",
+      "beat" : 4.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_combo",
+    "name" : "combo",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_lightbulb",
+      "beat" : 0.0
+    }, {
+      "id" : "*_comboSolo",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_lightbulb",
+    "name" : "lightbulb (standalone)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/combo/lightbulbOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/combo/lightbulbPunch",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_comboSolo",
+    "name" : "combo (standalone)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/combo/barrelOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/combo/comboPunch1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/combo/punchy1",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/combo/comboPunch1",
+      "beat" : 1.25
+    }, {
+      "id" : "*/combo/punchy2",
+      "beat" : 1.25,
+      "track" : 1
+    }, {
+      "id" : "*/combo/comboPunch1",
+      "beat" : 1.5
+    }, {
+      "id" : "*/combo/punchy3",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/combo/comboPunch2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/combo/punchy4",
+      "beat" : 1.75,
+      "track" : 1
+    }, {
+      "id" : "*/combo/comboPunch3",
+      "beat" : 2.0
+    }, {
+      "id" : "*_ka",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/combo/comboPunch4",
+      "beat" : 2.5
+    }, {
+      "id" : "*_pow",
+      "beat" : 2.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_objectOut",
+    "name" : "object - out",
+    "deprecatedIDs" : [ "karateManFeverJa/potOut", "karateManFeverJa/objectOut" ],
+    "cues" : [ {
+      "id" : "*/objects/objectOut",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/objects/objectOutEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_offbeatObjectOut",
+    "name" : "object - out - offbeat",
+    "deprecatedIDs" : [ "karateManFeverJa/offbeatPotOut", "karateManFeverJa/offbeatObjectOut" ],
+    "cues" : [ {
+      "id" : "*/objects/offbeatObjectOut",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/objects/offbeatObjectOutEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_potPunch",
+    "name" : "pot - punch",
+    "deprecatedIDs" : [ "karateManFeverJa/potHit" ],
+    "cues" : [ {
+      "id" : "*/objects/potPunch",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/objects/potPunchEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_voiceThree",
+    "name" : "voice - mit-",
+    "deprecatedIDs" : [ "karateManFeverJa/hit3cue2", "karateManFeverJa/three" ],
+    "cues" : [ {
+      "id" : "*/voice/three",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/voice/threeEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_voiceFour",
+    "name" : "voice - yot-",
+    "deprecatedIDs" : [ "karateManFeverJp/hit4", "karateManFeverJp/four" ],
+    "cues" : [ {
+      "id" : "*/voice/four",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/voice/fourEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_voiceHit",
+    "name" : "voice - -tsu!",
+    "deprecatedIDs" : [ "karateManFeverJa/hit3cue1", "karateManFeverJa/hit" ],
+    "cues" : [ {
+      "id" : "*/voice/hit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/voice/hitEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_ka",
+    "name" : "voice - dok-",
+    "deprecatedIDs" : [ "karateManFeverJa/ko" ],
+    "cues" : [ {
+      "id" : "*/combo/ka",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/combo/kaEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pow",
+    "name" : "voice - -kan!",
+    "deprecatedIDs" : [ "karateManFeverJa/pow" ],
+    "cues" : [ {
+      "id" : "*/combo/pow",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/combo/powEcho",
+      "beat" : 0.333
+    } ],
+    "subtext" : ""
+  } ]
 }

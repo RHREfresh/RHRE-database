@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "Bossa Nova",
+  "gameOrder" : 322,
   "objects": [
     {
       "type": "pattern",

@@ -3,6 +3,7 @@
   "name" : "Flutter Speed 2",
   "series" : "groove",
   "group" : "Flutter Speed",
+  "gameOrder" : 516,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_butterfly",

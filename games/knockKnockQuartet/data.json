@@ -1,0 +1,307 @@
+{
+  "id" : "knockKnockQuartet",
+  "name" : "Knock-Knock Quartet",
+  "series" : "side",
+  "gameOrder" : 551,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/flowerGrow",
+    "name" : "flower - grow",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/flowerComplete",
+    "name" : "flower - complete",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/guideKnockNoAccent",
+    "name" : "guide - knock (no accent)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/playerKnockNoAccent" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/playerKnockNoAccent",
+    "name" : "player - knock (no accent)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/guideKnockBoop",
+    "name" : "guide - knock - boop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "repitchable" : true,
+    "responseIDs" : [ "*/playerKnockXylophone" ],
+    "writtenPitch" : 7
+  }, {
+    "type" : "cue",
+    "id" : "*/playerKnockXylophone",
+    "name" : "player - knock - xylophone",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "repitchable" : true,
+    "writtenPitch" : 7
+  }, {
+    "type" : "pattern",
+    "id" : "*_guideKnock",
+    "name" : "guide - knock",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/guideKnockNoAccent",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/guideKnockBoop",
+      "beat" : 1.4E-45,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_playerKnock",
+    "name" : "player - knock",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/playerKnockNoAccent",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/playerKnockXylophone",
+      "beat" : 1.4E-45,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_guideKnockNoAccent",
+    "name" : "guide - knock (no accent)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/guideKnockNoAccent",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_playerKnockNoAccent",
+    "name" : "player - knock (no accent)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/playerKnockNoAccent",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_guidesAllKnock",
+    "name" : "guides - all knock",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/guideKnockBoop",
+      "beat" : 1.4E-45,
+      "semitone" : -3,
+      "volume" : 70
+    }, {
+      "id" : "*/guideKnockBoop",
+      "beat" : 1.4E-45,
+      "volume" : 70,
+      "track" : 1
+    }, {
+      "id" : "*/guideKnockBoop",
+      "beat" : 1.4E-45,
+      "semitone" : 4,
+      "volume" : 70,
+      "track" : 2
+    }, {
+      "id" : "*/guideKnockBoop",
+      "beat" : 1.4E-45,
+      "semitone" : 9,
+      "volume" : 70,
+      "track" : 3
+    }, {
+      "id" : "*/guideKnockNoAccent",
+      "beat" : 1.4E-45,
+      "volume" : 115,
+      "track" : 4
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_playersAllKnock",
+    "name" : "players - all knock",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/playerKnockXylophone",
+      "beat" : 1.4E-45,
+      "semitone" : -3,
+      "volume" : 70
+    }, {
+      "id" : "*/playerKnockXylophone",
+      "beat" : 1.4E-45,
+      "volume" : 70,
+      "track" : 1
+    }, {
+      "id" : "*/playerKnockXylophone",
+      "beat" : 1.4E-45,
+      "semitone" : 4,
+      "volume" : 70,
+      "track" : 2
+    }, {
+      "id" : "*/playerKnockXylophone",
+      "beat" : 1.4E-45,
+      "semitone" : 9,
+      "volume" : 70,
+      "track" : 3
+    }, {
+      "id" : "*/playerKnockNoAccent",
+      "beat" : 1.4E-45,
+      "volume" : 115,
+      "track" : 4
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_flowerGrow",
+    "name" : "flower - grow",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/flowerGrow",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_flowerComplete",
+    "name" : "flower - complete",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/flowerComplete",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tutorialPatternExample",
+    "name" : "tutorial pattern - example",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/guideKnockNoAccent",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/guideKnockNoAccent",
+      "beat" : 1.0
+    }, {
+      "id" : "*/guideKnockNoAccent",
+      "beat" : 2.0
+    }, {
+      "id" : "*/guideKnockNoAccent",
+      "beat" : 3.0
+    }, {
+      "id" : "*/playerKnockNoAccent",
+      "beat" : 4.0
+    }, {
+      "id" : "*/playerKnockNoAccent",
+      "beat" : 5.0
+    }, {
+      "id" : "*/playerKnockNoAccent",
+      "beat" : 6.0
+    }, {
+      "id" : "*/playerKnockNoAccent",
+      "beat" : 7.0,
+      "duration" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_upwardsPatternExample",
+    "name" : "upwards pattern - example",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_guideKnock",
+      "beat" : 1.4E-45,
+      "semitone" : -2
+    }, {
+      "id" : "*_guideKnock",
+      "beat" : 1.0,
+      "semitone" : 2
+    }, {
+      "id" : "*_guideKnock",
+      "beat" : 2.0,
+      "semitone" : 5
+    }, {
+      "id" : "*_guideKnock",
+      "beat" : 3.0,
+      "semitone" : 10
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 4.0,
+      "semitone" : -2
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 5.0,
+      "semitone" : 2
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 6.0,
+      "semitone" : 5
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 7.0,
+      "semitone" : 10
+    }, {
+      "id" : "*/flowerGrow",
+      "beat" : 7.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_downwardsPatternExample",
+    "name" : "downwards pattern - example",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_guideKnock",
+      "beat" : 1.4E-45,
+      "semitone" : 10
+    }, {
+      "id" : "*_guideKnock",
+      "beat" : 1.0,
+      "semitone" : 5
+    }, {
+      "id" : "*_guideKnock",
+      "beat" : 2.0,
+      "semitone" : 2
+    }, {
+      "id" : "*_guideKnock",
+      "beat" : 3.0,
+      "semitone" : -2
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 4.0,
+      "semitone" : 10
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 5.0,
+      "semitone" : 5
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 6.0,
+      "semitone" : 2
+    }, {
+      "id" : "*_playerKnock",
+      "beat" : 7.0,
+      "semitone" : -2
+    }, {
+      "id" : "*/flowerGrow",
+      "beat" : 7.5
+    } ],
+    "subtext" : ""
+  } ]
+}

@@ -2,6 +2,7 @@
   "id": "hiHat",
   "name": "Hi-Hat",
   "series": "side",
+  "gameOrder" : 348,
   "objects": [
     {
       "type": "cue",

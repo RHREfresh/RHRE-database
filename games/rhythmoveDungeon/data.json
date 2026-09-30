@@ -2,6 +2,7 @@
   "id": "rhythmoveDungeon",
   "name": "Rhythmove Dungeon",
   "series": "side",
+  "gameOrder" : 230,
   "objects": [
     {
       "type": "cue",

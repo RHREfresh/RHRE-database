@@ -2,6 +2,7 @@
   "id": "shootEmUp",
   "name": "Shoot-'em-Up (DS)",
   "series": "ds",
+  "gameOrder" : 205,
   "objects": [
     {
       "type": "cue",

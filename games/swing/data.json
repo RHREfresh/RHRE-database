@@ -2,6 +2,7 @@
   "id" : "swing",
   "name" : "Swing",
   "series" : "side",
+  "gameOrder" : 545,
   "objects" : [ {
     "type" : "keepTheBeat",
     "id" : "*_swinging",

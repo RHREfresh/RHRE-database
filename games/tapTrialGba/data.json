@@ -4,6 +4,7 @@
   "series": "tengoku",
   "group": "Tap Trial (GBA)",
   "groupDefault": true,
+  "gameOrder" : 124,
   "objects": [
     {
       "type": "cue",

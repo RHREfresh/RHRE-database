@@ -2,6 +2,7 @@
   "id": "ratRaceGba",
   "name": "Rat Race (GBA)",
   "series": "tengoku",
+  "gameOrder" : 107,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "series": "side",
   "id": "beatBag",
   "name": "Beat Bag",
+  "gameOrder" : 236,
   "objects": [
     {
       "type": "cue",

@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Air Rally",
   "groupDefault": true,
+  "gameOrder": 310,
   "objects": [
     {
       "type": "cue",

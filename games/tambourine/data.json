@@ -2,6 +2,7 @@
   "id": "tambourine",
   "name": "Tambourine",
   "series": "fever",
+  "gameOrder" : 305,
   "objects": [
     {
       "type": "cue",

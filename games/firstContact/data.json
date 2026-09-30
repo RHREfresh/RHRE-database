@@ -2,6 +2,7 @@
   "id": "firstContact",
   "name": "First Contact",
   "series": "megamix",
+  "gameOrder" : 402,
   "group": "First Contact",
   "groupDefault": true,
   "priority": 1,

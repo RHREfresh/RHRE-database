@@ -2,6 +2,7 @@
   "id": "guitarLessonVoiceDe",
   "name": "Guitar Lessons - Voice",
   "series": "side",
+  "gameOrder" : 238,
   "language": "de",
   "group": "Guitar Lessons",
   "priority": -1,

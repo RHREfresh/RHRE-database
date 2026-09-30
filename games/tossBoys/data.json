@@ -4,6 +4,7 @@
   "series": "tengoku",
   "group": "Toss Boys",
   "groupDefault": true,
+  "gameOrder" : 122,
   "objects": [
     {
       "type": "pattern",

@@ -2,6 +2,7 @@
   "id" : "hopNSlide",
   "name" : "Hop N Slide",
   "series" : "groove",
+  "gameOrder" : 506,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/hopping1",

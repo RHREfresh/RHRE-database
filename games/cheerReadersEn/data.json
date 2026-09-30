@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Cheer Readers",
   "groupDefault": true,
+  "gameOrder" : 326,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id" : "feedingTheBeast",
   "name" : "Feeding the Beast",
   "series" : "groove",
+  "gameOrder" : 503,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/shootYellow",

@@ -2,6 +2,7 @@
   "id": "tramAndPauline",
   "name": "Tram and Pauline",
   "series": "tengoku",
+  "gameOrder" : 113,
   "objects": [
     {
       "type": "pattern",

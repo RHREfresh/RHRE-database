@@ -1,7 +1,8 @@
 {
   "id": "bunnyHop",
-  "name": "Bunny Hop (Megamix)",
+  "name": "Bunny Hop (3DS)",
   "series": "megamix",
+  "gameOrder" : 415,
   "objects": [
     {
       "type": "cue",

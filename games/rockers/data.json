@@ -2,6 +2,7 @@
   "id": "rockers",
   "name": "Rockers",
   "series": "ds",
+  "gameOrder" : 222,
   "group": "Rockers",
   "groupDefault": true,
   "objects": [

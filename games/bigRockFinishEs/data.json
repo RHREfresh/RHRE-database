@@ -2,6 +2,7 @@
   "series": "ds",
   "id": "bigRockFinishEs",
   "name": "Big Rock Finish (DS)",
+  "gameOrder" : 217,
   "language": "es",
   "group": "Big Rock Finish (DS)",
   "objects": [

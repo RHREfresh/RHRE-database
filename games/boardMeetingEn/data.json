@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "en",
   "group": "Board Meeting",
+  "gameOrder" : 306,
   "groupDefault": true,
   "objects": [
     {

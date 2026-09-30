@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ko",
   "group": "Figure Fighter",
+  "gameOrder" : 311,
   "objects": [
     {
       "type": "cue",

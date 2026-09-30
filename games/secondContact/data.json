@@ -2,6 +2,7 @@
   "id": "secondContact",
   "name": "Second Contact",
   "series": "megamix",
+  "gameOrder" : 402,
   "group": "First Contact",
   "priority": 1,
   "objects": [

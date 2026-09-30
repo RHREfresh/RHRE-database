@@ -2,6 +2,7 @@
   "series": "side",
   "id": "mrUpbeatGba",
   "name": "Mr. Upbeat (GBA)",
+  "gameOrder" : 126,
   "group": "Mr. Upbeat",
   "objects": [
     {

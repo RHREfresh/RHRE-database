@@ -2,6 +2,7 @@
   "id": "rhythmFighter",
   "name": "Rhythm Fighter",
   "series": "side",
+  "gameOrder" : 349,
   "objects": [
     {
       "type": "cue",

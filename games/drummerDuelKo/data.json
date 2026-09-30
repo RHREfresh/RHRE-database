@@ -2,6 +2,7 @@
   "id" : "drummerDuelKo",
   "name" : "Drummer Duel",
   "series" : "ds",
+  "gameOrder" : 214,
   "language" : "ko",
   "group" : "Drummer Duel",
   "objects" : [ {

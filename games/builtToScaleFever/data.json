@@ -1,7 +1,8 @@
 {
   "id": "builtToScaleFever",
-  "name": "Built to Scale (Fever)",
+  "name": "Built to Scale (Wii/3DS)",
   "series": "fever",
+  "gameOrder" : 309,
   "objects": [
     {
       "type": "cue",

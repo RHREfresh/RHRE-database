@@ -2,6 +2,7 @@
   "id" : "highFiveFever",
   "name" : "High-Five Fever",
   "series" : "groove",
+  "gameOrder" : 527,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/one",
@@ -45,14 +46,14 @@
     "name" : "double high-five - voice - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.125
   }, {
     "type" : "cue",
     "id" : "*/doublevoice2",
     "name" : "double high-five - voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.125
   }, {
     "type" : "cue",
     "id" : "*/doublevoice3",
@@ -211,6 +212,53 @@
       "beat" : 2.0
     }, {
       "id" : "*/stop",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_doubleHighFivePreSwung",
+    "name" : "double high-five (pre-swung)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/doublevoice1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/doublevoice2",
+      "beat" : 0.166
+    }, {
+      "id" : "*/doublevoice3",
+      "beat" : 0.333
+    }, {
+      "id" : "*/doublehighfive1",
+      "beat" : 1.333
+    }, {
+      "id" : "*/doublehighfive2",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tripleHighFivePreSwung",
+    "name" : "triple high-five (pre-swung)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/triplevoice1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/triplevoice2",
+      "beat" : 0.666
+    }, {
+      "id" : "*/triplevoice3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/triplehighfive1",
+      "beat" : 2.666
+    }, {
+      "id" : "*/triplehighfive2",
+      "beat" : 2.833
+    }, {
+      "id" : "*/triplehighfive3",
       "beat" : 3.0
     } ],
     "subtext" : ""

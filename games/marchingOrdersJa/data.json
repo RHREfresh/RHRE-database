@@ -1,9 +1,10 @@
 {
   "id": "marchingOrdersJa",
-  "name": "Marching Orders (Megamix)",
+  "name": "Marching Orders (3DS)",
   "series": "megamix",
+  "gameOrder" : 422,
   "language": "ja",
-  "group": "Marching Orders (Megamix)",
+  "group": "Marching Orders (3DS)",
   "objects": [
     {
       "type": "cue",

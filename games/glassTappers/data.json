@@ -2,6 +2,7 @@
   "series": "side",
   "id": "glassTappers",
   "name": "Glass Tappers",
+  "gameOrder" : 229,
   "objects": [
     {
       "type": "cue",

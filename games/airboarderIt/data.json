@@ -2,6 +2,7 @@
   "id": "airboarderIt",
   "name": "Airboarder (DS)",
   "series": "ds",
+  "gameOrder" : 224,
   "language": "it",
   "group": "Airboarder (DS)",
   "objects": [

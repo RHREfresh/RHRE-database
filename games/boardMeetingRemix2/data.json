@@ -3,6 +3,7 @@
   "name": "Board Meeting (Remix 2)",
   "series": "fever",
   "group": "Board Meeting",
+  "gameOrder" : 306,
   "objects": [
     {
       "type": "cue",

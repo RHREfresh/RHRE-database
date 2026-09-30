@@ -2,6 +2,7 @@
   "id": "builtToScaleDS",
   "name": "Built to Scale (DS)",
   "series": "ds",
+  "gameOrder" : 200,
   "objects": [
     {
       "type": "cue",

@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "Love Rap",
+  "gameOrder" : 323,
   "objects": [
     {
       "type": "cue",

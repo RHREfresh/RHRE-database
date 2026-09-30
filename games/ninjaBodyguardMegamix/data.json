@@ -1,8 +1,9 @@
 {
   "id": "ninjaBodyguardMegamix",
-  "name": "Ninja Bodyguard (Megamix)",
+  "name": "Ninja Bodyguard (3DS)",
   "series": "megamix",
-  "group": "Ninja Bodyguard (Megamix)",
+  "gameOrder" : 421,
+  "group": "Ninja Bodyguard (3DS)",
   "groupDefault": true,
   "objects": [
     {
@@ -16,7 +17,9 @@
       "duration": 0.25,
       "responseIDs": [
         "*/cut"
-      ]
+      ],
+      "randomPitchLowCents" : -100,
+      "randomPitchHighCents" : 0
     },
     {
       "type": "cue",

@@ -1,7 +1,8 @@
 {
   "id": "shootEmUpMegamix",
-  "name": "Shoot-'em-Up (Megamix)",
+  "name": "Shoot-'em-Up (3DS)",
   "series": "megamix",
+  "gameOrder" : 429,
   "objects": [
     {
       "type": "cue",

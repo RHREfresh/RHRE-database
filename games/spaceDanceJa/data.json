@@ -1,9 +1,10 @@
 {
   "id": "spaceDanceJa",
-  "name": "Space Dance (Megamix)",
+  "name": "Space Dance (3DS)",
   "series": "megamix",
+  "gameOrder" : 423,
   "language": "ja",
-  "group": "Space Dance (Megamix)",
+  "group": "Space Dance (3DS)",
   "objects": [
     {
       "type": "cue",

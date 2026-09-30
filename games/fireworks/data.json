@@ -5,6 +5,7 @@
   "searchHints": [
     "hanabi"
   ],
+  "gameOrder" : 123,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id" : "canYouClapIt",
   "name" : "Can You Clap It?",
   "series" : "side",
+  "gameOrder" : 547,
   "objects" : [ {
     "type" : "keepTheBeat",
     "id" : "*_cowbell",

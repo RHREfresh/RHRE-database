@@ -2,6 +2,7 @@
   "series": "ds",
   "id": "munchyMonkEs",
   "name": "Munchy Monk",
+  "gameOrder" : 212,
   "language": "es",
   "group": "Munchy Monk (DS)",
   "objects": [

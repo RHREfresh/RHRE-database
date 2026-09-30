@@ -2,6 +2,7 @@
   "id": "lockstep",
   "name": "Lockstep (DS)",
   "series": "ds",
+  "gameOrder" : 221,
   "group": "Lockstep (DS)",
   "groupDefault": true,
   "objects": [

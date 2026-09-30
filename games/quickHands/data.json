@@ -2,112 +2,8 @@
   "id" : "quickHands",
   "name" : "Quick Hands",
   "series" : "groove",
+  "gameOrder" : 524,
   "objects" : [ {
-    "type" : "cue",
-    "id" : "*/objectOut",
-    "name" : "object - out",
-    "deprecatedIDs" : [ "quickHands/toss" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/stickCatch",
-    "name" : "stick - catch",
-    "deprecatedIDs" : [ "quickHands/stick" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/lollipopCatch",
-    "name" : "lollipop - catch",
-    "deprecatedIDs" : [ "quickHands/lollipop" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/shovelCatch",
-    "name" : "shovel - catch",
-    "deprecatedIDs" : [ "quickHands/shovel" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/pickaxeCatch",
-    "name" : "pickaxe - catch",
-    "deprecatedIDs" : [ "quickHands/pickaxe" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/hammerCatch",
-    "name" : "toy hammer - catch",
-    "deprecatedIDs" : [ "quickHands/hammer" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/doubleCatch",
-    "name" : "double-catch - catch",
-    "deprecatedIDs" : [ "quickHands/quick" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/doubleVoice1",
-    "name" : "double-catch - voice - 1",
-    "deprecatedIDs" : [ "quickHands/voicea1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/doubleVoice2",
-    "name" : "double-catch - voice - 2",
-    "deprecatedIDs" : [ "quickHands/voicea2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/doubleVoice3",
-    "name" : "double-catch - voice - 3",
-    "deprecatedIDs" : [ "quickHands/voicea3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/doubleVoice4",
-    "name" : "double-catch - voice - 4",
-    "deprecatedIDs" : [ "quickHands/voicea4" ],
-    "subtext" : "",
-    "duration" : 0.75
-  }, {
-    "type" : "cue",
-    "id" : "*/speedyVoice1",
-    "name" : "speedy double-catch - voice - 1",
-    "deprecatedIDs" : [ "quickHands/voiceb1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/speedyVoice2",
-    "name" : "speedy double-catch - voice - 2",
-    "deprecatedIDs" : [ "quickHands/voiceb2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/speedyVoice3",
-    "name" : "speedy double-catch - voice - 3",
-    "deprecatedIDs" : [ "quickHands/voiceb3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/speedyVoice4",
-    "name" : "speedy double-catch - voice - 4",
-    "deprecatedIDs" : [ "quickHands/voiceb4" ],
-    "subtext" : "",
-    "duration" : 0.75
-  }, {
     "type" : "pattern",
     "id" : "*_stick",
     "name" : "stick",
@@ -199,6 +95,31 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
+    "id" : "*_doubleCatchPractice",
+    "name" : "double-catch (practice)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/doubleVoice1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/doubleVoice2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/doubleVoice3",
+      "beat" : 0.5
+    }, {
+      "id" : "*/doubleVoice4",
+      "beat" : 0.75
+    }, {
+      "id" : "*/stickCatch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/stickCatch",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
     "id" : "*_speedyCatch",
     "name" : "speedy double-catch",
     "deprecatedIDs" : [ "quickHands_quickb" ],
@@ -222,5 +143,110 @@
       "beat" : 2.25
     } ],
     "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/objectOut",
+    "name" : "object - out",
+    "deprecatedIDs" : [ "quickHands/toss" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stickCatch",
+    "name" : "stick - catch",
+    "deprecatedIDs" : [ "quickHands/stick" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/lollipopCatch",
+    "name" : "lollipop - catch",
+    "deprecatedIDs" : [ "quickHands/lollipop" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/shovelCatch",
+    "name" : "shovel - catch",
+    "deprecatedIDs" : [ "quickHands/shovel" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pickaxeCatch",
+    "name" : "pickaxe - catch",
+    "deprecatedIDs" : [ "quickHands/pickaxe" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hammerCatch",
+    "name" : "toy hammer - catch",
+    "deprecatedIDs" : [ "quickHands/hammer" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/doubleCatch",
+    "name" : "double-catch - catch",
+    "deprecatedIDs" : [ "quickHands/quick" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/doubleVoice1",
+    "name" : "double-catch - voice - 1",
+    "deprecatedIDs" : [ "quickHands/voicea1" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/doubleVoice2",
+    "name" : "double-catch - voice - 2",
+    "deprecatedIDs" : [ "quickHands/voicea2" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/doubleVoice3",
+    "name" : "double-catch - voice - 3",
+    "deprecatedIDs" : [ "quickHands/voicea3" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/doubleVoice4",
+    "name" : "double-catch - voice - 4",
+    "deprecatedIDs" : [ "quickHands/voicea4" ],
+    "subtext" : "",
+    "duration" : 0.75
+  }, {
+    "type" : "cue",
+    "id" : "*/speedyVoice1",
+    "name" : "speedy double-catch - voice - 1",
+    "deprecatedIDs" : [ "quickHands/voiceb1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/speedyVoice2",
+    "name" : "speedy double-catch - voice - 2",
+    "deprecatedIDs" : [ "quickHands/voiceb2" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/speedyVoice3",
+    "name" : "speedy double-catch - voice - 3",
+    "deprecatedIDs" : [ "quickHands/voiceb3" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/speedyVoice4",
+    "name" : "speedy double-catch - voice - 4",
+    "deprecatedIDs" : [ "quickHands/voiceb4" ],
+    "subtext" : "",
+    "duration" : 0.75
   } ]
 }

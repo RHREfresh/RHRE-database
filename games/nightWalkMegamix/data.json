@@ -1,7 +1,8 @@
 {
   "id": "nightWalkMegamix",
-  "name": "Night Walk (Megamix)",
+  "name": "Night Walk (3DS)",
   "series": "megamix",
+  "gameOrder" : 425,
   "objects": [
     {
       "type": "cue",

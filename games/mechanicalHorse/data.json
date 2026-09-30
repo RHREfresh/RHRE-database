@@ -2,6 +2,7 @@
   "id": "mechanicalHorse",
   "name": "Mechanical Horse",
   "series": "side",
+  "gameOrder" : 129,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id": "lumbearjack",
   "name": "LumBEARjack",
   "series": "megamix",
+  "gameOrder" : 404,
   "priority": 1,
   "objects": [
     {

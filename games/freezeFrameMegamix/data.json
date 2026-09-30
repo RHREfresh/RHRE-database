@@ -1,7 +1,8 @@
 {
   "id": "freezeFrameMegamix",
-  "name": "Freeze Frame (Megamix)",
+  "name": "Freeze Frame (3DS)",
   "series": "megamix",
+  "gameOrder" : 436,
   "objects": [
     {
       "type": "cue",

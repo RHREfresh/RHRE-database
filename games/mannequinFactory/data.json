@@ -2,6 +2,7 @@
   "id": "mannequinFactory",
   "name": "Mannequin Factory",
   "series": "side",
+  "gameOrder" : 127,
   "searchHints": [
     "head spinner"
   ],

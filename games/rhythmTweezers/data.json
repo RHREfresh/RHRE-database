@@ -1,7 +1,8 @@
 {
   "id": "rhythmTweezers",
-  "name": "Rhythm Tweezers (Megamix)",
+  "name": "Rhythm Tweezers (3DS)",
   "series": "megamix",
+  "gameOrder" : 413,
   "objects": [
     {
       "type": "randomCue",

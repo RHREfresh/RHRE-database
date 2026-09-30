@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Bossa Nova",
   "groupDefault": true,
+  "gameOrder" : 322,
   "objects": [
     {
       "type": "pattern",

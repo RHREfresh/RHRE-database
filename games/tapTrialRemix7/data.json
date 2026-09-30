@@ -1,8 +1,9 @@
 {
   "id": "tapTrialRemix7",
-  "name": "Tap Trial (GBA Remix 7)",
+  "name": "Tap Trial (Remix 7)",
   "series": "tengoku",
   "group": "Tap Trial (GBA)",
+  "gameOrder" : 124,
   "objects": [
     {
       "type": "cue",

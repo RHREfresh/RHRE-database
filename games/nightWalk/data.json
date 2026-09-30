@@ -2,6 +2,7 @@
   "id": "nightWalk",
   "name": "Night Walk (GBA)",
   "series": "tengoku",
+  "gameOrder" : 116,
   "objects": [
     {
       "type": "cue",

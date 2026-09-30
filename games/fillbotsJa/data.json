@@ -2,6 +2,7 @@
   "id": "fillbotsJa",
   "name": "Fillbots (DS)",
   "series": "ds",
+  "gameOrder" : 202,
   "language": "ja",
   "group": "Fillbots (DS)",
   "objects": [

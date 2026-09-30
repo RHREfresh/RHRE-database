@@ -2,6 +2,7 @@
   "id" : "soccerDreams",
   "name" : "Soccer Dreams",
   "series" : "groove",
+  "gameOrder" : 520,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_white",

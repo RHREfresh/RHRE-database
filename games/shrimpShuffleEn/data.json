@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Shrimp Shuffle",
   "groupDefault": true,
+  "gameOrder" : 325,
   "objects": [
     {
       "type": "cue",

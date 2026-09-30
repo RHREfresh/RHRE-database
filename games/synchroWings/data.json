@@ -2,6 +2,7 @@
   "id" : "synchroWings",
   "name" : "Synchro Wings",
   "series" : "groove",
+  "gameOrder" : 529,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/leaderdown",

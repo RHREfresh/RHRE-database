@@ -2,6 +2,7 @@
   "id" : "alienAlphabet",
   "name" : "Alien Alphabet",
   "series" : "groove",
+  "gameOrder": 513,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_cha",

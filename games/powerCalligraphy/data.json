@@ -1,8 +1,9 @@
 {
   "id": "powerCalligraphy",
-  "name": "Power Calligraphy (Fever)",
+  "name": "Power Calligraphy (Wii/3DS)",
   "series": "fever",
   "priority": -1,
+  "gameOrder" : 331,
   "objects": [
     {
       "type": "cue",

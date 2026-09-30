@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Ringside",
   "groupDefault": true,
+  "gameOrder" : 312,
   "objects": [
     {
       "type": "cue",

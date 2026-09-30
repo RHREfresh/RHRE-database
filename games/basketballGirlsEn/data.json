@@ -2,6 +2,7 @@
   "id": "basketballGirlsEn",
   "name": "Basketball Girls",
   "series": "side",
+  "gameOrder" : 339,
   "language": "en",
   "group": "Basketball Girls",
   "groupDefault": true,

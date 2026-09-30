@@ -2,6 +2,7 @@
   "id": "freezeFrameRemix3",
   "name": "Freeze Frame (Remix 3)",
   "series": "ds",
+  "gameOrder" : 210,
   "group": "Freeze Frame (DS)",
   "objects": [
     {

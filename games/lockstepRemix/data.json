@@ -2,6 +2,7 @@
   "id": "lockstepRemix",
   "name": "Lockstep (DS Remixes)",
   "series": "ds",
+  "gameOrder" : 221,
   "group": "Lockstep (DS)",
   "objects": [
     {

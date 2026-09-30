@@ -3,6 +3,7 @@
   "name": "Marching Orders 2",
   "series": "tengoku",
   "group": "Marching Orders (GBA)",
+  "gameOrder" : 102,
   "objects": [
     {
       "type": "cue",

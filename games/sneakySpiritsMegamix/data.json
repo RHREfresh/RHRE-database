@@ -1,7 +1,8 @@
 {
   "id": "sneakySpiritsMegamix",
-  "name": "Sneaky Spirits (Megamix)",
+  "name": "Sneaky Spirits (3DS)",
   "series": "megamix",
+  "gameOrder" : 416,
   "objects": [
     {
       "type": "cue",

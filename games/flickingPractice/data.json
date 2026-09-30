@@ -2,6 +2,7 @@
   "series": "side",
   "id": "flickingPractice",
   "name": "Flicking Practice",
+  "gameOrder" : 225,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id": "gleeClubJa",
   "name": "Glee Club (DS)",
   "series": "ds",
+  "gameOrder" : 201,
   "language": "ja",
   "group": "Glee Club (DS)",
   "objects": [

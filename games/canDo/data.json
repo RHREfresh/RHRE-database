@@ -2,6 +2,7 @@
   "id" : "canDo",
   "name" : "Can Do",
   "series" : "groove",
+  "gameOrder" : 514,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/canLand",

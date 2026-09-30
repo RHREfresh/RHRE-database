@@ -1,9 +1,10 @@
 {
   "id" : "exhibitionMatchMegamixEn",
-  "name" : "Exhibition Match (Megamix)",
+  "name" : "Exhibition Match (3DS)",
   "series" : "megamix",
+  "gameOrder" : 444,
   "language" : "en",
-  "group" : "Exhibition Match (Megamix)",
+  "group" : "Exhibition Match (3DS)",
   "groupDefault" : true,
   "objects" : [ {
     "type" : "cue",

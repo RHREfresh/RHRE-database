@@ -2,6 +2,7 @@
   "series": "side",
   "id": "mochiPounding",
   "name": "Mochi Pounding",
+  "gameOrder" : 343,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id" : "drummerDuelEn",
   "name" : "Drummer Duel",
   "series" : "ds",
+  "gameOrder" : 214,
   "language" : "en",
   "group" : "Drummer Duel",
   "groupDefault" : true,

@@ -2,6 +2,7 @@
   "id" : "spiritSlasher",
   "name" : "Spirit Slasher",
   "series" : "groove",
+  "gameOrder" : 523,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_singleSlash",
@@ -199,6 +200,7 @@
     "id" : "*_singleVoice",
     "name" : "single slash - voice - random",
     "deprecatedIDs" : [ "spiritSlasher_randomsamurai" ],
+    "stretchable" : false,
     "cues" : [ {
       "id" : "*/singleVoice1",
       "beat" : 1.4E-45
@@ -213,6 +215,37 @@
       "beat" : 1.4E-45
     } ],
     "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_sixLeftExample",
+    "name" : "long scream - example - seven single slashes",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_singleStarter",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*_singleChain",
+      "beat" : 4.0,
+      "duration" : 10.0
+    }, {
+      "id" : "*/sixLeftScream",
+      "beat" : 4.0,
+      "track" : 2
+    }, {
+      "id" : "*_singleFinisher",
+      "beat" : 14.0
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
+  }, {
+    "type" : "cue",
+    "id" : "*/sixLeftScream",
+    "name" : "samurai - long scream",
+    "deprecatedIDs" : [ ],
+    "subtext" : "[#BFBFBF](un)used when there are six slashes left[]",
+    "duration" : 11.0,
+    "loops" : true,
+    "loopStart" : 5.62,
+    "loopEnd" : 5.623
   }, {
     "type" : "cue",
     "id" : "*/singleWarning",

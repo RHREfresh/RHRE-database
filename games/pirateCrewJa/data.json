@@ -2,6 +2,7 @@
   "id": "pirateCrewJa",
   "name": "Pirate Crew",
   "series": "side",
+  "gameOrder" : 345,
   "language": "ja",
   "group": "Pirate Crew",
   "objects": [

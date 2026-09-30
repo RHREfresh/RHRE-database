@@ -2,6 +2,7 @@
   "id": "djSchool",
   "name": "DJ School",
   "series": "ds",
+  "gameOrder" : 213,
   "objects": [
     {
       "type": "cue",

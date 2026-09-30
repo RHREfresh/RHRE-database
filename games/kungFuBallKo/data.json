@@ -2,6 +2,7 @@
   "id": "kungFuBallKo",
   "name": "Kung Fu Ball",
   "series": "side",
+  "gameOrder" : 344,
   "language": "ko",
   "group": "Kung Fu Ball",
   "objects": [

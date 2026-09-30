@@ -2,6 +2,7 @@
   "id": "chameleon",
   "name": "Chameleon",
   "series": "side",
+  "gameOrder" : 341,
   "objects": [
     {
       "type": "cue",

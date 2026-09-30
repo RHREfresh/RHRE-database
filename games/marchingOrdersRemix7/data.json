@@ -3,6 +3,7 @@
   "name": "Marching Orders (Remix 7/8)",
   "series": "tengoku",
   "group": "Marching Orders (GBA)",
+  "gameOrder" : 102,
   "objects": [
     {
       "type": "cue",

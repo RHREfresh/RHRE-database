@@ -1,7 +1,8 @@
 {
   "id": "bouncyRoadMegamix",
-  "name": "Bouncy Road (Megamix)",
+  "name": "Bouncy Road (3DS)",
   "series": "megamix",
+  "gameOrder" : 424,
   "objects": [
     {
       "type": "cue",

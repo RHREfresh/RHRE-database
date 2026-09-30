@@ -2,6 +2,7 @@
   "id": "animalAcrobat",
   "name": "Animal Acrobat",
   "series": "megamix",
+  "gameOrder" : 407,
   "priority": 1,
   "objects": [
     {

@@ -2,6 +2,7 @@
   "id" : "sodaHop",
   "name" : "Soda Hop",
   "series" : "groove",
+  "gameOrder" : 525,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/moai",

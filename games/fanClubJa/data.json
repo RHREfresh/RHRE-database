@@ -2,6 +2,7 @@
   "series": "ds",
   "id": "fanClubJa",
   "name": "Fan Club (DS)",
+  "gameOrder" : 203,
   "language": "ja",
   "group": "Fan Club (DS)",
   "objects": [
@@ -12,7 +13,8 @@
         "fanClubJp/hai1"
       ],
       "name": "singer - hai - 1",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.025
     },
     {
       "type": "cue",
@@ -21,7 +23,8 @@
         "fanClubJp/hai2"
       ],
       "name": "singer - hai - 2",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.055
     },
     {
       "type": "cue",
@@ -30,7 +33,8 @@
         "fanClubJp/hai3"
       ],
       "name": "singer - hai - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.050
     },
     {
       "type": "cue",
@@ -39,7 +43,8 @@
         "fanClubJp/haiClap"
       ],
       "name": "audience - hai",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.025
     },
     {
       "type": "cue",
@@ -48,7 +53,8 @@
         "fanClubJp/kamone1"
       ],
       "name": "singer - kamone! - 1",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.018
     },
     {
       "type": "cue",
@@ -57,7 +63,8 @@
         "fanClubJp/kamone2"
       ],
       "name": "singer - kamone! - 2",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.080
     },
     {
       "type": "cue",
@@ -66,7 +73,8 @@
         "fanClubJp/kamone3"
       ],
       "name": "singer - kamone! - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.085
     },
     {
       "type": "cue",
@@ -75,7 +83,8 @@
         "fanClubJp/kamoneClap1"
       ],
       "name": "audience - kamone - 1",
-      "duration": 1.5
+      "duration": 1.5,
+      "earliness": 0.036
     },
     {
       "type": "cue",
@@ -93,7 +102,8 @@
         "fanClubJp/kamoneClap3"
       ],
       "name": "audience - kamone - 3",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.017
     },
     {
       "type": "cue",
@@ -126,7 +136,7 @@
       "deprecatedIDs": [
         "fanClubJp_haiHaiHai"
       ],
-      "name": "yeah yeah yeah!",
+      "name": "hai hai hai!",
       "cues": [
         {
           "id": "*/hai1",
@@ -164,7 +174,7 @@
       "deprecatedIDs": [
         "fanClubJp_kamone"
       ],
-      "name": "I suppose!",
+      "name": "kamone!",
       "cues": [
         {
           "id": "*/kamone1",
@@ -200,7 +210,7 @@
       "type": "pattern",
       "id": "*_kamoneLanding",
       "deprecatedIDs": [],
-      "name": "I suppose! - with landing",
+      "name": "kamone! - with landing",
       "cues": [
         {
           "id": "*/kamone1",

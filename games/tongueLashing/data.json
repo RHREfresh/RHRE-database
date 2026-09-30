@@ -2,6 +2,7 @@
   "id": "tongueLashing",
   "name": "Tongue Lashing",
   "series": "megamix",
+  "gameOrder" : 403,
   "priority": 1,
   "objects": [
     {
@@ -237,7 +238,7 @@
     {
       "type": "pattern",
       "id": "*_redBugShortTeehee",
-      "name": "short [#FF1A01]red bug[] teehee",
+      "name": "short [#FF1A01]red bug[] - teehee",
       "deprecatedIDs": [
         "tongueLashing_redbugshortteehee"
       ],

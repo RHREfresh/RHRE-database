@@ -2,6 +2,7 @@
   "id" : "lightningBolting",
   "name" : "Lightning Bolting",
   "series" : "groove",
+  "gameOrder" : 517,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_cloudYellow",
@@ -41,37 +42,37 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_cloudMagenta",
-    "name" : "[#BF0060]magenta cloud[]",
-    "deprecatedIDs" : [ "lightningBolting_magentathunder" ],
+    "id" : "*_cloudPink",
+    "name" : "[#BF0060]pink cloud[]",
+    "deprecatedIDs" : [ "lightningBolting_magentathunder", "lightningBolting_cloudMagenta" ],
     "cues" : [ {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 0.5
     }, {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 1.0
     }, {
-      "id" : "*/warpMagenta",
+      "id" : "*/warpPink",
       "beat" : 1.5
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_chainMagenta",
-    "name" : "[#BF0060]magenta cloud[] - consecutive",
-    "deprecatedIDs" : [ "lightningBolting_quickmagenta" ],
+    "id" : "*_chainPink",
+    "name" : "[#BF0060]pink cloud[] - consecutive",
+    "deprecatedIDs" : [ "lightningBolting_quickmagenta", "lightningBolting_chainMagenta" ],
     "defaultDuration" : 2.0,
     "cues" : [ {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 0.5
     }, {
-      "id" : "*/warpMagenta",
+      "id" : "*/warpPink",
       "beat" : 1.0
     } ],
     "subtext" : ""
@@ -103,42 +104,42 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_cloudMagentaSwing",
-    "name" : "[#BF0060]magenta cloud[] (pre-swung)",
-    "deprecatedIDs" : [ ],
+    "id" : "*_cloudPinkSwing",
+    "name" : "[#BF0060]pink cloud[] (pre-swung)",
+    "deprecatedIDs" : [ "lightningBolting_cloudMagentaSwing" ],
     "cues" : [ {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 1.4E-45,
       "duration" : 0.6666667
     }, {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 0.6666667,
       "duration" : 0.33333334
     }, {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 1.0,
       "duration" : 0.6666667
     }, {
-      "id" : "*/warpMagenta",
+      "id" : "*/warpPink",
       "beat" : 1.6666666
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_chainMagentaSwing",
-    "name" : "[#BF0060]magenta cloud[] (pre-swung) - consecutive",
-    "deprecatedIDs" : [ ],
+    "id" : "*_chainPinkSwing",
+    "name" : "[#BF0060]pink cloud[] (pre-swung) - consecutive",
+    "deprecatedIDs" : [ "lightningBolting_chainMagentaSwing" ],
     "defaultDuration" : 2.0,
     "cues" : [ {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 1.4E-45,
       "duration" : 0.33333334
     }, {
-      "id" : "*/cloudMagenta",
+      "id" : "*/cloudPink",
       "beat" : 0.33333334,
       "duration" : 0.6666667
     }, {
-      "id" : "*/warpMagenta",
+      "id" : "*/warpPink",
       "beat" : 1.0
     } ],
     "subtext" : ""
@@ -165,16 +166,16 @@
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/cloudMagenta",
-    "name" : "[#BF0060]magenta cloud[] - wind-up",
-    "deprecatedIDs" : [ "lightningBolting/magenta1" ],
+    "id" : "*/cloudPink",
+    "name" : "[#BF0060]pink cloud[] - wind-up",
+    "deprecatedIDs" : [ "lightningBolting/magenta1", "lightningBolting/cloudMagenta" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/warpMagenta",
-    "name" : "[#BF0060]magenta cloud[] - warp",
-    "deprecatedIDs" : [ "lightningBolting/magenta2" ],
+    "id" : "*/warpPink",
+    "name" : "[#BF0060]pink cloud[] - warp",
+    "deprecatedIDs" : [ "lightningBolting/magenta2", "lightningBolting/warpMagenta" ],
     "subtext" : "",
     "duration" : 1.0
   } ]

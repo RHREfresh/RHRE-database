@@ -2,6 +2,7 @@
   "id": "sickBeats",
   "name": "Sick Beats (GBA)",
   "series": "tengoku",
+  "gameOrder" : 108,
   "objects": [
     {
       "type": "cue",

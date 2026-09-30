@@ -2,6 +2,7 @@
   "id": "rhythmTweezersGba",
   "name": "Rhythm Tweezers (GBA)",
   "series": "tengoku",
+  "gameOrder" : 101,
   "objects": [
     {
       "type": "randomCue",

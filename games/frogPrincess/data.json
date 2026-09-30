@@ -2,6 +2,7 @@
   "id": "frogPrincess",
   "name": "Frog Princess",
   "series": "side",
+  "gameOrder" : 340,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "series": "side",
   "id": "wakeUpCaller",
   "name": "Wake-Up Caller",
+  "gameOrder" : 335,
   "objects": [
     {
       "type": "cue",

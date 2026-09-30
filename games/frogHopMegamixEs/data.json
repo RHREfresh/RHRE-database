@@ -1,9 +1,10 @@
 {
   "id" : "frogHopMegamixEs",
-  "name" : "Frog Hop (Megamix)",
+  "name" : "Frog Hop (3DS)",
   "series" : "megamix",
+  "gameOrder" : 435,
   "language" : "es",
-  "group" : "Frog Hop (Megamix)",
+  "group" : "Frog Hop (3DS)",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/thankYou",

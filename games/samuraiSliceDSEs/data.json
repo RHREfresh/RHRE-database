@@ -2,6 +2,7 @@
   "id": "samuraiSliceDSEs",
   "name": "Samurai Slice (DS)",
   "series": "side",
+  "gameOrder" : 228,
   "language": "es",
   "objects": [
     {

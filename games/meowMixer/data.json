@@ -2,6 +2,7 @@
   "series": "side",
   "id": "meowMixer",
   "name": "Meow Mixer",
+  "gameOrder" : 128,
   "objects": [
     {
       "type": "cue",

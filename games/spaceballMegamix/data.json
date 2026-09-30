@@ -1,7 +1,8 @@
 {
   "id": "spaceballMegamix",
-  "name": "Spaceball (Megamix)",
+  "name": "Spaceball (3DS)",
   "series": "megamix",
+  "gameOrder" : 418,
   "objects": [
     {
       "type": "cue",

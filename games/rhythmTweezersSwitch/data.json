@@ -1,0 +1,235 @@
+{
+  "id" : "rhythmTweezersSwitch",
+  "name" : "Rhythm Tweezers (Switch)",
+  "series" : "side",
+  "gameOrder" : 532,
+  "objects" : [ {
+    "type" : "randomCue",
+    "id" : "*_hairAppear",
+    "name" : "hair - appear",
+    "deprecatedIDs" : [ ],
+    "responseIDs" : [ "*_hairPluck" ],
+    "stretchable" : false,
+    "cues" : [ {
+      "id" : "*/hairAppear",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_curlyAppear",
+    "name" : "curly hair - appear",
+    "deprecatedIDs" : [ ],
+    "responseIDs" : [ "*_curlyPluck" ],
+    "stretchable" : false,
+    "cues" : [ {
+      "id" : "*/curlyAppear",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_hairPluck",
+    "name" : "hair - pluck",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hairPluck",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_curlyPluck",
+    "name" : "curly hair - pluck",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/curlyPull",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/curlyPluck",
+      "beat" : 0.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_randomOnion",
+    "name" : "last pluck - random onion",
+    "deprecatedIDs" : [ ],
+    "stretchable" : false,
+    "cues" : [ {
+      "id" : "*/onion1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/onion2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/onion3",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/onion4",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_randomTurnip",
+    "name" : "last pluck - random turnip",
+    "deprecatedIDs" : [ ],
+    "stretchable" : false,
+    "cues" : [ {
+      "id" : "*/turnip1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/turnip2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/turnip3",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_randomPotato",
+    "name" : "last pluck - random potato",
+    "deprecatedIDs" : [ ],
+    "stretchable" : false,
+    "cues" : [ {
+      "id" : "*/potato1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/potato2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/potato3",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/register",
+    "name" : "cash register",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/partyPopper",
+    "name" : "party popper",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hairAppear",
+    "name" : "hair - appear",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "responseIDs" : [ "*_hairPluck" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/curlyAppear",
+    "name" : "curly hair - appear",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.75,
+    "responseIDs" : [ "*_hairPluck" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/hairPluck",
+    "name" : "hair - pluck",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "randomPitchLowCents" : -300
+  }, {
+    "type" : "cue",
+    "id" : "*/curlyPull",
+    "name" : "curly hair - pluck - pull",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "loops" : true,
+    "loopStart" : 0.315,
+    "loopEnd" : 0.32
+  }, {
+    "type" : "cue",
+    "id" : "*/curlyPluck",
+    "name" : "curly hair - pluck - pull out",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "randomPitchLowCents" : -200,
+    "randomPitchHighCents" : 200
+  }, {
+    "type" : "cue",
+    "id" : "*/onion1",
+    "name" : "last pluck - onion - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/onion2",
+    "name" : "last pluck - onion - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/onion3",
+    "name" : "last pluck - onion - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/onion4",
+    "name" : "last pluck - onion - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/turnip1",
+    "name" : "last pluck - turnip - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/turnip2",
+    "name" : "last pluck - turnip - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/turnip3",
+    "name" : "last pluck - turnip - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/potato1",
+    "name" : "last pluck - potato - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/potato2",
+    "name" : "last pluck - potato - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/potato3",
+    "name" : "last pluck - potato - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
+}

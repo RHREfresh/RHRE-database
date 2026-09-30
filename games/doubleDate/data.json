@@ -2,6 +2,7 @@
   "id": "doubleDate",
   "name": "Double Date",
   "series": "fever",
+  "gameOrder" : 303,
   "objects": [
     {
       "type": "cue",

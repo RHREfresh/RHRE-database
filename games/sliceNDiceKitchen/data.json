@@ -2,6 +2,7 @@
   "id" : "sliceNDiceKitchen",
   "name" : "Slice N Dice Kitchen",
   "series" : "groove",
+  "gameOrder" : 508,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/hum1a",

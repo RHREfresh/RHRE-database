@@ -2,6 +2,7 @@
   "id" : "stopNGoNStop",
   "name" : "Stop N Go N Stop",
   "series" : "groove",
+  "gameOrder" : 505,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_brake",

@@ -3,6 +3,7 @@
   "id": "marchingOrdersTempoUp",
   "name": "Marching Orders Tempo Up!",
   "group": "Marching Orders (GBA)",
+  "gameOrder" : 102,
   "objects": [
     {
       "type": "cue",

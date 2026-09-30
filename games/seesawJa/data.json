@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "See-Saw",
+  "gameOrder" : 302,
   "objects": [
     {
       "type": "cue",

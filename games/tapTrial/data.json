@@ -1,8 +1,9 @@
 {
   "id": "tapTrial",
-  "name": "Tap Trial (Fever)",
+  "name": "Tap Trial (Wii/3DS)",
   "series": "fever",
   "priority": -1,
+  "gameOrder" : 332,
   "objects": [
     {
       "type": "cue",

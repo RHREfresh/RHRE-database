@@ -1,7 +1,8 @@
 {
   "id": "coinTossMegamix",
-  "name": "Coin Toss (Megamix)",
+  "name": "Coin Toss (3DS)",
   "series": "side",
+  "gameOrder" : 465,
   "group": "Coin Toss",
   "groupDefault": true,
   "objects": [

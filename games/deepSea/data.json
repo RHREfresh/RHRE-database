@@ -2,6 +2,7 @@
   "id" : "deepSea",
   "name" : "Deep Sea",
   "series" : "groove",
+  "gameOrder" : 530,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/row",

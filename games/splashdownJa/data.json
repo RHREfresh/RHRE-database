@@ -2,6 +2,7 @@
   "id": "splashdownJa",
   "name": "Splashdown",
   "series": "ds",
+  "gameOrder" : 216,
   "language": "ja",
   "group": "Splashdown",
   "objects": [

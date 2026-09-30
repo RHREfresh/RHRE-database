@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "en",
   "group": "Flipper-Flop",
+  "gameOrder" : 317,
   "objects": [
     {
       "type": "cue",

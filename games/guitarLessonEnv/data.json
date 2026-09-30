@@ -2,6 +2,7 @@
   "id": "guitarLessonEnv",
   "name": "Guitar Lessons - Glee Club",
   "series": "side",
+  "gameOrder" : 238,
   "group": "Guitar Lessons",
   "objects": [
     {

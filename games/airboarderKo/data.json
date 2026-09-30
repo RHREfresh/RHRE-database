@@ -2,6 +2,7 @@
   "id": "airboarderKo",
   "name": "Airboarder (DS)",
   "series": "ds",
+  "gameOrder" : 224,
   "language": "ko",
   "group": "Airboarder (DS)",
   "objects": [

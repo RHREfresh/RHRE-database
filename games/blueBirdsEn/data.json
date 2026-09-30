@@ -2,6 +2,7 @@
   "series": "ds",
   "id": "blueBirdsEn",
   "name": "Blue Birds (DS)",
+  "gameOrder" : 206,
   "language": "en",
   "group": "Blue Birds (DS)",
   "groupDefault": true,

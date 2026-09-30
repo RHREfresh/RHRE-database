@@ -2,6 +2,7 @@
   "id": "rockersVoiceIt",
   "name": "Rockers - Voice",
   "series": "ds",
+  "gameOrder" : 222,
   "language": "it",
   "group": "Rockers",
   "priority": -1,

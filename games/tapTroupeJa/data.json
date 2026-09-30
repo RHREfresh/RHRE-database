@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "Tap Troupe",
+  "gameOrder" : 324,
   "objects": [
     {
       "type": "keepTheBeat",

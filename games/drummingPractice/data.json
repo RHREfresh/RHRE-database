@@ -1,37 +1,75 @@
 {
-  "series": "side",
-  "id": "drummingPractice",
-  "name": "Drumming Practice",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/raisearm",
-      "deprecatedIDs": [],
-      "name": "raise arm",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/hitdrum",
-      "deprecatedIDs": [],
-      "name": "hit drum",
-      "duration": 1.0
-    },
-    {
-      "type": "pattern",
-      "id": "*_hitdrum",
-      "deprecatedIDs": [],
-      "name": "hit drum",
-      "cues": [
-        {
-          "id": "*/raisearm",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hitdrum",
-          "beat": 1.0
-        }
-      ]
-    }
-  ]
+  "id" : "drummingPractice",
+  "name" : "Drumming Practice",
+  "series" : "side",
+  "gameOrder" : 464,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/raiseArms",
+    "name" : "raise arms",
+    "deprecatedIDs" : [ "drummingPractice/raisearm" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hitDrums",
+    "name" : "hit drums",
+    "deprecatedIDs" : [ "drummingPractice/hitdrum" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "introSound" : "extraSFX/audience/Wii/clapping",
+    "randomPitchLowCents" : -25,
+    "randomPitchHighCents" : 25
+  }, {
+    "type" : "cue",
+    "id" : "*/hitDrumsNoApplause",
+    "name" : "hit drums (no applause)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "[#BFBFBF](not in-game)[]",
+    "duration" : 1.0,
+    "randomPitchLowCents" : -25,
+    "randomPitchHighCents" : 25
+  }, {
+    "type" : "pattern",
+    "id" : "*_hitDrums",
+    "name" : "hit drums",
+    "deprecatedIDs" : [ "drummingPractice_hitdrum" ],
+    "cues" : [ {
+      "id" : "*/raiseArms",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hitDrums",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_hitDrumsNoApplause",
+    "name" : "hit drums (no applause)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/raiseArms",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hitDrumsNoApplause",
+      "beat" : 1.0
+    } ],
+    "subtext" : "[#BFBFBF](not in-game)[]"
+  }, {
+    "type" : "cue",
+    "id" : "*/hitDrumIntro",
+    "name" : "hit drum (intro)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "randomPitchLowCents" : -25,
+    "randomPitchHighCents" : 25
+  }, {
+    "type" : "cue",
+    "id" : "*/showTimingDisplay",
+    "name" : "show timing display",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
 }

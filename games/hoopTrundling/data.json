@@ -4,6 +4,7 @@
   "series" : "groove",
   "group" : "Hoop Trundling",
   "groupDefault" : true,
+  "gameOrder" : 500,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/pa",

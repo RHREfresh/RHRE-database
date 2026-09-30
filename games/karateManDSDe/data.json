@@ -2,6 +2,7 @@
   "id": "karateManDSDe",
   "name": "Karate Man (DS)",
   "series": "ds",
+  "gameOrder" : 223,
   "language": "de",
   "group": "Karate Man (DS)",
   "objects": [
@@ -33,7 +34,7 @@
         "karateManDSDe/pothit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -53,7 +54,7 @@
         "karateManDSDe/bulbhit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",

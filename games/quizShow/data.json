@@ -1,7 +1,8 @@
 {
   "id": "quizShow",
-  "name": "Quiz Show (Megamix)",
+  "name": "Quiz Show (3DS)",
   "series": "megamix",
+  "gameOrder" : 426,
   "objects": [
     {
       "type": "cue",

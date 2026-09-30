@@ -1,281 +1,215 @@
 {
-  "id": "packingPestsJa",
-  "name": "Packing Pests",
-  "series": "fever",
-  "language": "ja",
-  "group": "Packing Pests",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/candyOut",
-      "name": "candy - out",
-      "deprecatedIDs": [
-        "packingPestsJa/candy1"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/candyCatch",
-      "name": "candy - catch",
-      "deprecatedIDs": [
-        "packingPestsJa/candy2"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/spiderOut",
-      "name": "spider - out",
-      "deprecatedIDs": [
-        "packingPestsJa/spider1"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/spiderSlap",
-      "name": "spider - slap",
-      "deprecatedIDs": [
-        "packingPestsJa/spider2"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/ikuze",
-      "name": "ikuze",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0,
-      "baseBpm": 136.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ikuzeSplit1",
-      "name": "ikuze - 1",
-      "deprecatedIDs": [
-        "packingPestsJa/ikuze1"
-      ],
-      "subtext": "",
-      "duration": 0.125
-    },
-    {
-      "type": "cue",
-      "id": "*/ikuzeSplit2",
-      "name": "ikuze - 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.208
-    },
-    {
-      "type": "cue",
-      "id": "*/ikuzeSplit3",
-      "name": "ikuze - 3",
-      "deprecatedIDs": [
-        "packingPestsJa/ikuze2"
-      ],
-      "subtext": "",
-      "duration": 0.6666667
-    },
-    {
-      "type": "cue",
-      "id": "*/signalDing",
-      "name": "signal - ding",
-      "deprecatedIDs": [
-        "packingPestsJa/ding"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/signalVoice",
-      "name": "signal - hm",
-      "deprecatedIDs": [
-        "packingPestsJa/dingHm"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "pattern",
-      "id": "*_pattern",
-      "name": "pattern",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/candyOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/candyCatch",
-          "beat": 1.0
-        },
-        {
-          "id": "*/spiderOut",
-          "beat": 2.0
-        },
-        {
-          "id": "*/spiderSlap",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_ikuzeSoundStretch",
-      "name": "double up!",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/candyOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/ikuze",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/candyCatch",
-          "beat": 1.0
-        },
-        {
-          "id": "*/spiderOut",
-          "beat": 1.5
-        },
-        {
-          "id": "*/spiderSlap",
-          "beat": 2.5
-        },
-        {
-          "id": "*/spiderOut",
-          "beat": 2.5,
-          "track": 1
-        },
-        {
-          "id": "*/spiderSlap",
-          "beat": 3.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_pattern2",
-      "name": "offbeat pattern",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/candyOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/candyCatch",
-          "beat": 1.0
-        },
-        {
-          "id": "*/spiderOut",
-          "beat": 1.5
-        },
-        {
-          "id": "*/spiderSlap",
-          "beat": 2.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_dingpattern",
-      "name": "ding pattern",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/signalDing",
-          "beat": 0.0
-        },
-        {
-          "id": "*/signalVoice",
-          "beat": 0.5
-        },
-        {
-          "id": "*/candyOut",
-          "beat": 1.0
-        },
-        {
-          "id": "*/candyCatch",
-          "beat": 2.0
-        },
-        {
-          "id": "*/spiderOut",
-          "beat": 2.5
-        },
-        {
-          "id": "*/spiderSlap",
-          "beat": 3.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_ikuzeSplit",
-      "name": "double up! - no sound stretch",
-      "deprecatedIDs": [
-        "packingPestsJa_ikuze"
-      ],
-      "cues": [
-        {
-          "id": "*/candyOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/ikuzeSplit1",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/ikuzeSplit2",
-          "beat": 0.125,
-          "track": 1
-        },
-        {
-          "id": "*/ikuzeSplit3",
-          "beat": 0.33333334,
-          "track": 1
-        },
-        {
-          "id": "*/candyCatch",
-          "beat": 1.0
-        },
-        {
-          "id": "*/spiderOut",
-          "beat": 1.5
-        },
-        {
-          "id": "*/spiderSlap",
-          "beat": 2.5
-        },
-        {
-          "id": "*/spiderOut",
-          "beat": 2.5,
-          "track": 1
-        },
-        {
-          "id": "*/spiderSlap",
-          "beat": 3.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    }
-  ]
+  "id" : "packingPestsJa",
+  "name" : "Packing Pests",
+  "series" : "fever",
+  "language" : "ja",
+  "group" : "Packing Pests",
+  "gameOrder" : 313,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/candyOut",
+    "name" : "candy - out",
+    "deprecatedIDs" : [ "packingPestsJa/candy1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/candyCatch",
+    "name" : "candy - catch",
+    "deprecatedIDs" : [ "packingPestsJa/candy2" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/spiderOut",
+    "name" : "spider - out",
+    "deprecatedIDs" : [ "packingPestsJa/spider1" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "randomPitchLowCents" : -50,
+    "randomPitchHighCents" : 50
+  }, {
+    "type" : "cue",
+    "id" : "*/spiderSlap",
+    "name" : "spider - slap",
+    "deprecatedIDs" : [ "packingPestsJa/spider2" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/ikuze",
+    "name" : "ikuze",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "baseBpm" : 136.0
+  }, {
+    "type" : "cue",
+    "id" : "*/ikuzeSplit1",
+    "name" : "ikuze - 1",
+    "deprecatedIDs" : [ "packingPestsJa/ikuze1" ],
+    "subtext" : "",
+    "duration" : 0.125
+  }, {
+    "type" : "cue",
+    "id" : "*/ikuzeSplit2",
+    "name" : "ikuze - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.208
+  }, {
+    "type" : "cue",
+    "id" : "*/ikuzeSplit3",
+    "name" : "ikuze - 3",
+    "deprecatedIDs" : [ "packingPestsJa/ikuze2" ],
+    "subtext" : "",
+    "duration" : 0.6666667
+  }, {
+    "type" : "cue",
+    "id" : "*/signalDing",
+    "name" : "signal - ding",
+    "deprecatedIDs" : [ "packingPestsJa/ding" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/signalVoice",
+    "name" : "signal - hm",
+    "deprecatedIDs" : [ "packingPestsJa/dingHm" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_pattern",
+    "name" : "pattern",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/candyOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/candyCatch",
+      "beat" : 1.0
+    }, {
+      "id" : "*/spiderOut",
+      "beat" : 2.0
+    }, {
+      "id" : "*/spiderSlap",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_ikuzeSoundStretch",
+    "name" : "double up!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/candyOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/ikuze",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/candyCatch",
+      "beat" : 1.0
+    }, {
+      "id" : "*/spiderOut",
+      "beat" : 1.5
+    }, {
+      "id" : "*/spiderSlap",
+      "beat" : 2.5
+    }, {
+      "id" : "*/spiderOut",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/spiderSlap",
+      "beat" : 3.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pattern2",
+    "name" : "offbeat pattern",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/candyOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/candyCatch",
+      "beat" : 1.0
+    }, {
+      "id" : "*/spiderOut",
+      "beat" : 1.5
+    }, {
+      "id" : "*/spiderSlap",
+      "beat" : 2.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_dingpattern",
+    "name" : "ding pattern",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/signalDing",
+      "beat" : 0.0
+    }, {
+      "id" : "*/signalVoice",
+      "beat" : 0.5
+    }, {
+      "id" : "*/candyOut",
+      "beat" : 1.0
+    }, {
+      "id" : "*/candyCatch",
+      "beat" : 2.0
+    }, {
+      "id" : "*/spiderOut",
+      "beat" : 2.5
+    }, {
+      "id" : "*/spiderSlap",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_ikuzeSplit",
+    "name" : "double up! - no sound stretch",
+    "deprecatedIDs" : [ "packingPestsJa_ikuze" ],
+    "cues" : [ {
+      "id" : "*/candyOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/ikuzeSplit1",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/ikuzeSplit2",
+      "beat" : 0.125,
+      "track" : 1
+    }, {
+      "id" : "*/ikuzeSplit3",
+      "beat" : 0.33333334,
+      "track" : 1
+    }, {
+      "id" : "*/candyCatch",
+      "beat" : 1.0
+    }, {
+      "id" : "*/spiderOut",
+      "beat" : 1.5
+    }, {
+      "id" : "*/spiderSlap",
+      "beat" : 2.5
+    }, {
+      "id" : "*/spiderOut",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/spiderSlap",
+      "beat" : 3.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
 }
