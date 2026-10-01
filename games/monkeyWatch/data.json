@@ -2,7 +2,7 @@
   "id" : "monkeyWatch",
   "name" : "Monkey Watch",
   "series" : "fever",
-  "gameOrder" : 305,
+  "gameOrder" : 307,
   "objects" : [ {
     "type" : "keepTheBeat",
     "id" : "*_highFiveStretch",
