@@ -387,7 +387,7 @@
     "name" : "success",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.333
   }, {
     "type" : "cue",
     "id" : "*/alarm",
