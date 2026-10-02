@@ -45,7 +45,7 @@
     "type" : "pattern",
     "id" : "*_defectivePudding",
     "name" : "defective pudding",
-    "deprecatedIDs" : [ "yumBotSimulator/defect" ],
+    "deprecatedIDs" : [ "yumBotSimulator_defect" ],
     "cues" : [ {
       "id" : "*/defectivePuddingWarning",
       "beat" : 1.4E-45
@@ -67,7 +67,7 @@
     "type" : "pattern",
     "id" : "*_defectivePuddingLong",
     "name" : "defective pudding - long",
-    "deprecatedIDs" : [ "yumBotSimulator/defectLong" ],
+    "deprecatedIDs" : [ "yumBotSimulator_defectLong" ],
     "cues" : [ {
       "id" : "*/defectivePuddingWarning",
       "beat" : 1.4E-45
