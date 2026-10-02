@@ -5,6 +5,7 @@
   "id": "specialVfx",
   "name": "Visual Effects",
   "gameOrder" : -5,
+  "noDisplay" : true,
   "priority": -1,
   "objects": [
     {

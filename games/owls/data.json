@@ -9,7 +9,10 @@
     "name" : "ready?",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 1.0,
+    "stretchable" : true,
+    "baseBpm" : 100.0,
+    "useTimeStretching" : false
   }, {
     "type" : "cue",
     "id" : "*/parenthoot",
@@ -17,21 +20,18 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
-    "responseIDs" : [ "*/playerhoot" ]
-  }, {
-    "type" : "cue",
-    "id" : "*/playerhoot",
-    "name" : "player - hoot",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
+    "stretchable" : true,
+    "responseIDs" : [ "*/playerhoot" ],
+    "loops" : true,
+    "loopStart" : 1.16,
+    "loopEnd" : 1.166
   }, {
     "type" : "cue",
     "id" : "*/parentshrink",
     "name" : "parent - shrink",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5,
+    "duration" : 1.0,
     "stretchable" : true,
     "endingSound" : "*/parentunshrink",
     "responseIDs" : [ "*/playershrink" ]
@@ -52,11 +52,22 @@
     "responseIDs" : [ "*/playerhootshrunk" ]
   }, {
     "type" : "cue",
+    "id" : "*/playerhoot",
+    "name" : "player - hoot",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "stretchable" : true,
+    "loops" : true,
+    "loopStart" : 1.15,
+    "loopEnd" : 1.158
+  }, {
+    "type" : "cue",
     "id" : "*/playershrink",
     "name" : "player - shrink",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5,
+    "duration" : 1.0,
     "stretchable" : true,
     "endingSound" : "*/playerunshrink"
   }, {
