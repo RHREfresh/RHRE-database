@@ -371,7 +371,7 @@
     "deprecatedIDs" : [ "sneezyMoon/slowchu" ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.065
+    "earliness" : 0.066
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeFastPrepare1",
