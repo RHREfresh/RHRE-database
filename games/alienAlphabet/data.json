@@ -2,7 +2,7 @@
   "id" : "alienAlphabet",
   "name" : "Alien Alphabet",
   "series" : "groove",
-  "gameOrder": 513,
+  "gameOrder" : 513,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_cha",
@@ -211,28 +211,28 @@
     "type" : "cue",
     "id" : "*/chaAlien1",
     "name" : "alien - cha - uh",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet/aliencha1" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/chaAlien2",
     "name" : "alien - cha - cha",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet/aliencha2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/bomAlien",
     "name" : "alien - bom",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet/alienbom" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/chaKids",
     "name" : "friends - cha",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet/girlcha" ],
     "subtext" : "",
     "duration" : 0.5,
     "earliness" : 0.035
@@ -240,7 +240,7 @@
     "type" : "cue",
     "id" : "*/bomKids",
     "name" : "friends - bom",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet/girlbom" ],
     "subtext" : "",
     "duration" : 0.5,
     "earliness" : 0.038
@@ -248,7 +248,7 @@
     "type" : "cue",
     "id" : "*/chaAdults",
     "name" : "friends - cha - adults",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet/girlgrowncha" ],
     "subtext" : "",
     "duration" : 0.5,
     "earliness" : 0.024
@@ -256,7 +256,7 @@
     "type" : "cue",
     "id" : "*/bomAdults",
     "name" : "friends - bom - adults",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet/girlgrownbom" ],
     "subtext" : "",
     "duration" : 0.5,
     "earliness" : 0.02
