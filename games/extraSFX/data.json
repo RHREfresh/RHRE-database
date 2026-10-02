@@ -3,6 +3,7 @@
   "name": "Extra Sound Effects",
   "series": "other",
   "gameOrder" : -3,
+  "noDisplay" : true,
   "objects": [
     {
       // WARNING: This cue is used internally by the editor for Playalong
