@@ -113,7 +113,7 @@
     "type" : "cue",
     "id" : "*/hop",
     "name" : "hop",
-    "deprecatedIDs" : [ "hopStopNRoll/hop" ],
+    "deprecatedIDs" : [ "hopStopNRoll/hop", "hopStopNRoll/jump" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
