@@ -1,3 +1,9 @@
+# v143
+
+## Bouncy Pufferfish
+- Added the "whistle count-in - short" and "whistle count-in - long" sounds
+- Added the "whistle count-in - deflated" and "whistle count-in - inflated" patterns
+
 # v142
 
 ## Game-Specific Changes

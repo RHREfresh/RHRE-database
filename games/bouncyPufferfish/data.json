@@ -47,6 +47,29 @@
     "subtext" : "",
     "duration" : 0.5
   }, {
+    "type" : "pattern",
+    "id" : "*_whistleCountInDeflated",
+    "name" : "whistle count-in - deflated",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whistleLong",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_whistleCountInInflated",
+    "name" : "whistle count-in - inflated",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whistleShort",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/whistleLong",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
     "type" : "cue",
     "id" : "*/cashregister",
     "name" : "cash register",
@@ -64,6 +87,20 @@
     "type" : "cue",
     "id" : "*/pufferfishbounceinflated",
     "name" : "pufferfish - bounce - inflated",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/whistleShort",
+    "name" : "whistle count-in - short",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/whistleLong",
+    "name" : "whistle count-in - long",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
