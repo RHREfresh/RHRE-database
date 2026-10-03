@@ -1,3 +1,7 @@
+## Hoop Trundling (All Versions)
+- Added patterns for every bubble pattern that appears in an official Rhythm Heaven Groove minigame/remix
+- Made the "hoop" sound stretchable for easier custom bubble patterns
+
 # v143
 
 ## Bouncy Pufferfish

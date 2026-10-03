@@ -46,7 +46,8 @@
     "name" : "hoop",
     "deprecatedIDs" : [ "hoopTrundling/hoopPass" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "stretchable" : true
   }, {
     "type" : "pattern",
     "id" : "*_paPiPuPePo",
@@ -70,6 +71,136 @@
     }, {
       "id" : "*/po",
       "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_paPiXxXxPo",
+    "name" : "pa pi __ __ po",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hoop",
+      "beat" : -1.0
+    }, {
+      "id" : "*/pa",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pi",
+      "beat" : 0.5
+    }, {
+      "id" : "*/po",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_paXxPuXxPo",
+    "name" : "pa __ pu __ po",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hoop",
+      "beat" : -1.0
+    }, {
+      "id" : "*/pa",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pu",
+      "beat" : 1.0
+    }, {
+      "id" : "*/po",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_paXxXxPePo",
+    "name" : "pa __ __ pe po",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hoop",
+      "beat" : -1.0
+    }, {
+      "id" : "*/pa",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pe",
+      "beat" : 1.5
+    }, {
+      "id" : "*/po",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_paXxXxXxPo",
+    "name" : "pa __ __ __ po",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hoop",
+      "beat" : -1.0
+    }, {
+      "id" : "*/pa",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/po",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_xxPiPuPePo",
+    "name" : "__ pi pu pe po",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hoop",
+      "beat" : -1.5,
+      "duration" : 1.5
+    }, {
+      "id" : "*/pi",
+      "beat" : 0.0
+    }, {
+      "id" : "*/pu",
+      "beat" : 0.5
+    }, {
+      "id" : "*/pe",
+      "beat" : 1.0
+    }, {
+      "id" : "*/po",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_xxXxPuPePo",
+    "name" : "__ __ pu pe po",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hoop",
+      "beat" : -2.0,
+      "duration" : 2.0
+    }, {
+      "id" : "*/pu",
+      "beat" : 0.0
+    }, {
+      "id" : "*/pe",
+      "beat" : 0.5
+    }, {
+      "id" : "*/po",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_xxXxXxXxPo",
+    "name" : "__ __ __ __ po",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hoop",
+      "beat" : -3.0,
+      "duration" : 3.0
+    }, {
+      "id" : "*/po",
+      "beat" : 0.0
     } ],
     "subtext" : ""
   } ]
