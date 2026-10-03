@@ -2,6 +2,9 @@
 - Added patterns for every bubble pattern that appears in an official Rhythm Heaven Groove minigame/remix
 - Made the "hoop" sound stretchable for easier custom bubble patterns
 
+## Owls
+- Reverted making the "ready?" sound stretchable; still speeds up and is now 1.5 beats long
+
 # v143
 
 ## Bouncy Pufferfish

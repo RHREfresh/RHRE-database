@@ -9,8 +9,7 @@
     "name" : "ready?",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0,
-    "stretchable" : true,
+    "duration" : 1.5,
     "baseBpm" : 100.0,
     "useTimeStretching" : false
   }, {
