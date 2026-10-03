@@ -59,13 +59,13 @@
 
 # v141
 
+## Game-Specific Changes
+
 ### Samurai Slice (GBA)
 - Corrected the `gameOrder` value (previously 105, now 106)
 
 ### Monkey Watch
 - Corrected the `gameOrder` value (previously 305, now 307)
-
-## Game-Specific Changes
 
 ### Yum-Bot Simulator
 - Fixed Deprecated IDs for the defective pudding patterns
