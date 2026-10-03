@@ -99,7 +99,8 @@
       "name": "mandrill - 4",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0
+      "duration": 2.0,
+      "earliness": 0.037
     },
     {
       "type": "pattern",

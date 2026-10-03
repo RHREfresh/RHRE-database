@@ -28,14 +28,14 @@
     "type" : "cue",
     "id" : "*/frogBeep",
     "name" : "frog - short ay",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "canDo/frogayshort" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/frogAyy",
     "name" : "frog - ay",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "canDo/frogay" ],
     "subtext" : "",
     "duration" : 1.0,
     "loops" : true,
@@ -45,7 +45,7 @@
     "type" : "cue",
     "id" : "*/frogYah",
     "name" : "frog - yah!",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "canDo/frogya" ],
     "subtext" : "",
     "duration" : 0.5
   }, {

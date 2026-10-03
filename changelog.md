@@ -1,6 +1,26 @@
+# v144
+
+### Hole in One
+- Adjusted earliness for "mandrill - 4"
+
+### Hoop Trundling (All Versions)
+- Added patterns for every bubble pattern that appears in an official Rhythm Heaven Groove minigame/remix
+- Made the "hoop" sound stretchable for easier custom bubble patterns
+
+### Can Do
+- Added Deprecated IDs to sounds that were missing them:
+   - frog - short ay
+   - frog - ay
+   - frog - yah!
+
+### Owls
+- Reverted making the "ready?" sound stretchable; still speeds up and is now 1.5 beats long
+
 # v143
 
-## Bouncy Pufferfish
+## Game-Specific Changes
+
+### Bouncy Pufferfish
 - Added the "whistle count-in - short" and "whistle count-in - long" sounds
 - Added the "whistle count-in - deflated" and "whistle count-in - inflated" patterns
 
