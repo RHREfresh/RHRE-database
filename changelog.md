@@ -33,6 +33,12 @@
 
 # v141
 
+### Samurai Slice (GBA)
+- Corrected the `gameOrder` value (previously 105, now 106)
+
+### Monkey Watch
+- Corrected the `gameOrder` value (previously 305, now 307)
+
 ## Game-Specific Changes
 
 ### Yum-Bot Simulator
@@ -47,20 +53,7 @@
 ### Germ Aerobics
 - Added Deprecated IDs to "wind-up - triple"
 
-**Full Changelog**: https://github.com/RHREfresh/RHRE-database/compare/v140.1...v141
-
-
-# v140.1
-
-## Game-Specific Changes
-
-### Samurai Slice (GBA)
-- Corrected the `gameOrder` value (previously 105, now 106)
-
-### Monkey Watch
-- Corrected the `gameOrder` value (previously 305, now 307)
-
-**Full Changelog:** https://github.com/RHREfresh/RHRE-database/compare/v140...v140.1
+**Full Changelog**: https://github.com/RHREfresh/RHRE-database/compare/v140...v141
 
 # v140
 
