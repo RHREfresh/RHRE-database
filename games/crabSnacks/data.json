@@ -94,7 +94,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_favabeansRemix16",
-    "name" : "fava bean (remix 16)",
+    "name" : "fava bean (Remix 16)",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/favabeanhit1",

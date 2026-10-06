@@ -1,3 +1,6 @@
+# Crab Snacks
+- Fixed a capitalization error in the "fava bean (Remix 16)" pattern
+
 # v145
 ### Karate Man (3DS, All Languages)
 - Added tempo-based echo to most sound effects when possible to be more game-accurate
