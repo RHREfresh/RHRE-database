@@ -1,3 +1,12 @@
+# v145
+### Karate Man (3DS, All Languages)
+- Added tempo-based echo to most sound effects when possible to be more game-accurate
+- Adjusted earliness on vocal cues
+- Vocal cues have been renamed to reflect what they’re saying in each language
+- Re-organized the folder structure to be cleaner
+- The "double pot" pattern has been modified to fit into 1 track (down from 2)
+- The "combo (Senior) pattern has been modified to fit into 2 tracks (down from 3)
+
 # v144
 
 ### Hole in One
