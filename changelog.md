@@ -1,7 +1,18 @@
+# v146
+
+### Fireworks
+- All patterns and sounds have been renamed for better organization
+- All sounds have been re-rendered to be crisp GBA sound chip quality
+- Time stretching has been removed from all sounds to be more game-accurate
+- Earliness has been adjusted on vocal cues to be more game-accurate
+- The "launch - rhythm rocket (counting)" sound is now a proper pattern with rhythm based sounds instead of being a single time stretched sound. Other patterns have been updated to utilize it.
+- The "explode - all" pattern now only takes up 1 track instead of 3
+
 ### Crab Snacks
 - Fixed a capitalization error in the "fava bean (Remix 16)" pattern
 
 # v145
+
 ### Karate Man (3DS, All Languages)
 - Added tempo-based echo to most sound effects when possible to be more game-accurate
 - Adjusted earliness on vocal cues

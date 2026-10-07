@@ -1,362 +1,305 @@
 {
-  "id": "fireworks",
-  "name": "Fireworks",
-  "series": "tengoku",
-  "searchHints": [
-    "hanabi"
-  ],
+  "id" : "fireworks",
+  "name" : "Fireworks",
+  "series" : "tengoku",
   "gameOrder" : 123,
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/rocket",
-      "name": "rhythm rocket",
-      "deprecatedIDs": [
-        "fireworks/firework1"
-      ],
-      "subtext": "",
-      "duration": 3.0,
-      "baseBpm": 140.0,
-      "baseBpmRules": "onlyTimeStretch"
-    },
-    {
-      "type": "cue",
-      "id": "*/rocketCount",
-      "name": "rhythm rocket - count",
-      "deprecatedIDs": [
-        "fireworks/fireworkichi"
-      ],
-      "subtext": "",
-      "duration": 3.0,
-      "baseBpm": 121.0,
-      "baseBpmRules": "onlyTimeStretch"
-    },
-    {
-      "type": "cue",
-      "id": "*/nuei",
-      "name": "spirit sparkler",
-      "deprecatedIDs": [
-        "fireworks/quickshot2"
-      ],
-      "subtext": "",
-      "duration": 2.0,
-      "baseBpm": 140.0,
-      "baseBpmRules": "onlyTimeStretch",
-      "earliness": 0.235
-    },
-    {
-      "type": "cue",
-      "id": "*/tamaya",
-      "name": "taiko drum bomb",
-      "deprecatedIDs": [
-        "fireworks/bomb1"
-      ],
-      "subtext": "",
-      "duration": 3.0,
-      "baseBpm": 140.0,
-      "baseBpmRules": "onlyTimeStretch"
-    },
-    {
-      "type": "cue",
-      "id": "*/explode",
-      "name": "explode",
-      "deprecatedIDs": [
-        "fireworks/firework2",
-        "fireworks/quickshot3"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/explodeHai",
-      "name": "explode - hai",
-      "deprecatedIDs": [
-        "fireworks/fireworkhai",
-        "fireworks/quickshothai"
-      ],
-      "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.02
-    },
-    {
-      "type": "cue",
-      "id": "*/explodeTaiko",
-      "name": "explode - taiko",
-      "deprecatedIDs": [
-        "fireworks/bomb4"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/explodeTaikoHai",
-      "name": "explode - taiko - hai",
-      "deprecatedIDs": [
-        "fireworks/bombhai"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/explodeAll",
-      "name": "explode - all",
-      "deprecatedIDs": [
-        "fireworks/all"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/count1",
-      "name": "counting - one",
-      "deprecatedIDs": [
-        "fireworks/one"
-      ],
-      "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.025
-    },
-    {
-      "type": "cue",
-      "id": "*/count2",
-      "name": "counting - two",
-      "deprecatedIDs": [
-        "fireworks/two"
-      ],
-      "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.036
-    },
-    {
-      "type": "cue",
-      "id": "*/count3",
-      "name": "counting - three",
-      "deprecatedIDs": [
-        "fireworks/three"
-      ],
-      "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.073
-    },
-    {
-      "type": "cue",
-      "id": "*/countHai",
-      "name": "counting - hai",
-      "deprecatedIDs": [
-        "fireworks/hey"
-      ],
-      "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.012
-    },
-    {
-      "type": "pattern",
-      "id": "*_rocket",
-      "name": "rhythm rocket",
-      "deprecatedIDs": [
-        "fireworks_firework"
-      ],
-      "cues": [
-        {
-          "id": "*/rocket",
-          "beat": 0.0
-        },
-        {
-          "id": "*/explode",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_rocketPractice",
-      "name": "rhythm rocket - practice",
-      "deprecatedIDs": [
-        "fireworks_fireworkpractice"
-      ],
-      "cues": [
-        {
-          "id": "*/rocketCount",
-          "beat": 0.0
-        },
-        {
-          "id": "*/explodeHai",
-          "beat": 3.0
-        }
-      ],
-      "subtext": "(\"1, 2, 3, Hai!\")"
-    },
-    {
-      "type": "pattern",
-      "id": "*_rocketRemixShort",
-      "name": "rhythm rocket - Remix 5",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/rocket",
-          "beat": 0.0
-        },
-        {
-          "id": "*/count1",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/count2",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/count3",
-          "beat": 2.0,
-          "track": 1
-        },
-        {
-          "id": "*/countHai",
-          "beat": 3.0,
-          "track": 1
-        },
-        {
-          "id": "*/explode",
-          "beat": 3.0
-        }
-      ],
-      "subtext": "(\"1, 2, 3, Hai!\")"
-    },
-    {
-      "type": "pattern",
-      "id": "*_rocketRemixLong",
-      "name": "rhythm rocket - Remix 5",
-      "deprecatedIDs": [
-        "fireworks_fireworkremix5"
-      ],
-      "cues": [
-        {
-          "id": "*/count1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/count2",
-          "beat": 2.0
-        },
-        {
-          "id": "*_rocketRemixShort",
-          "beat": 4.0
-        }
-      ],
-      "subtext": "(\"1- 2- 1, 2, 3, Hai!\")"
-    },
-    {
-      "type": "pattern",
-      "id": "*_nuei",
-      "name": "spirit sparkler",
-      "deprecatedIDs": [
-        "fireworks_quickshot"
-      ],
-      "cues": [
-        {
-          "id": "*/nuei",
-          "beat": 0.0
-        },
-        {
-          "id": "*/explode",
-          "beat": 1.0,
-          "track": 1
-        }
-      ],
-      "subtext": "(\"Nuei!\")"
-    },
-    {
-      "type": "pattern",
-      "id": "*_nueiPractice",
-      "name": "spirit sparkler - practice",
-      "deprecatedIDs": [
-        "fireworks_quickshotpractice"
-      ],
-      "cues": [
-        {
-          "id": "*/nuei",
-          "beat": 0.0
-        },
-        {
-          "id": "*/explodeHai",
-          "beat": 1.0,
-          "track": 1
-        }
-      ],
-      "subtext": "(\"Nuei! Hai!\")"
-    },
-    {
-      "type": "pattern",
-      "id": "*_tamaya",
-      "name": "taiko drum bomb",
-      "deprecatedIDs": [
-        "fireworks_taikobomb"
-      ],
-      "cues": [
-        {
-          "id": "*/tamaya",
-          "beat": 0.0
-        },
-        {
-          "id": "*/explodeTaiko",
-          "beat": 2.0,
-          "track": 1
-        }
-      ],
-      "subtext": "(\"Tamaya~\")"
-    },
-    {
-      "type": "pattern",
-      "id": "*_tamayaPractice",
-      "name": "taiko drum bomb - practice",
-      "deprecatedIDs": [
-        "fireworks_taikobombpractice"
-      ],
-      "cues": [
-        {
-          "id": "*/tamaya",
-          "beat": 0.0
-        },
-        {
-          "id": "*/explodeTaikoHai",
-          "beat": 2.0,
-          "track": 1
-        }
-      ],
-      "subtext": "(\"Tamaya~ Hai!\")"
-    },
-    {
-      "type": "pattern",
-      "id": "*_allFireworks",
-      "name": "all fireworks",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/rocket",
-          "beat": 0.0
-        },
-        {
-          "id": "*/tamaya",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/nuei",
-          "beat": 2.0,
-          "track": 2
-        },
-        {
-          "id": "*/explodeAll",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    }
-  ]
+  "searchHints" : [ "hanabi" ],
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/rocket",
+    "name" : "launch - rhythm rocket",
+    "deprecatedIDs" : [ "fireworks/firework1" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "useTimeStretching" : false,
+    "baseBpmRules" : "onlyTimeStretch"
+  }, {
+    "type" : "cue",
+    "id" : "*/nuei",
+    "name" : "launch - spirit sparkler",
+    "deprecatedIDs" : [ "fireworks/quickshot2" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "useTimeStretching" : false,
+    "baseBpmRules" : "onlyTimeStretch",
+    "earliness" : 0.235
+  }, {
+    "type" : "cue",
+    "id" : "*/tamaya",
+    "name" : "launch - taiko drum bomb",
+    "deprecatedIDs" : [ "fireworks/bomb1" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "useTimeStretching" : false,
+    "baseBpmRules" : "onlyTimeStretch"
+  }, {
+    "type" : "cue",
+    "id" : "*/explode",
+    "name" : "explode - firework",
+    "deprecatedIDs" : [ "fireworks/firework2", "fireworks/quickshot3", "fireworks/fireworkhai", "fireworks/quickshothai", "fireworks/explodeHai" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/explodeTaiko",
+    "name" : "explode - taiko drum bomb",
+    "deprecatedIDs" : [ "fireworks/bomb4", "fireworks/bombHai", "fireworks/explodeTaikoHai" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/explodeAll",
+    "name" : "explode - all",
+    "deprecatedIDs" : [ "fireworks/all" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/count1Remix5",
+    "name" : "counting - one",
+    "deprecatedIDs" : [ "fireworks/one", "fireworks/count1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/count2Remix5",
+    "name" : "counting - two",
+    "deprecatedIDs" : [ "fireworks/two", "fireworks/count2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/count3Remix5",
+    "name" : "counting - three",
+    "deprecatedIDs" : [ "fireworks/three", "fireworks/count3" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countHaiRemix5",
+    "name" : "counting - hai (Remix 5)",
+    "deprecatedIDs" : [ "fireworks/hey", "fireworks/countHai" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countI",
+    "name" : "counting - i-",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/countChi",
+    "name" : "counting - -chi",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.75
+  }, {
+    "type" : "cue",
+    "id" : "*/countNi",
+    "name" : "counting - ni",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countSan",
+    "name" : "counting - san",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countHaiPractice",
+    "name" : "counting - hai (practice)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_rocket",
+    "name" : "rhythm rocket",
+    "deprecatedIDs" : [ "fireworks_firework" ],
+    "cues" : [ {
+      "id" : "*/rocket",
+      "beat" : 0.0
+    }, {
+      "id" : "*/explode",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_nuei",
+    "name" : "spirit sparkler",
+    "deprecatedIDs" : [ "fireworks_quickshot" ],
+    "cues" : [ {
+      "id" : "*/nuei",
+      "beat" : 0.0
+    }, {
+      "id" : "*/explode",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tamaya",
+    "name" : "taiko drum bomb",
+    "deprecatedIDs" : [ "fireworks_taikobomb" ],
+    "cues" : [ {
+      "id" : "*/tamaya",
+      "beat" : 0.0
+    }, {
+      "id" : "*/explodeTaiko",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_allFireworks",
+    "name" : "all fireworks",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/rocket",
+      "beat" : 0.0
+    }, {
+      "id" : "*/tamaya",
+      "beat" : 1.0
+    }, {
+      "id" : "*/nuei",
+      "beat" : 2.0
+    }, {
+      "id" : "*/explodeAll",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rocketRemixShort",
+    "name" : "rhythm rocket (Remix 5) - 4 beats",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/rocket",
+      "beat" : 0.0
+    }, {
+      "id" : "*/count1Remix5",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/count2Remix5",
+      "beat" : 1.0
+    }, {
+      "id" : "*/count3Remix5",
+      "beat" : 2.0
+    }, {
+      "id" : "*/countHaiRemix5",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/explode",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rocketRemixLong",
+    "name" : "rhythm rocket (Remix 5) - 8 beats",
+    "deprecatedIDs" : [ "fireworks_fireworkremix5" ],
+    "cues" : [ {
+      "id" : "*/count1Remix5",
+      "beat" : 0.0
+    }, {
+      "id" : "*/count2Remix5",
+      "beat" : 2.0
+    }, {
+      "id" : "*_rocketRemixShort",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rocketPractice",
+    "name" : "rhythm rocket (practice)",
+    "deprecatedIDs" : [ "fireworks_fireworkpractice" ],
+    "cues" : [ {
+      "id" : "*_fireworkLaunchCounting",
+      "beat" : 0.0
+    }, {
+      "id" : "*/explode",
+      "beat" : 3.0
+    }, {
+      "id" : "*/countHaiPractice",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_nueiPractice",
+    "name" : "spirit sparkler (practice)",
+    "deprecatedIDs" : [ "fireworks_quickshotpractice" ],
+    "cues" : [ {
+      "id" : "*/nuei",
+      "beat" : 0.0
+    }, {
+      "id" : "*/explode",
+      "beat" : 1.0
+    }, {
+      "id" : "*/countHaiPractice",
+      "beat" : 1.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tamayaPractice",
+    "name" : "taiko drum bomb (practice)",
+    "deprecatedIDs" : [ "fireworks_taikobombpractice" ],
+    "cues" : [ {
+      "id" : "*/tamaya",
+      "beat" : 0.0
+    }, {
+      "id" : "*/explodeTaiko",
+      "beat" : 2.0
+    }, {
+      "id" : "*/countHaiPractice",
+      "beat" : 2.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fireworkLaunchCounting",
+    "name" : "launch - rhythm rocket (counting)",
+    "deprecatedIDs" : [ "fireworks/rocketCount", "fireworks/fireworkichi" ],
+    "cues" : [ {
+      "id" : "*/rocket",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*_countIchi",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/countNi",
+      "beat" : 1.0
+    }, {
+      "id" : "*/countSan",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_countIchi",
+    "name" : "counting - ichi",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/countI",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/countChi",
+      "beat" : 0.25
+    } ],
+    "subtext" : ""
+  } ]
 }
