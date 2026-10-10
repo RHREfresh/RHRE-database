@@ -1,8 +1,18 @@
+### Sick Beats (GBA)
+- All patterns have been renamed and coloured for better organization
+- "appear" now has pitch randomization
+- All sounds have been re-rendered to be crisp GBA sound chip quality
+
 ### Shrimp Shuffle (All Languages)
 - All patterns that were in swing now have un-swung versions; the old versions have been renamed to "(pre-swung)" to be in line with Kitties, Lightning Bolting, etc.
 - All patterns and sounds have been renamed for better organization
 - "all done!" cues have been renamed to reflect what they’re saying in each language
 - Adjusted earliness on pretty much everything to be more on-beat
+
+### Sick Beats (GBA)
+- All patterns have been renamed and coloured for better organization
+- "appear" has been replaced with "appear - 1" and "appear - 2", alongside a randomCue containing both
+- All sounds have been re-rendered
 
 # v146
 
