@@ -1,3 +1,44 @@
+# v147
+
+### Sick Beats (GBA)
+- All patterns have been renamed and coloured for better organization
+- "appear" now has pitch randomization
+- All sounds have been re-rendered to be crisp GBA sound chip quality
+
+### Shrimp Shuffle (All Languages)
+- All patterns that were in swing now have un-swung versions; the old versions have been renamed to "(pre-swung)" to be in line with Kitties, Lightning Bolting, etc.
+- All patterns and sounds have been renamed for better organization
+- "all done!" cues have been renamed to reflect what they’re saying in each language
+- Adjusted earliness on pretty much everything to be more on-beat
+
+### Sick Beats (GBA)
+- All patterns have been renamed and coloured for better organization
+- "appear" has been replaced with "appear - 1" and "appear - 2", alongside a randomCue containing both
+- All sounds have been re-rendered
+
+# v146
+
+### Fireworks
+- All patterns and sounds have been renamed for better organization
+- All sounds have been re-rendered to be crisp GBA sound chip quality
+- Time stretching has been removed from all sounds to be more game-accurate
+- Earliness has been adjusted on vocal cues to be more game-accurate
+- The "launch - rhythm rocket (counting)" sound is now a proper pattern with rhythm based sounds instead of being a single time stretched sound. Other patterns have been updated to utilize it.
+- The "explode - all" pattern now only takes up 1 track instead of 3
+
+### Crab Snacks
+- Fixed a capitalization error in the "fava bean (Remix 16)" pattern
+
+# v145
+
+### Karate Man (3DS, All Languages)
+- Added tempo-based echo to most sound effects when possible to be more game-accurate
+- Adjusted earliness on vocal cues
+- Vocal cues have been renamed to reflect what they’re saying in each language
+- Re-organized the folder structure to be cleaner
+- The "double pot" pattern has been modified to fit into 1 track (down from 2)
+- The "combo (Senior) pattern has been modified to fit into 2 tracks (down from 3)
+
 # v144
 
 ### Hole in One

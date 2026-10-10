@@ -1,333 +1,259 @@
 {
-  "id": "sickBeatsMegamix",
-  "name": "Sick Beats (3DS)",
-  "series": "side",
+  "id" : "sickBeatsMegamix",
+  "name" : "Sick Beats (3DS)",
+  "series" : "side",
   "gameOrder" : 466,
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/appear",
-      "name": "appear",
-      "deprecatedIDs": [
-        "sickBeatsMegamix/appear1",
-        "sickBeatsMegamix/appear2",
-        "sickBeatsMegamix_randomAppear"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/resist",
-      "name": "damage",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/stab",
-      "name": "kill",
-      "deprecatedIDs": [
-        "sickBeatsMegamix/stab1",
-        "sickBeatsMegamix/stab2",
-        "sickBeatsMegamix_randomStab"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/whoosh",
-      "name": "dash",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.1875
-    },
-    {
-      "type": "pattern",
-      "id": "*_blueVirusStart",
-      "name": "blue virus - start",
-      "deprecatedIDs": [
-        "sickBeatsMegamix_blueVirus1",
-        "sickBeatsMegamix_blueVirus2",
-        "sickBeatsMegamix_blueVirus"
-      ],
-      "cues": [
-        {
-          "id": "*/appear",
-          "beat": 0.0
-        },
-        {
-          "id": "*/stab",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_blueVirusPos1",
-      "name": "blue virus - position 1",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/whoosh",
-          "beat": 0.0,
-          "duration": 0.1875
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/stab",
-          "beat": 3.0,
-          "duration": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_blueVirusPos2",
-      "name": "blue virus - position 2",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/whoosh",
-          "beat": 0.0,
-          "duration": 0.1875
-        },
-        {
-          "id": "*/whoosh",
-          "beat": 0.1875,
-          "duration": 0.1875
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.1875,
-          "duration": 1.0
-        },
-        {
-          "id": "*/stab",
-          "beat": 3.1875,
-          "duration": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_blueVirusPos3",
-      "name": "blue virus - position 3",
-      "deprecatedIDs": [
-        "sickBeatsMegamix_quickBlueVirus"
-      ],
-      "cues": [
-        {
-          "id": "*/whoosh",
-          "beat": 0.0
-        },
-        {
-          "id": "*/whoosh",
-          "beat": 0.1875
-        },
-        {
-          "id": "*/whoosh",
-          "beat": 0.375
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.375
-        },
-        {
-          "id": "*/stab",
-          "beat": 3.375
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_pinkVirusStart",
-      "name": "pink virus - start",
-      "deprecatedIDs": [
-        "sickBeatsMegamix_pinkVirus1",
-        "sickBeatsMegamix_pinkVirus2",
-        "sickBeatsMegamix_pinkVirus"
-      ],
-      "cues": [
-        {
-          "id": "*/appear",
-          "beat": 0.0
-        },
-        {
-          "id": "*/resist",
-          "beat": 1.0
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.0
-        },
-        {
-          "id": "*/stab",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_pinkVirusPos1",
-      "name": "pink virus - position 1",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/whoosh",
-          "beat": 0.0,
-          "duration": 0.1875
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.0,
-          "duration": 0.99999994
-        },
-        {
-          "id": "*/resist",
-          "beat": 3.0,
-          "duration": 0.99999994
-        },
-        {
-          "id": "*/appear",
-          "beat": 4.0,
-          "duration": 0.99999994
-        },
-        {
-          "id": "*/stab",
-          "beat": 5.0,
-          "duration": 0.99999994
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_pinkVirusPos2",
-      "name": "pink virus - position 2",
-      "deprecatedIDs": [
-        "sickBeatsMegamix_quickPinkVirus"
-      ],
-      "cues": [
-        {
-          "id": "*/whoosh",
-          "beat": 0.0,
-          "duration": 0.1875
-        },
-        {
-          "id": "*/whoosh",
-          "beat": 0.1875,
-          "duration": 0.1875
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.1875,
-          "duration": 0.99999994
-        },
-        {
-          "id": "*/resist",
-          "beat": 3.1875,
-          "duration": 0.99999994
-        },
-        {
-          "id": "*/appear",
-          "beat": 4.1875,
-          "duration": 0.99999994
-        },
-        {
-          "id": "*/stab",
-          "beat": 5.1875,
-          "duration": 0.99999994
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_blackVirusStart",
-      "name": "black virus - start",
-      "deprecatedIDs": [
-        "sickBeatsMegamix_blackVirus1",
-        "sickBeatsMegamix_blackVirus2",
-        "sickBeatsMegamix_blackVirus"
-      ],
-      "cues": [
-        {
-          "id": "*/appear",
-          "beat": 0.0
-        },
-        {
-          "id": "*/resist",
-          "beat": 1.0
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.0
-        },
-        {
-          "id": "*/resist",
-          "beat": 3.0
-        },
-        {
-          "id": "*/appear",
-          "beat": 4.0
-        },
-        {
-          "id": "*/stab",
-          "beat": 5.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_blackVirusPos1",
-      "name": "black virus - position 1",
-      "deprecatedIDs": [
-        "sickBeatsMegamix_quickBlackVirus"
-      ],
-      "cues": [
-        {
-          "id": "*/whoosh",
-          "beat": 0.0
-        },
-        {
-          "id": "*/appear",
-          "beat": 2.0
-        },
-        {
-          "id": "*/resist",
-          "beat": 3.0
-        },
-        {
-          "id": "*/appear",
-          "beat": 4.0
-        },
-        {
-          "id": "*/resist",
-          "beat": 5.0
-        },
-        {
-          "id": "*/appear",
-          "beat": 6.0
-        },
-        {
-          "id": "*/stab",
-          "beat": 7.0
-        }
-      ],
-      "subtext": ""
-    }
-  ]
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/virus1",
+    "name" : "appear - 1",
+    "deprecatedIDs" : [ "sickBeatsMegamix/appear1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/virus2",
+    "name" : "appear - 2",
+    "deprecatedIDs" : [ "sickBeatsMegamix/appear2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/resist",
+    "name" : "damage",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stab",
+    "name" : "kill",
+    "deprecatedIDs" : [ "sickBeatsMegamix/stab1", "sickBeatsMegamix/stab2", "sickBeatsMegamix_randomStab" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/whoosh",
+    "name" : "dash",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.1875
+  }, {
+    "type" : "pattern",
+    "id" : "*_blueVirusStart",
+    "name" : "[#00E7FF]blue virus[] - right",
+    "deprecatedIDs" : [ "sickBeatsMegamix_blueVirus1", "sickBeatsMegamix_blueVirus2", "sickBeatsMegamix_blueVirus" ],
+    "cues" : [ {
+      "id" : "*_appear",
+      "beat" : 0.0
+    }, {
+      "id" : "*/stab",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_blueVirusPos1",
+    "name" : "[#00E7FF]blue virus[] - up",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whoosh",
+      "beat" : 0.0,
+      "duration" : 0.1875
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stab",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_blueVirusPos2",
+    "name" : "[#00E7FF]blue virus[] - left",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whoosh",
+      "beat" : 0.0,
+      "duration" : 0.1875
+    }, {
+      "id" : "*/whoosh",
+      "beat" : 0.1875,
+      "duration" : 0.1875
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.1875,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stab",
+      "beat" : 3.1875
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_blueVirusPos3",
+    "name" : "[#00E7FF]blue virus[] - down",
+    "deprecatedIDs" : [ "sickBeatsMegamix_quickBlueVirus" ],
+    "cues" : [ {
+      "id" : "*/whoosh",
+      "beat" : 0.0
+    }, {
+      "id" : "*/whoosh",
+      "beat" : 0.1875
+    }, {
+      "id" : "*/whoosh",
+      "beat" : 0.375
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.375
+    }, {
+      "id" : "*/stab",
+      "beat" : 3.375
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pinkVirusStart",
+    "name" : "[#FF5CC9]pink virus[] - right",
+    "deprecatedIDs" : [ "sickBeatsMegamix_pinkVirus1", "sickBeatsMegamix_pinkVirus2", "sickBeatsMegamix_pinkVirus" ],
+    "cues" : [ {
+      "id" : "*_appear",
+      "beat" : 0.0
+    }, {
+      "id" : "*/resist",
+      "beat" : 1.0
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.0
+    }, {
+      "id" : "*/stab",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pinkVirusPos1",
+    "name" : "[#FF5CC9]pink virus[] - up",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whoosh",
+      "beat" : 0.0,
+      "duration" : 0.1875
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.0,
+      "duration" : 0.99999994
+    }, {
+      "id" : "*/resist",
+      "beat" : 3.0,
+      "duration" : 0.99999994
+    }, {
+      "id" : "*_appear",
+      "beat" : 4.0,
+      "duration" : 0.99999994
+    }, {
+      "id" : "*/stab",
+      "beat" : 5.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pinkVirusPos2",
+    "name" : "[#FF5CC9]pink virus[] - left",
+    "deprecatedIDs" : [ "sickBeatsMegamix_quickPinkVirus" ],
+    "cues" : [ {
+      "id" : "*/whoosh",
+      "beat" : 0.0,
+      "duration" : 0.1875
+    }, {
+      "id" : "*/whoosh",
+      "beat" : 0.1875,
+      "duration" : 0.1875
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.1875,
+      "duration" : 0.99999994
+    }, {
+      "id" : "*/resist",
+      "beat" : 3.1875,
+      "duration" : 0.99999994
+    }, {
+      "id" : "*_appear",
+      "beat" : 4.1875,
+      "duration" : 0.99999994
+    }, {
+      "id" : "*/stab",
+      "beat" : 5.1875
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_blackVirusStart",
+    "name" : "[#404040]black virus[] - right",
+    "deprecatedIDs" : [ "sickBeatsMegamix_blackVirus1", "sickBeatsMegamix_blackVirus2", "sickBeatsMegamix_blackVirus" ],
+    "cues" : [ {
+      "id" : "*_appear",
+      "beat" : 0.0
+    }, {
+      "id" : "*/resist",
+      "beat" : 1.0
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.0
+    }, {
+      "id" : "*/resist",
+      "beat" : 3.0
+    }, {
+      "id" : "*_appear",
+      "beat" : 4.0
+    }, {
+      "id" : "*/stab",
+      "beat" : 5.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_blackVirusPos1",
+    "name" : "[#404040]black virus[] - up",
+    "deprecatedIDs" : [ "sickBeatsMegamix_quickBlackVirus" ],
+    "cues" : [ {
+      "id" : "*/whoosh",
+      "beat" : 0.0
+    }, {
+      "id" : "*_appear",
+      "beat" : 2.0
+    }, {
+      "id" : "*/resist",
+      "beat" : 3.0
+    }, {
+      "id" : "*_appear",
+      "beat" : 4.0
+    }, {
+      "id" : "*/resist",
+      "beat" : 5.0
+    }, {
+      "id" : "*_appear",
+      "beat" : 6.0
+    }, {
+      "id" : "*/stab",
+      "beat" : 7.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_appear",
+    "name" : "appear - random",
+    "deprecatedIDs" : [ "sickBeatsMegamix/appear" ],
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/virus1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/virus2",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  } ]
 }
