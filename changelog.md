@@ -1,3 +1,5 @@
+# v147
+
 ### Sick Beats (GBA)
 - All patterns have been renamed and coloured for better organization
 - "appear" now has pitch randomization
