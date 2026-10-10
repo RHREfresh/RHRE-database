@@ -1,3 +1,9 @@
+### Shrimp Shuffle (All Languages)
+- All patterns that were in swing now have un-swung versions; the old versions have been renamed to "(pre-swung)" to be in line with Kitties, Lightning Bolting, etc.
+- All patterns and sounds have been renamed for better organization
+- "all done!" cues have been renamed to reflect what they’re saying in each language
+- Adjusted earliness on pretty much everything to be more on-beat
+
 # v146
 
 ### Fireworks
