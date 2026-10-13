@@ -205,14 +205,16 @@
     "name" : "letter - spawn",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "earliness" : 0.019
   }, {
     "type" : "cue",
     "id" : "*/move",
     "name" : "letter - move",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "earliness" : 0.022
   }, {
     "type" : "cue",
     "id" : "*/aspawn",
@@ -227,13 +229,15 @@
     "name" : "a - hit",
     "deprecatedIDs" : [ "aForEffort/ahit" ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.01
   }, {
     "type" : "cue",
     "id" : "*/hitlong",
     "name" : "a - hit - long",
     "deprecatedIDs" : [ "aForEffort/ahit2" ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.01
   } ]
 }
