@@ -8,24 +8,26 @@
   "objects" : [ {
     "type" : "cue",
     "id" : "*/and",
-    "name" : "and",
+    "name" : "voice - and...",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.023
   }, {
     "type" : "cue",
     "id" : "*/go1",
-    "name" : "go - 1",
+    "name" : "voice - go! - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/go2",
-    "name" : "go - 2",
+    "name" : "voice - go! - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.017
   }, {
     "type" : "cue",
     "id" : "*/brush1",
@@ -52,7 +54,7 @@
     "id" : "*/voice1",
     "name" : "sweeping - voice - 1",
     "deprecatedIDs" : [ ],
-    "subtext" : "",
+    "subtext" : "[#BFBFBF](unused)[]",
     "duration" : 1.0
   }, {
     "type" : "cue",
@@ -65,7 +67,7 @@
   }, {
     "type" : "cue",
     "id" : "*/spin1",
-    "name" : "spin, spin! - voice - 1",
+    "name" : "voice - spin, - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -73,7 +75,7 @@
   }, {
     "type" : "cue",
     "id" : "*/spin2",
-    "name" : "spin, spin! - voice - 2",
+    "name" : "voice - spin! - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -105,25 +107,27 @@
   }, {
     "type" : "cue",
     "id" : "*/three",
-    "name" : "3, 2, 1! - 3",
+    "name" : "voice - three",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.04
+    "earliness" : 0.043
   }, {
     "type" : "cue",
     "id" : "*/two",
-    "name" : "3, 2, 1! - 2",
+    "name" : "voice - two",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.026
   }, {
     "type" : "cue",
     "id" : "*/one",
-    "name" : "3, 2, 1! - 1",
+    "name" : "voice - one",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.013
   }, {
     "type" : "pattern",
     "id" : "*_sweepThree",
@@ -206,7 +210,7 @@
   }, {
     "type" : "keepTheBeat",
     "id" : "*_sweepingConstant",
-    "name" : "sweeping - constant",
+    "name" : "sweeping - continuous",
     "deprecatedIDs" : [ ],
     "defaultDuration" : 4.0,
     "cues" : [ {
@@ -220,7 +224,7 @@
   }, {
     "type" : "keepTheBeat",
     "id" : "*_sweepingConstantVoice",
-    "name" : "sweeping - constant - voice",
+    "name" : "sweeping - continuous - voice",
     "deprecatedIDs" : [ ],
     "defaultDuration" : 4.0,
     "cues" : [ {
@@ -290,7 +294,7 @@
   }, {
     "type" : "keepTheBeat",
     "id" : "*_sweepingConstantVoiceNoFade",
-    "name" : "sweeping - constant - voice (no fade)",
+    "name" : "sweeping - continuous - voice (no fade)",
     "deprecatedIDs" : [ "sweeperStar_sweepingConstantVoiceOnly" ],
     "defaultDuration" : 2.0,
     "cues" : [ {
@@ -304,7 +308,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_sweepingStop",
-    "name" : "3, 2, 1!",
+    "name" : "three, two, one!",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/three",

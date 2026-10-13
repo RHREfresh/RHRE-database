@@ -9,7 +9,8 @@
     "name" : "count - one",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.044
   }, {
     "type" : "cue",
     "id" : "*/two",
@@ -17,7 +18,7 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.023
+    "earliness" : 0.043
   }, {
     "type" : "cue",
     "id" : "*/three",
@@ -25,7 +26,7 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.042
+    "earliness" : 0.037
   }, {
     "type" : "cue",
     "id" : "*/stop",
@@ -46,7 +47,8 @@
     "name" : "double high-five - voice - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.125
+    "duration" : 0.125,
+    "earliness" : 0.024
   }, {
     "type" : "cue",
     "id" : "*/doublevoice2",
@@ -61,7 +63,7 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.03
+    "earliness" : 0.04
   }, {
     "type" : "cue",
     "id" : "*/doublehighfive1",

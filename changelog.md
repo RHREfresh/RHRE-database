@@ -1,3 +1,47 @@
+### Sweeper Star (All Versions)
+- Earliness has been adjusted on the following sounds:
+  - voice - and...
+  - voice - go! - 2
+  - voice - three
+  - voice - two
+  - voice - one
+- The following patterns have been renamed:
+  - and -> voice - and...
+  - go - 1 -> voice - go! - 1
+  - go - 2 -> voice - go! - 2
+  - spin, spin! - voice - 1 -> voice - spin, - 1
+  - spin, spin! - voice - 2 -> voice - spin - 2
+  - 3, 2, 1! - 3 -> voice - three
+  - 3, 2, 1! - 2 -> voice - two
+  - 3, 2, 1! - 1 -> voice - one
+  - sweeping - constant -> sweeping - continuous
+  - sweeping - constant - voice -> sweeping - continuous - voice
+  - sweeping - constant - voice (no fade) -> sweeping - continuous - voice (no fade)
+  - 3, 2, 1! - three, two, one!
+
+### Sweeper Star 2
+- Earliness has been adjusted on the following sounds:
+  - sweeping - voice - 1
+  - sweeping - voice - 2
+
+### A for Effort
+- Earliness has been applied to the following sounds:
+  - letter - spawn
+  - letter - move
+  - a - hit
+  - a - hit - long
+
+### High-Five Fever
+- Earliness has been adjusted on the following sounds:
+  - count - 2
+  - count - 3
+  - double high-five - voice - 3
+- Earliness has been applied to the following sounds:
+  - count - 1
+  - double high-five - voice - 1
+
+
+
 # v147
 
 ### Sick Beats (GBA)
@@ -11,7 +55,7 @@
 - "all done!" cues have been renamed to reflect what they’re saying in each language
 - Adjusted earliness on pretty much everything to be more on-beat
 
-### Sick Beats (GBA)
+### Sick Beats (3DS)
 - All patterns have been renamed and coloured for better organization
 - "appear" has been replaced with "appear - 1" and "appear - 2", alongside a randomCue containing both
 - All sounds have been re-rendered
