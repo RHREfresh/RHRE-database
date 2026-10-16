@@ -55,7 +55,8 @@
     "name" : "double high-five - voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.125
+    "duration" : 0.125,
+    "earliness" : 0.036
   }, {
     "type" : "cue",
     "id" : "*/doublevoice3",
@@ -85,21 +86,23 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.05
+    "earliness" : 0.087
   }, {
     "type" : "cue",
     "id" : "*/triplevoice2",
     "name" : "triple high-five - voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.009
   }, {
     "type" : "cue",
     "id" : "*/triplevoice3",
     "name" : "triple high-five - voice - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.016
   }, {
     "type" : "cue",
     "id" : "*/triplehighfive1",
