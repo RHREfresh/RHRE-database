@@ -288,6 +288,7 @@
     }, {
       "id" : "*/voice2",
       "beat" : 15.0,
+      "duration" : 1.0,
       "volume" : 12
     } ],
     "subtext" : "[#BFBFBF]lasts up to 16 beats[]"
