@@ -1,3 +1,8 @@
+# v149
+
+### Sweeper Star (All Versions)
+- Fixed the "sweeping - continuous - voice" pattern ending half a beat too early when stretched to longer than 15 beats
+
 # v148
 
 ### Yum-Bot Simulator
