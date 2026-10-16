@@ -1,3 +1,8 @@
+# v148
+
+### Yum-Bot Simulator
+- Fixed the "defective pudding - destroy" pattern being mistakenly swung
+
 ### Sweeper Star (All Versions)
 - Earliness has been adjusted on the following sounds:
   - voice - and...
@@ -36,11 +41,13 @@
   - count - 2
   - count - 3
   - double high-five - voice - 3
+  - triple high-five - voice - 1
 - Earliness has been applied to the following sounds:
   - count - 1
   - double high-five - voice - 1
-
-
+  - double high-five - voice - 2
+  - triple high-five - voice - 2
+  - triple high-five - voice - 3
 
 # v147
 
