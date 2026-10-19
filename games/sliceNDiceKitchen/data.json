@@ -9,63 +9,80 @@
     "name" : "hum - A - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.021
   }, {
     "type" : "cue",
     "id" : "*/hum1b",
     "name" : "hum - A - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.027
   }, {
     "type" : "cue",
     "id" : "*/hum2a",
     "name" : "hum - B - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.021
   }, {
     "type" : "cue",
     "id" : "*/hum2b",
     "name" : "hum - B - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.021
   }, {
     "type" : "cue",
     "id" : "*/hum3a",
     "name" : "hum - C - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.022
   }, {
     "type" : "cue",
     "id" : "*/hum3b",
     "name" : "hum - C - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.014
   }, {
     "type" : "cue",
     "id" : "*/hum4a",
     "name" : "hum - D - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.017
   }, {
     "type" : "cue",
     "id" : "*/hum4b",
     "name" : "hum - D - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.03
   }, {
     "type" : "cue",
     "id" : "*/tomatotoss",
     "name" : "tomato - toss",
     "deprecatedIDs" : [ "sliceNDiceKitchen/tomato" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.043
+  }, {
+    "type" : "cue",
+    "id" : "*/ding",
+    "name" : "pepper - toss",
+    "deprecatedIDs" : [ "sliceNDiceKitchen/pepper" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.003
   }, {
     "type" : "cue",
     "id" : "*/catch",
@@ -73,6 +90,38 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/timerbeep",
+    "name" : "broccoli - timer beep",
+    "deprecatedIDs" : [ "sliceNDiceKitchen/broccoli" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/catchshort",
+    "name" : "broccoli - catch",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/chop",
+    "name" : "chopping - chop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "loops" : true
+  }, {
+    "type" : "cue",
+    "id" : "*/fastchop",
+    "name" : "chopping - chop - fast",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "loops" : true,
+    "loopStart" : 0.298,
+    "loopEnd" : 0.308
   }, {
     "type" : "pattern",
     "id" : "*_tomato1",
@@ -158,13 +207,6 @@
     } ],
     "subtext" : ""
   }, {
-    "type" : "cue",
-    "id" : "*/ding",
-    "name" : "pepper - toss",
-    "deprecatedIDs" : [ "sliceNDiceKitchen/pepper" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
     "type" : "pattern",
     "id" : "*_pepper1",
     "name" : "pepper - A",
@@ -249,20 +291,6 @@
     } ],
     "subtext" : ""
   }, {
-    "type" : "cue",
-    "id" : "*/timerbeep",
-    "name" : "broccoli - timer beep",
-    "deprecatedIDs" : [ "sliceNDiceKitchen/broccoli" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/catchshort",
-    "name" : "broccoli - catch",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
     "type" : "pattern",
     "id" : "*_broccoli",
     "name" : "broccoli",
@@ -287,24 +315,6 @@
       "beat" : 2.0
     } ],
     "subtext" : ""
-  }, {
-    "type" : "cue",
-    "id" : "*/chop",
-    "name" : "chopping - chop",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "loops" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/fastchop",
-    "name" : "chopping - chop - fast",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25,
-    "loops" : true,
-    "loopStart" : 0.298,
-    "loopEnd" : 0.308
   }, {
     "type" : "keepTheBeat",
     "id" : "*_choppingNormal",
