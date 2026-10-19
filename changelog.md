@@ -1,3 +1,10 @@
+### Slice N Dice Kitchen
+- Earliness has been applied to the following sounds:
+  - All "hum" sounds
+  - tomato - toss
+  - pepper - toss
+- Patterns and sounds have been reorganized to be a bit cleaner
+
 # v150
 
 ### A for Effort
