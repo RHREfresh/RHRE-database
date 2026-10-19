@@ -194,19 +194,12 @@
     "subtext" : ""
   }, {
     "type" : "cue",
-    "id" : "*/a",
-    "name" : "a",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
     "id" : "*/letterspawn",
     "name" : "letter - spawn",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25,
-    "earliness" : 0.019
+    "earliness" : 0.021
   }, {
     "type" : "cue",
     "id" : "*/move",
@@ -214,15 +207,15 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25,
-    "earliness" : 0.022
+    "earliness" : 0.017
   }, {
     "type" : "cue",
     "id" : "*/aspawn",
     "name" : "a - spawn",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "aForEffort/a" ],
     "subtext" : "",
     "duration" : 0.25,
-    "introSound" : "*/a"
+    "earliness" : 0.014
   }, {
     "type" : "cue",
     "id" : "*/hit",
@@ -230,7 +223,7 @@
     "deprecatedIDs" : [ "aForEffort/ahit" ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.01
+    "earliness" : 0.017
   }, {
     "type" : "cue",
     "id" : "*/hitlong",
@@ -238,6 +231,6 @@
     "deprecatedIDs" : [ "aForEffort/ahit2" ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.01
+    "earliness" : 0.017
   } ]
 }
