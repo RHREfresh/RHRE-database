@@ -1,3 +1,14 @@
+# v150
+
+### A for Effort
+- Adjusted earliness on the following sounds:
+  - letter - spawn
+  - letter - move
+  - a - hit
+  - a - hit - long
+- Earliness has been applied to the "a - spawn" sound
+- The "a - spawn" sound no longer uses an intro sound and now properly combines the sounds
+
 # v149
 
 ### Sweeper Star (All Versions)
