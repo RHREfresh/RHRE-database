@@ -1,3 +1,20 @@
+# v151
+
+### Bunny Hop (GBA)
+- All patterns have been renamed and reordered for better organization
+- All sounds have been re-rendered to be crisp GBA sound chip quality
+- Added the missing second hop kick sound
+- Added high jump patterns without hops at the end for parity with Bunny Hop (3DS)
+- Fixed an issue where high jump wind-up sounds were overlapping with the high jump itself in high jump patterns
+
+### Bunny Hop (3DS)
+- All patterns have been renamed and reordered for better organization
+- All sounds have been re-rendered
+- Added the practice variation of the hopping pattern
+- Added the not in-game "atama" version of the starting hops
+- Removed "hopping (alternative)"
+- Fixed an issue where high jump wind-up sounds were overlapping with the high jump itself in high jump patterns
+
 ### Slice N Dice Kitchen
 - Earliness has been applied to the following sounds:
   - All "hum" sounds
