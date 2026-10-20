@@ -1,0 +1,245 @@
+{
+  "id" : "bunnyHopGba",
+  "name" : "Bunny Hop (GBA)",
+  "series" : "tengoku",
+  "gameOrder" : 112,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/start",
+    "name" : "starting hop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/atama",
+    "name" : "starting hop (alternative)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "[#BFBFBF](not in-game)[]",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hop1",
+    "name" : "hop - kick",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hop1Alt",
+    "name" : "hop - kick (alternative)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hop2",
+    "name" : "hop - snare",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/highJumpWindup",
+    "name" : "high jump - wind-up",
+    "deprecatedIDs" : [ "bunnyHopGba/longJumpStart" ],
+    "subtext" : "",
+    "duration" : 2.5,
+    "baseBpm" : 150.0
+  }, {
+    "type" : "cue",
+    "id" : "*/highJumpWindupShort",
+    "name" : "high jump - wind-up (short)",
+    "deprecatedIDs" : [ "bunnyHop/longJumpShortStart" ],
+    "subtext" : "",
+    "duration" : 1.5,
+    "stretchable" : true,
+    "baseBpm" : 150.0
+  }, {
+    "type" : "cue",
+    "id" : "*/highJump",
+    "name" : "high jump - jump",
+    "deprecatedIDs" : [ "bunnyHopGba/longJump", "bunnyHopGba/longJumpShort", "bunnyHopGba/longJumpLong" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/highJumpHigher",
+    "name" : "high jump - jump (extra high)",
+    "deprecatedIDs" : [ "bunnyHopGba/longJumpLong" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/moon",
+    "name" : "moon",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_start",
+    "name" : "starting hops",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/start",
+      "beat" : 1.4E-45,
+      "volume" : 50
+    }, {
+      "id" : "*/start",
+      "beat" : 1.0,
+      "volume" : 75
+    }, {
+      "id" : "*/start",
+      "beat" : 2.0,
+      "volume" : 95
+    }, {
+      "id" : "*/start",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_hopping",
+    "name" : "hopping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/hop1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hop2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/hop1Alt",
+      "beat" : 2.0
+    }, {
+      "id" : "*/hop2",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_highJump2",
+    "name" : "high jump - two-count",
+    "deprecatedIDs" : [ "bunnyHopGba_longJump2" ],
+    "cues" : [ {
+      "id" : "*/highJumpWindupShort",
+      "beat" : 0.0
+    }, {
+      "id" : "*/highJump",
+      "beat" : 1.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_highJump4",
+    "name" : "high jump - four-count",
+    "deprecatedIDs" : [ "bunnyHopGba_longJump4" ],
+    "cues" : [ {
+      "id" : "*/highJumpWindup",
+      "beat" : 0.0
+    }, {
+      "id" : "*/highJump",
+      "beat" : 2.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_highJump8",
+    "name" : "high jump - eight-count",
+    "deprecatedIDs" : [ "bunnyHopGba_longJump8" ],
+    "cues" : [ {
+      "id" : "*/highJumpWindup",
+      "beat" : 0.0
+    }, {
+      "id" : "*/highJumpHigher",
+      "beat" : 2.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_highJump2Hops",
+    "name" : "high jump - two-count (with hops)",
+    "deprecatedIDs" : [ "bunnyHopGba_longJump2" ],
+    "cues" : [ {
+      "id" : "*_highJump2",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hop1Alt",
+      "beat" : 3.0
+    }, {
+      "id" : "*/hop2",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_highJump4Hops",
+    "name" : "high jump - four-count (with hops)",
+    "deprecatedIDs" : [ "bunnyHopGba_longJump4" ],
+    "cues" : [ {
+      "id" : "*_highJump4",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hop1",
+      "beat" : 6.0
+    }, {
+      "id" : "*/hop2",
+      "beat" : 7.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_highJump8Hops",
+    "name" : "high jump - eight-count (with hops)",
+    "deprecatedIDs" : [ "bunnyHopGba_longJump8" ],
+    "cues" : [ {
+      "id" : "*_highJump8",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hop1",
+      "beat" : 10.0
+    }, {
+      "id" : "*/hop2",
+      "beat" : 11.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_moon",
+    "name" : "high jump - to the moon",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/highJump",
+      "beat" : 0.0
+    }, {
+      "id" : "*/moon",
+      "beat" : 8.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_atamaStart",
+    "name" : "starting hops (alternative)",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/atama",
+      "beat" : 0.0
+    }, {
+      "id" : "*/atama",
+      "beat" : 1.0
+    }, {
+      "id" : "*/atama",
+      "beat" : 2.0
+    }, {
+      "id" : "*/atama",
+      "beat" : 3.0
+    } ],
+    "subtext" : "[#BFBFBF](not in-game)[]"
+  } ]
+}
