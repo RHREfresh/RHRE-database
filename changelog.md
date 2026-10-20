@@ -1,3 +1,9 @@
+### Bunny Hop (3DS)
+- All patterns have been renamed and reordered for better organization
+- All sounds have been re-rendered
+- Added the practice variation of the hopping pattern
+- Added the not in-game "atama" version of the starting hops
+
 ### Slice N Dice Kitchen
 - Earliness has been applied to the following sounds:
   - All "hum" sounds
