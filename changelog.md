@@ -1,3 +1,6 @@
+### Glass Tappers
+- Fixed an issue where loop points weren't set on the long taps, meaning they would reset back to the start if held for too long
+
 # v152
 
 ### Can You Clap It?

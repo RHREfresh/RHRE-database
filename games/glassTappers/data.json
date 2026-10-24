@@ -1,33 +1,36 @@
 {
-  "series": "side",
-  "id": "glassTappers",
-  "name": "Glass Tappers",
+  "id" : "glassTappers",
+  "name" : "Glass Tappers",
+  "series" : "side",
   "gameOrder" : 229,
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/short",
-      "deprecatedIDs": [],
-      "name": "short",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/long",
-      "deprecatedIDs": [],
-      "name": "long",
-      "duration": 1.0,
-      "stretchable": true,
-      "loops": true
-    },
-    {
-      "type": "cue",
-      "id": "*/highlong",
-      "deprecatedIDs": [],
-      "name": "high-pitched long",
-      "duration": 1.0,
-      "stretchable": true,
-      "loops": true
-    }
-  ]
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/short",
+    "name" : "short",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/long",
+    "name" : "long",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "loops" : true,
+    "loopStart" : 2.54,
+    "loopEnd" : 2.61
+  }, {
+    "type" : "cue",
+    "id" : "*/highlong",
+    "name" : "high-pitched long",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "loops" : true,
+    "loopStart" : 2.54,
+    "loopEnd" : 2.61
+  } ]
 }
