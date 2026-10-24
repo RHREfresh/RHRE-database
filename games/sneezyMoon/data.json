@@ -363,7 +363,10 @@
     "name" : "green sneeze - standalone - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "loops" : true,
+    "loopStart" : 1.4,
+    "loopEnd" : 1.5
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeStandalone3",
