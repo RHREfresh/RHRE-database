@@ -84,6 +84,9 @@
     }, {
       "id" : "*/scoretally",
       "beat" : 4.0
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 4.5
     } ],
     "subtext" : ""
   }, {
@@ -93,7 +96,8 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
-    "responseIDs" : [ "*/contestantready" ]
+    "responseIDs" : [ "*/contestantready" ],
+    "earliness" : 0.015
   }, {
     "type" : "cue",
     "id" : "*/hostclap",
@@ -108,7 +112,8 @@
     "name" : "contestant - ready",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.015
   }, {
     "type" : "cue",
     "id" : "*/contestantclap",
@@ -150,21 +155,24 @@
     "name" : "count in - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.035
   }, {
     "type" : "cue",
     "id" : "*/countin2",
     "name" : "count in - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.016
   }, {
     "type" : "cue",
     "id" : "*/countin3",
     "name" : "count in - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.02
   }, {
     "type" : "cue",
     "id" : "*/scoretally",

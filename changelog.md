@@ -1,3 +1,12 @@
+# v152
+
+### Can You Clap It?
+- The "score tally" pattern now lasts 4.5 beats instead of the previous incorrect amount of 4.0
+- Earliness has been applied to the following sounds:
+  - host - ready
+  - contestant - ready
+  - all "count in" sounds
+
 # v151
 
 ### Bunny Hop (GBA)
