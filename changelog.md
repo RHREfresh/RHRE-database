@@ -1,3 +1,6 @@
+### Sneezy Moon
+- The "green sneeze - standalone - 2" sound now gets cut off by other sounds
+
 ### Glass Tappers
 - Fixed an issue where loop points weren't set on the long taps, meaning they would reset back to the start if held for too long
 
