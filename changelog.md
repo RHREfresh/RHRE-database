@@ -1,3 +1,15 @@
+### Dog Ninja (DS) (All Versions)
+- Added deprecated IDs for the "here we go!" sounds from the now deprecated 3DS variants
+
+### Dog Ninja (3DS)
+- All variants have been removed
+- "here we go!" has been removed, as it doesn't exist in Megamix
+- All sounds have been re-rendered
+- Slice sounds now use intro sounds to combine the cut sound and the object slice sound
+- Pitch randomization has been applied to the following sounds:
+  - fruit - out
+  - fruit - slice
+
 ### Sneezy Moon
 - The "green sneeze - standalone - 2" sound now gets cut off by other sounds
 
