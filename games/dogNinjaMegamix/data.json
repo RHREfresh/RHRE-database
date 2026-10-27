@@ -1,0 +1,136 @@
+{
+  "id" : "dogNinjaMegamix",
+  "name" : "Dog Ninja (3DS)",
+  "series" : "megamix",
+  "gameOrder" : 433,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/cutEverything",
+    "name" : "\"Cut Everything!\"",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/cutEverything", "dogNinjaMegamixEn/cutEverything", "dogNinjaMegamixEs/cutEverything", "dogNinjaMegamixFr/cutEverything", "dogNinjaMegamixIt/cutEverything", "dogNinjaMegamixJa/cutEverything", "dogNinjaMegamixKo/cutEverything" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/slice",
+    "name" : "object - slice",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/fruitOut",
+    "name" : "fruit - out",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/fruit1", "dogNinjaMegamixEn/fruit1", "dogNinjaMegamixEs/fruit1", "dogNinjaMegamixFr/fruit1", "dogNinjaMegamixIt/fruit1", "dogNinjaMegamixJa/fruit1", "dogNinjaMegamixKo/fruit1" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "randomPitchLowCents" : -50,
+    "randomPitchHighCents" : -50
+  }, {
+    "type" : "cue",
+    "id" : "*/fruitSlice",
+    "name" : "fruit - slice",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/fruit2", "dogNinjaMegamixEn/fruit2", "dogNinjaMegamixEs/fruit2", "dogNinjaMegamixFr/fruit2", "dogNinjaMegamixIt/fruit2", "dogNinjaMegamixJa/fruit2", "dogNinjaMegamixKo/fruit2" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "introSound" : "*/slice",
+    "randomPitchLowCents" : -200
+  }, {
+    "type" : "cue",
+    "id" : "*/boneOut",
+    "name" : "bone - out",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/bone1", "dogNinjaMegamixEn/bone1", "dogNinjaMegamixEs/bone1", "dogNinjaMegamixFr/bone1", "dogNinjaMegamixIt/bone1", "dogNinjaMegamixJa/bone1", "dogNinjaMegamixKo/bone1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/boneSlice",
+    "name" : "bone - slice",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/bone2", "dogNinjaMegamixEn/bone2", "dogNinjaMegamixEs/bone2", "dogNinjaMegamixFr/bone2", "dogNinjaMegamixIt/bone2", "dogNinjaMegamixJa/bone2", "dogNinjaMegamixKo/bone2" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "introSound" : "*/slice"
+  }, {
+    "type" : "cue",
+    "id" : "*/tireOut",
+    "name" : "tire - out",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/tire1", "dogNinjaMegamixEn/tire1", "dogNinjaMegamixEs/tire1", "dogNinjaMegamixFr/tire1", "dogNinjaMegamixIt/tire1", "dogNinjaMegamixJa/tire1", "dogNinjaMegamixKo/tire1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/tireSlice",
+    "name" : "tire - slice",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/tire2", "dogNinjaMegamixEn/tire2", "dogNinjaMegamixEs/tire2", "dogNinjaMegamixFr/tire2", "dogNinjaMegamixIt/tire2", "dogNinjaMegamixJa/tire2", "dogNinjaMegamixKo/tire2" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "introSound" : "*/slice"
+  }, {
+    "type" : "cue",
+    "id" : "*/panOut",
+    "name" : "pan - out",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/pan1", "dogNinjaMegamixEn/pan1", "dogNinjaMegamixEs/pan1", "dogNinjaMegamixFr/pan1", "dogNinjaMegamixIt/pan1", "dogNinjaMegamixJa/pan1", "dogNinjaMegamixKo/pan1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/panSlice",
+    "name" : "pan - slice",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe/pan2", "dogNinjaMegamixEn/pan2", "dogNinjaMegamixEs/pan2", "dogNinjaMegamixFr/pan2", "dogNinjaMegamixIt/pan2", "dogNinjaMegamixJa/pan2", "dogNinjaMegamixKo/pan2" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "introSound" : "*/slice"
+  }, {
+    "type" : "pattern",
+    "id" : "*_fruit",
+    "name" : "fruit",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe_fruit", "dogNinjaMegamixEn_fruit", "dogNinjaMegamixEs_fruit", "dogNinjaMegamixFr_fruit", "dogNinjaMegamixIt_fruit", "dogNinjaMegamixJa_fruit", "dogNinjaMegamixKo_fruit" ],
+    "cues" : [ {
+      "id" : "*/fruitOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/fruitSlice",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bone",
+    "name" : "bone",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe_bone", "dogNinjaMegamixEn_bone", "dogNinjaMegamixEs_bone", "dogNinjaMegamixFr_bone", "dogNinjaMegamixIt_bone", "dogNinjaMegamixJa_bone", "dogNinjaMegamixKo_bone" ],
+    "cues" : [ {
+      "id" : "*/boneOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/boneSlice",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tire",
+    "name" : "tire",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe_tire", "dogNinjaMegamixEn_tire", "dogNinjaMegamixEs_tire", "dogNinjaMegamixFr_tire", "dogNinjaMegamixIt_tire", "dogNinjaMegamixJa_tire", "dogNinjaMegamixKo_tire" ],
+    "cues" : [ {
+      "id" : "*/tireOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/tireSlice",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pan",
+    "name" : "pan",
+    "deprecatedIDs" : [ "dogNinjaMegamixDe_pan", "dogNinjaMegamixEn_pan", "dogNinjaMegamixEs_pan", "dogNinjaMegamixFr_pan", "dogNinjaMegamixIt_pan", "dogNinjaMegamixJa_pan", "dogNinjaMegamixKo_pan" ],
+    "cues" : [ {
+      "id" : "*/panOut",
+      "beat" : 0.0
+    }, {
+      "id" : "*/panSlice",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  } ]
+}
