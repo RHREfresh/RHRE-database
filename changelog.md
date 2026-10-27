@@ -1,3 +1,12 @@
+### Rhythm Rally (DS)
+- Some sounds have been renamed for better organization
+- All sounds have been re-rendered
+- Pitch randomization has been applied to the following sounds:
+  - ball - hit - opponent
+  - ball - bounce - player's side
+  - ball - hit - player
+  - ball - bounce - opponent's side
+
 ### Dog Ninja (DS) (All Versions)
 - Added deprecated IDs for the "here we go!" sounds from the now deprecated 3DS variants
 
