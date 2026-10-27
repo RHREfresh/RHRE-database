@@ -1,285 +1,232 @@
 {
-  "id": "rhythmRallyMegamix",
-  "name": "Rhythm Rally (3DS)",
-  "series": "megamix",
+  "id" : "rhythmRallyMegamix",
+  "name" : "Rhythm Rally (3DS)",
+  "series" : "megamix",
   "gameOrder" : 431,
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/whistle",
-      "name": "whistle",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/flowerStart",
-      "name": "big flower - beginning (story)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 10.0
-    },
-    {
-      "type": "cue",
-      "id": "*/cakeStart",
-      "name": "big cake - beginning (sequel)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 12.0
-    },
-    {
-      "type": "cue",
-      "id": "*/hit1",
-      "name": "bounce - opponent",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hit2",
-      "name": "bounce - opponent's side",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hit3",
-      "name": "bounce - player",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hit4",
-      "name": "bounce - player's side",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/tonk",
-      "name": "tonk",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/tink",
-      "name": "tink",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_slowrally",
-      "name": "slow rally",
-      "deprecatedIDs": [
-        "rhythmrallymegamix_slowrally"
-      ],
-      "defaultDuration": 8.0,
-      "cues": [
-        {
-          "id": "*/hit1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hit2",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hit3",
-          "beat": 4.0
-        },
-        {
-          "id": "*/hit4",
-          "beat": 6.0,
-          "duration": 2.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_normalrally",
-      "name": "normal rally",
-      "deprecatedIDs": [
-        "rhythmrallymegamix_normalrally"
-      ],
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/hit1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hit2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hit3",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hit4",
-          "beat": 3.0,
-          "duration": 1.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_fastrally",
-      "name": "fast rally",
-      "deprecatedIDs": [
-        "rhythmrallymegamix_fastrally"
-      ],
-      "cues": [
-        {
-          "id": "*/tonk",
-          "beat": 0.0
-        },
-        {
-          "id": "*/tink",
-          "beat": 0.5
-        },
-        {
-          "id": "*/tonk",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hit1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hit2",
-          "beat": 2.5
-        },
-        {
-          "id": "*/hit3",
-          "beat": 3.0
-        },
-        {
-          "id": "*/hit4",
-          "beat": 4.0,
-          "duration": 2.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_turborally",
-      "name": "turbo rally",
-      "deprecatedIDs": [
-        "rhythmrallymegamix_turborally"
-      ],
-      "cues": [
-        {
-          "id": "*/tonk",
-          "beat": 0.0
-        },
-        {
-          "id": "*/tink",
-          "beat": 0.5
-        },
-        {
-          "id": "*/tonk",
-          "beat": 1.0
-        },
-        {
-          "id": "*/tink",
-          "beat": 1.5
-        },
-        {
-          "id": "*/tonk",
-          "beat": 2.0
-        },
-        {
-          "id": "*/tink",
-          "beat": 2.5
-        },
-        {
-          "id": "*/tonk",
-          "beat": 3.0
-        },
-        {
-          "id": "*/tink",
-          "beat": 3.5
-        },
-        {
-          "id": "*/hit1",
-          "beat": 4.0
-        },
-        {
-          "id": "*/hit2",
-          "beat": 4.5
-        },
-        {
-          "id": "*/hit3",
-          "beat": 5.0
-        },
-        {
-          "id": "*/hit4",
-          "beat": 5.5
-        },
-        {
-          "id": "*/hit1",
-          "beat": 6.0
-        },
-        {
-          "id": "*/hit2",
-          "beat": 6.5
-        },
-        {
-          "id": "*/hit3",
-          "beat": 7.0
-        },
-        {
-          "id": "*/hit4",
-          "beat": 7.5
-        },
-        {
-          "id": "*/hit1",
-          "beat": 8.0
-        },
-        {
-          "id": "*/hit2",
-          "beat": 8.5
-        },
-        {
-          "id": "*/hit3",
-          "beat": 9.0
-        },
-        {
-          "id": "*/hit4",
-          "beat": 9.5
-        },
-        {
-          "id": "*/hit1",
-          "beat": 10.0
-        },
-        {
-          "id": "*/hit2",
-          "beat": 10.5
-        },
-        {
-          "id": "*/hit3",
-          "beat": 11.0
-        },
-        {
-          "id": "*/hit4",
-          "beat": 11.5
-        }
-      ],
-      "subtext": ""
-    }
-  ]
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/whistle",
+    "name" : "whistle",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/flowerStart",
+    "name" : "opening - flower",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 10.0
+  }, {
+    "type" : "cue",
+    "id" : "*/cakeStart",
+    "name" : "opening - cake",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 12.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hit1",
+    "name" : "ball - hit - opponent",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "randomPitchHighCents" : 100
+  }, {
+    "type" : "cue",
+    "id" : "*/hit2",
+    "name" : "ball - bounce - player's side",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "randomPitchLowCents" : -50,
+    "randomPitchHighCents" : 50
+  }, {
+    "type" : "cue",
+    "id" : "*/hit3",
+    "name" : "ball - hit - player",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "randomPitchLowCents" : -100,
+    "randomPitchHighCents" : 100
+  }, {
+    "type" : "cue",
+    "id" : "*/hit4",
+    "name" : "ball - bounce - opponent's side",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "randomPitchLowCents" : -50,
+    "randomPitchHighCents" : 50
+  }, {
+    "type" : "cue",
+    "id" : "*/tonk",
+    "name" : "cowbell - tonk",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tink",
+    "name" : "cowbell - tink",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_slowrally",
+    "name" : "slow rally",
+    "deprecatedIDs" : [ "rhythmrallymegamix_slowrally" ],
+    "defaultDuration" : 8.0,
+    "cues" : [ {
+      "id" : "*/hit1",
+      "beat" : 0.0,
+      "duration" : 2.0
+    }, {
+      "id" : "*/hit2",
+      "beat" : 2.0,
+      "duration" : 2.0
+    }, {
+      "id" : "*/hit3",
+      "beat" : 4.0,
+      "duration" : 2.0
+    }, {
+      "id" : "*/hit4",
+      "beat" : 6.0,
+      "duration" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_normalrally",
+    "name" : "normal rally",
+    "deprecatedIDs" : [ "rhythmrallymegamix_normalrally" ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/hit1",
+      "beat" : 0.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/hit2",
+      "beat" : 1.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/hit3",
+      "beat" : 2.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/hit4",
+      "beat" : 3.0,
+      "duration" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fastrally",
+    "name" : "fast rally",
+    "deprecatedIDs" : [ "rhythmrallymegamix_fastrally" ],
+    "cues" : [ {
+      "id" : "*/tonk",
+      "beat" : 0.0
+    }, {
+      "id" : "*/tink",
+      "beat" : 0.5
+    }, {
+      "id" : "*/tonk",
+      "beat" : 1.0
+    }, {
+      "id" : "*/hit1",
+      "beat" : 2.0
+    }, {
+      "id" : "*/hit2",
+      "beat" : 2.5
+    }, {
+      "id" : "*/hit3",
+      "beat" : 3.0
+    }, {
+      "id" : "*/hit4",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_turborally",
+    "name" : "turbo rally",
+    "deprecatedIDs" : [ "rhythmrallymegamix_turborally" ],
+    "cues" : [ {
+      "id" : "*/tonk",
+      "beat" : 0.0
+    }, {
+      "id" : "*/tink",
+      "beat" : 0.5
+    }, {
+      "id" : "*/tonk",
+      "beat" : 1.0
+    }, {
+      "id" : "*/tink",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tonk",
+      "beat" : 2.0
+    }, {
+      "id" : "*/tink",
+      "beat" : 2.5
+    }, {
+      "id" : "*/tonk",
+      "beat" : 3.0
+    }, {
+      "id" : "*/tink",
+      "beat" : 3.5
+    }, {
+      "id" : "*/hit1",
+      "beat" : 4.0
+    }, {
+      "id" : "*/hit2",
+      "beat" : 4.5
+    }, {
+      "id" : "*/hit3",
+      "beat" : 5.0
+    }, {
+      "id" : "*/hit4",
+      "beat" : 5.5
+    }, {
+      "id" : "*/hit1",
+      "beat" : 6.0
+    }, {
+      "id" : "*/hit2",
+      "beat" : 6.5
+    }, {
+      "id" : "*/hit3",
+      "beat" : 7.0
+    }, {
+      "id" : "*/hit4",
+      "beat" : 7.5
+    }, {
+      "id" : "*/hit1",
+      "beat" : 8.0
+    }, {
+      "id" : "*/hit2",
+      "beat" : 8.5
+    }, {
+      "id" : "*/hit3",
+      "beat" : 9.0
+    }, {
+      "id" : "*/hit4",
+      "beat" : 9.5
+    }, {
+      "id" : "*/hit1",
+      "beat" : 10.0
+    }, {
+      "id" : "*/hit2",
+      "beat" : 10.5
+    }, {
+      "id" : "*/hit3",
+      "beat" : 11.0
+    }, {
+      "id" : "*/hit4",
+      "beat" : 11.5
+    } ],
+    "subtext" : ""
+  } ]
 }
