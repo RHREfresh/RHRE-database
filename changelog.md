@@ -1,3 +1,6 @@
+### Glee Club (3DS) (All Versions)
+- Fixed improperly set loop points on the "sing" sound
+
 # v153
 
 ### Rhythm Rally (DS)
