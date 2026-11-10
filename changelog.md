@@ -1,3 +1,10 @@
+### Blue Birds (DS) (English)
+- Earliness has been applied to the following sounds:
+  - peck your beak - your
+  - stretch out your neck - stretch
+  - stretch out your neck - out
+  - stretch out your neck - your
+
 ### Glee Club (3DS) (All Versions)
 - Fixed improperly set loop points on the "sing" sound
 

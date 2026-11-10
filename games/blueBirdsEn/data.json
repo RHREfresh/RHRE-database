@@ -23,7 +23,8 @@
         "blueBirds/peckyourbeak2"
       ],
       "name": "peck your beak - your",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.0192307692308
     },
     {
       "type": "cue",
@@ -50,7 +51,8 @@
         "blueBirds/stretchoutyourneck1"
       ],
       "name": "stretch out your neck - stretch",
-      "duration": 0.75
+      "duration": 0.75,
+      "earliness": 0.0769230769231
     },
     {
       "type": "cue",
@@ -59,7 +61,8 @@
         "blueBirds/stretchoutyourneck2"
       ],
       "name": "stretch out your neck - out",
-      "duration": 0.75
+      "duration": 0.75,
+      "earliness": 0.0576923076923
     },
     {
       "type": "cue",
@@ -68,7 +71,8 @@
         "blueBirds/stretchoutyourneck3"
       ],
       "name": "stretch out your neck - your",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.0192307692308
     },
     {
       "type": "cue",
