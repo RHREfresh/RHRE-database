@@ -168,7 +168,7 @@
     "deprecatedIDs" : [ "soccerDreams/kickv2" ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.081
+    "earliness" : 0.0822291667
   }, {
     "type" : "cue",
     "id" : "*/whiteKick",
