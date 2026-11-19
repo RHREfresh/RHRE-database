@@ -8,6 +8,9 @@
 ### Glee Club (3DS) (All Versions)
 - Fixed improperly set loop points on the "sing" sound
 
+### Soccer Dreams
+- Adjusted earliness on "basic kick - throw - 2"
+
 # v153
 
 ### Rhythm Rally (DS)
