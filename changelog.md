@@ -8,6 +8,15 @@
 ### Glee Club (3DS) (All Versions)
 - Fixed improperly set loop points on the "sing" sound
 
+### Crab Snacks
+- Some patterns have been reordered for better organization
+- Added "(no hole)" variants of the following patterns:
+  - macaron
+  - mangosteen
+  - fava bean
+  - fava bean (Remix 16)
+  - mangosteen (practice)
+
 ### Hop, Stop N Roll
 - Added variants of the "rolling!" patterns with hopping sounds included
   - This is for parity with Frog Hop (3DS)

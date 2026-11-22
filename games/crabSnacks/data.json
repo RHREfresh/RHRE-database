@@ -24,6 +24,22 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
+    "id" : "*_macaronNoHole",
+    "name" : "macaron (no hole)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/macaronhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/macaronhit",
+      "beat" : 2.0
+    }, {
+      "id" : "*/macaronhitplayer",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
     "id" : "*_mangosteen",
     "name" : "mangosteen",
     "deprecatedIDs" : [ ],
@@ -42,6 +58,41 @@
     }, {
       "id" : "*/mmm",
       "beat" : 5.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteenNoVoice",
+    "name" : "mangosteen (no voice)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.5
+    }, {
+      "id" : "*/mangosteenhitplayer",
+      "beat" : 3.0
+    }, {
+      "id" : "*/mangosteenhole",
+      "beat" : 4.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteenNoHole",
+    "name" : "mangosteen (no hole)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.5
+    }, {
+      "id" : "*/mangosteenhitplayer",
+      "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
@@ -74,21 +125,27 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_mangosteenNoVoice",
-    "name" : "mangosteen (no voice)",
+    "id" : "*_favabeansNoHole",
+    "name" : "fava bean (no hole)",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/mangosteenhit",
+      "id" : "*/favabeanhit1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/mangosteenhit",
-      "beat" : 1.5
+      "id" : "*/favabeanhit2",
+      "beat" : 1.0
     }, {
-      "id" : "*/mangosteenhitplayer",
-      "beat" : 3.0
+      "id" : "*/favabeanhit1",
+      "beat" : 2.5
     }, {
-      "id" : "*/mangosteenhole",
-      "beat" : 4.5
+      "id" : "*/favabeanhit2",
+      "beat" : 3.5
+    }, {
+      "id" : "*/favabeanhit1player",
+      "beat" : 5.0
+    }, {
+      "id" : "*/favabeanhit2player",
+      "beat" : 6.0
     } ],
     "subtext" : ""
   }, {
@@ -121,6 +178,31 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
+    "id" : "*_favabeansRemix16NoHole",
+    "name" : "fava bean (Remix 16) (no hole)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/favabeanhit1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/favabeanhit2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/favabeanhit1",
+      "beat" : 1.25
+    }, {
+      "id" : "*/favabeanhit2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/favabeanhit1player",
+      "beat" : 2.5
+    }, {
+      "id" : "*/favabeanhit2player",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
     "id" : "*_mangosteenPractice",
     "name" : "mangosteen (practice)",
     "deprecatedIDs" : [ ],
@@ -129,6 +211,19 @@
       "beat" : 1.4E-45
     }, {
       "id" : "*_mangosteenNoVoice",
+      "beat" : 8.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteenPracticeNoHole",
+    "name" : "mangosteen (practice) (no hole)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*_mangosteenSeagullGuide",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*_mangosteenNoHole",
       "beat" : 8.0
     } ],
     "subtext" : ""
