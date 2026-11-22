@@ -8,6 +8,11 @@
 ### Glee Club (3DS) (All Versions)
 - Fixed improperly set loop points on the "sing" sound
 
+### Hop, Stop N Roll
+- Added variants of the "rolling!" patterns with hopping sounds included
+  - This is for parity with Frog Hop (3DS)
+  - The already existing patterns have been renamed to have "(no hops)" included - the new patterns having the names that these patterns used to have
+
 ### Soccer Dreams
 - Adjusted earliness on "basic kick - throw - 2"
 
